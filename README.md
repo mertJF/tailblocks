@@ -7,7 +7,7 @@
 * Dark/light mode
 * Color options
 
-![tailblocks](https://cdn.dribbble.com/users/1101940/screenshots/11090124/media/5134f96f8a84cf7c9e3a7d03a848cf21.gif)
+[![tailblocks](https://github.com/mertjf/tailblocks/blob/master/public/preview.gif)](https://mertjf.github.io/tailblocks)
 
 ## License
 
