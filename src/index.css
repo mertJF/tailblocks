@@ -553,3 +553,17 @@ pre, code {
 .view.show-code .codes {
   display: block;
 }
+
+.github {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--solid-900);
+  color: var(--main-100);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
