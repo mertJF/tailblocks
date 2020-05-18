@@ -50,6 +50,20 @@ const tabletIcon = (
   </svg>
 );
 
+const clipboardIcon = (
+  <svg
+    viewBox="0 0 25 24"
+    stroke="currentColor"
+    strokeWidth={2}
+    fill="none"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M19.914 1h-18v19"/>
+    <path d="M6 5v18h18V5z"/>
+  </svg>
+);
+
 const viewList = [
   {
     icon: desktopIcon,
@@ -87,6 +101,7 @@ class App extends Component {
     this.changeView = this.changeView.bind(this);
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.toggleView = this.toggleView.bind(this);
+    this.copyToClipboard = this.copyToClipboard.bind(this);
     this.markupRef = React.createRef();
     this.textareaRef = React.createRef();
   }
@@ -188,6 +203,16 @@ class App extends Component {
     this.setState({ sidebar: !this.state.sidebar });
   }
 
+  copyToClipboard() {
+    const code = this.beautifyHTML(this.state.markup);
+    var input = document.createElement('textarea');
+    input.innerHTML = code;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+}
+
   render() {
     const { darkMode, theme, blockName, blockType, sidebar, view } = this.state;
     return (
@@ -198,6 +223,12 @@ class App extends Component {
         </aside>
         <div className="toolbar">
           <button className="opener" onClick={this.toggleSidebar}>TAILBLOCKS</button>
+          {this.state.codeView ? (
+            <button className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>
+              {clipboardIcon}
+              <span>COPY TO CLIPBOARD</span>
+            </button>) : ''
+          }
           <button className="copy-the-block" onClick={this.toggleView}>
             {!this.state.codeView ?
               <svg
