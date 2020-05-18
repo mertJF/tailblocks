@@ -411,9 +411,12 @@ svg { width: 100%; }
   display: none;
 }
 
+.toolbar>:nth-child(2) {
+  margin-left: auto;
+}
+
 .copy-the-block {
   border: 1px solid rgba(255, 255, 255, 0.4);
-  margin-left: auto;
   padding: 0 12px;
   border-radius: 20px;
   margin-right: 14px;
@@ -429,6 +432,10 @@ svg { width: 100%; }
   text-align: center;
   font-size: 13px;
   transition: .3s;
+}
+
+.copy-to-clipboard {
+  width: 200px;
 }
 
 .copy-the-block:hover {
