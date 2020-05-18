@@ -435,32 +435,17 @@ svg { width: 100%; }
 }
 
 .copy-to-clipboard {
-  width: 200px;
-}
-
-.copy-the-block:hover {
-  background-color: rgba(255, 255, 255, .12);
-}
-
-.copy-the-block.is-copied {
-  background-color: #fff;
-  color: #333;
-  animation-name: pulse;
-  animation-duration: .16s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-}
-
-@keyframes pulse{
-  100% {
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, .1);
-  }
+  width: auto;
 }
 
 .copy-the-block > svg {
   width: 16px;
   flex-shrink: 0;
   margin-right: 6px;
+}
+
+.copy-to-clipboard > svg {
+  width: 13px;
 }
 
 .knyttneve {
