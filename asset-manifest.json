@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tailblocks/static/css/main.17dd871b.chunk.css",
+    "main.css": "/tailblocks/static/css/main.018620e0.chunk.css",
     "main.js": "/tailblocks/static/js/main.c96c412a.chunk.js",
     "main.js.map": "/tailblocks/static/js/main.c96c412a.chunk.js.map",
     "runtime-main.js": "/tailblocks/static/js/runtime-main.ad462f65.js",
@@ -8,15 +8,15 @@
     "static/js/2.4f9f66ff.chunk.js": "/tailblocks/static/js/2.4f9f66ff.chunk.js",
     "static/js/2.4f9f66ff.chunk.js.map": "/tailblocks/static/js/2.4f9f66ff.chunk.js.map",
     "index.html": "/tailblocks/index.html",
-    "precache-manifest.d05d814ff6b1cf58bd7cc3e7d6c21c0c.js": "/tailblocks/precache-manifest.d05d814ff6b1cf58bd7cc3e7d6c21c0c.js",
+    "precache-manifest.21773d46a171f6324c91461381a01240.js": "/tailblocks/precache-manifest.21773d46a171f6324c91461381a01240.js",
     "service-worker.js": "/tailblocks/service-worker.js",
-    "static/css/main.17dd871b.chunk.css.map": "/tailblocks/static/css/main.17dd871b.chunk.css.map",
+    "static/css/main.018620e0.chunk.css.map": "/tailblocks/static/css/main.018620e0.chunk.css.map",
     "static/js/2.4f9f66ff.chunk.js.LICENSE.txt": "/tailblocks/static/js/2.4f9f66ff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad462f65.js",
     "static/js/2.4f9f66ff.chunk.js",
-    "static/css/main.17dd871b.chunk.css",
+    "static/css/main.018620e0.chunk.css",
     "static/js/main.c96c412a.chunk.js"
   ]
 }
