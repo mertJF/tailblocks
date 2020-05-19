@@ -559,3 +559,27 @@ pre, code {
   align-items: center;
   justify-content: center;
 }
+
+.clipboard-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.clipboard-tooltip {
+  margin-right: -10px;
+  color: #fff;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2px 5px;
+  letter-spacing: .2px;
+  border-radius: 4px;
+  position: relative; 
+  opacity: 0;
+  transition: opacity .4s, margin-right .4s;
+}
+
+.clipboard-tooltip.is-copied {
+  margin-right: 6px;
+  opacity: 1;
+}

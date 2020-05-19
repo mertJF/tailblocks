@@ -85,6 +85,7 @@ class App extends Component {
     this.state = {
       ready: false,
       darkMode: false,
+      copied: false,
       sidebar: true,
       codeView: false,
       view: 'desktop',
@@ -111,7 +112,7 @@ class App extends Component {
   }
 
   handleContentDidMount() {
-     setTimeout(() => {
+    setTimeout(() => {
       this.setState({
         ready: true,
         markup: this.markupRef.current.innerHTML
@@ -211,10 +212,16 @@ class App extends Component {
     input.select();
     document.execCommand('copy');
     document.body.removeChild(input);
+    this.setState({copied: true});
+    setTimeout(() => {
+      this.setState({
+        copied: false
+      })
+    }, 2000);
 }
 
   render() {
-    const { darkMode, theme, blockName, blockType, sidebar, view } = this.state;
+    const { darkMode, theme, blockName, blockType, sidebar, view, copied } = this.state;
     return (
       <div className={`app${darkMode ? ' dark-mode' : ''}${sidebar ? ' has-sidebar' : ''} ${theme} ${view}`}>
         <textarea className="copy-textarea" ref={this.textareaRef} />
@@ -223,11 +230,14 @@ class App extends Component {
         </aside>
         <div className="toolbar">
           <button className="opener" onClick={this.toggleSidebar}>TAILBLOCKS</button>
-          {this.state.codeView ? (
-            <button className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>
-              {clipboardIcon}
-              <span>COPY TO CLIPBOARD</span>
-            </button>) : ''
+          {this.state.codeView &&
+            <div className="clipboard-wrapper">
+              <button className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>
+                {clipboardIcon}
+                <span>COPY TO CLIPBOARD</span>
+              </button>
+              <span className={`clipboard-tooltip${copied ? ' is-copied ' : ''}`} >Copied!</span>
+            </div>
           }
           <button className="copy-the-block" onClick={this.toggleView}>
             {!this.state.codeView ?
