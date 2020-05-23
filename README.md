@@ -1,5 +1,5 @@
 # tailblocks
-### 🎉 60+ ready to use Tailwind CSS blocks
+### 🎉 Ready-to-use Tailwind CSS blocks
 ##### Features
 
 * 15 different categories (ecommerce, blog, pricing and more...)
