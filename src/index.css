@@ -552,17 +552,23 @@ pre, code {
 }
 
 .github {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
+  padding: 8px 12px;
+  border-radius: 50px;
   position: fixed;
   right: 20px;
   bottom: 20px;
   background-color: var(--solid-900);
   color: #fff;
   display: inline-flex;
+  font-weight: 600;
   align-items: center;
   justify-content: center;
+}
+
+.github svg {
+  width: 24px;
+  flex-shrink: 0;
+  margin-right: 6px;
 }
 
 .dark-mode .github {
@@ -649,5 +655,32 @@ pre, code {
 
   .dark-mode .switcher {
     background-color: #1a202c;
-  } 
+  }
+}
+
+@media (max-width: 380px) {
+  .github {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    color: transparent;
+    white-space: nowrap;
+  }
+
+  .github svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+  }
+
+  .dark-mode .github {
+    color: transparent;
+  }
+
+  .dark-mode .github svg {
+    color: #1a202c;
+  }
 }
