@@ -105,6 +105,31 @@ class App extends Component {
     this.copyToClipboard = this.copyToClipboard.bind(this);
     this.markupRef = React.createRef();
     this.textareaRef = React.createRef();
+    this.sidebarRef = React.createRef();
+    this.openerRef = React.createRef();
+  }
+
+  componentDidMount() {
+    window.focus();
+    const iframe = document.querySelector('iframe');
+    const sidebar = this.sidebarRef.current;
+    const opener = this.openerRef.current;
+
+    window.addEventListener('blur', () => {
+     if (document.activeElement === iframe) {
+      this.setState({ sidebar: false });
+     }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (e.target === opener) {
+        return;
+      }
+
+      if ((!e.target === sidebar || !sidebar.contains(e.target))) {
+        this.setState({ sidebar: false });
+      }
+    });
   }
 
   changeMode() {
@@ -200,7 +225,7 @@ class App extends Component {
     return viewList.map((v, k) => <button key={k} className={`device${view === v.name ? ' is-active' : ''}`} data-view={v.name} onClick={this.changeView}>{v.icon}</button>);
   }
 
-  toggleSidebar() {
+  toggleSidebar(e) {
     this.setState({ sidebar: !this.state.sidebar });
   }
 
@@ -225,11 +250,11 @@ class App extends Component {
     return (
       <div className={`app${darkMode ? ' dark-mode' : ''}${sidebar ? ' has-sidebar' : ''} ${theme} ${view}`}>
         <textarea className="copy-textarea" ref={this.textareaRef} />
-        <aside className="sidebar">
+        <aside className="sidebar" ref={this.sidebarRef}>
           {this.listRenderer()}
         </aside>
         <div className="toolbar">
-          <button className="opener" onClick={this.toggleSidebar}>TAILBLOCKS</button>
+          <button className="opener" onClick={this.toggleSidebar} ref={this.openerRef}>TAILBLOCKS</button>
           {this.state.codeView &&
             <div className="clipboard-wrapper">
               <button className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>

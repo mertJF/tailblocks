@@ -163,9 +163,16 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform .3s;  
+  transition: transform .3s;
 }
- 
+
+.app.has-sidebar .sidebar {
+  box-shadow: 2px 68px 10px rgba(194, 206, 219, 0.68);
+}
+.dark-mode.has-sidebar .sidebar {
+  box-shadow: 2px 68px 10px rgba(26, 32, 44, 0.8);
+}
+
 .block-category {
   margin-bottom: 10px;
   color: var(--sidebar-color);
@@ -181,7 +188,6 @@ iframe {
   border-radius: 4px;
   box-shadow: var(--shadow);
   overflow: hidden;
-
   color: var(--main-500);
 }
 
