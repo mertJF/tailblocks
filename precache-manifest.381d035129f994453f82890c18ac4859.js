@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "761098b0ac8cb808826a20434d1735ce",
+    "revision": "cad6768886869dbc5dee3e28b5bc87a0",
     "url": "/tailblocks/index.html"
   },
   {
