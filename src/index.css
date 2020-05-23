@@ -559,10 +559,15 @@ pre, code {
   right: 20px;
   bottom: 20px;
   background-color: var(--solid-900);
-  color: var(--main-100);
+  color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.dark-mode .github {
+  color: #1a202c;
+  background-color: #fff;
 }
 
 .clipboard-wrapper {
@@ -608,7 +613,7 @@ pre, code {
 
 
 @media (max-width: 760px) {
-  .copy-the-block, .switcher {
+  .copy-the-block {
     display: none;
   }
 
@@ -628,4 +633,21 @@ pre, code {
   .mode {
     margin-left: auto;
   }
+
+  .sidebar {
+    z-index: 2;
+  }
+
+  .switcher {
+    position: fixed;
+    bottom: 24px;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid var(--base-200);
+    left: 20px;
+  }
+
+  .dark-mode .switcher {
+    background-color: #1a202c;
+  } 
 }
