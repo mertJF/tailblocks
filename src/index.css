@@ -199,7 +199,7 @@ iframe {
 svg { width: 100%; }
 
 .app.has-sidebar .toolbar {
-  padding: 16px 16px 16px 176px;
+  padding: 0 16px 0 176px;
 }
 
 .toolbar {
@@ -248,6 +248,7 @@ svg { width: 100%; }
   display: flex;
   align-items: center;
   font-weight: 600;
+  flex-shrink: 0;
   position: relative;
 }
 
@@ -255,6 +256,7 @@ svg { width: 100%; }
   background-image: var(--opener);
   display: inline-block;
   width: 18px;
+  flex-shrink: 0;
   height: 18px;
   content: "";
   background-size: cover;
@@ -272,6 +274,7 @@ svg { width: 100%; }
   width: 58px;
   position: relative;
   height: 32px;
+  flex-shrink: 0;
   margin-left: 16px;
 }
 
@@ -418,6 +421,7 @@ svg { width: 100%; }
 .copy-the-block {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 0 12px;
+  flex-shrink: 0;
   border-radius: 20px;
   margin-right: 14px;
   display: flex;
@@ -435,6 +439,7 @@ svg { width: 100%; }
 }
 
 .copy-to-clipboard {
+  white-space: nowrap;
   width: auto;
 }
 
@@ -564,17 +569,18 @@ pre, code {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  position: relative;
 }
 
 .clipboard-tooltip {
-  margin-right: -10px;
-  color: #fff;
+  color: #68717d;
   font-size: 13px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #fff;
   padding: 2px 5px;
   letter-spacing: .2px;
   border-radius: 4px;
-  position: relative; 
+  position: absolute;
+  right: 100%;
   opacity: 0;
   transition: opacity .4s, margin-right .4s;
 }
@@ -582,4 +588,44 @@ pre, code {
 .clipboard-tooltip.is-copied {
   margin-right: 6px;
   opacity: 1;
+}
+
+@media (max-width: 1060px) {
+  .device {
+    display: none;
+  }
+
+  .switcher {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .copy-to-clipboard {
+    display: none;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .copy-the-block, .switcher {
+    display: none;
+  }
+
+  .opener {
+    width: 40px;
+    height: 100%;
+    overflow: hidden;
+    color: transparent;
+    white-space: nowrap;
+  }
+
+  .opener::before {
+    width: 24px;
+    height: 24px;
+  }
+
+  .mode {
+    margin-left: auto;
+  }
 }
