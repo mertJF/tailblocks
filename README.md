@@ -5,7 +5,7 @@
 * 15 different categories (ecommerce, blog, pricing and more...)
 * Responsive
 * Dark/light mode
-* Color options
+* Color variations
 
 [![tailblocks](https://github.com/mertjf/tailblocks/blob/master/public/preview.gif)](https://mertjf.github.io/tailblocks)
 
