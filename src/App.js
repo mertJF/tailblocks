@@ -114,12 +114,17 @@ class App extends Component {
     const iframe = document.querySelector('iframe');
     const sidebar = this.sidebarRef.current;
     const opener = this.openerRef.current;
+    let iframeMouseOver = false;
 
+    window.focus();
     window.addEventListener('blur', () => {
-     if (document.activeElement === iframe) {
-      this.setState({ sidebar: false });
-     }
+      if (iframeMouseOver) {
+        this.setState({ sidebar: false });
+      }
     });
+
+    iframe.addEventListener('mouseover', () => iframeMouseOver = true);
+    iframe.addEventListener('mouseout', () => iframeMouseOver = false);
 
     document.addEventListener('click', (e) => {
       if (e.target === opener) {
@@ -197,7 +202,7 @@ class App extends Component {
     this.setState({ view, codeView: false });
   }
 
-  toggleView(e) {
+  toggleView() {
     this.setState({ codeView: !this.state.codeView, view: 'desktop', markup: this.markupRef.current.innerHTML })
   }
 
@@ -225,7 +230,7 @@ class App extends Component {
     return viewList.map((v, k) => <button key={k} className={`device${view === v.name ? ' is-active' : ''}`} data-view={v.name} onClick={this.changeView}>{v.icon}</button>);
   }
 
-  toggleSidebar(e) {
+  toggleSidebar() {
     this.setState({ sidebar: !this.state.sidebar });
   }
 
