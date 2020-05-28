@@ -18,10 +18,10 @@ function LightFooterD(props) {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
           </svg>
-          <span class="ml-3 text-xl">madde</span>
+          <span className="ml-3 text-xl">tailblocks</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2020 madde —
+          © 2020 tailblocks —
           <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">
             @knyttneve
           </a>

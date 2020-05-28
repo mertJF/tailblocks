@@ -6,6 +6,12 @@ import getBlock from './blocks';
 import getIcons from './icons';
 
 const iconList = getIcons();
+const blockListArr = [];
+
+Object.entries(iconList).forEach(([type, icons]) => {
+ Object.keys(icons).map(name =>  blockListArr.push(`${name},${type}`));
+});
+
 const themeList = ["indigo", "orange", "teal", "red", "purple", "pink", "blue", "green"];
 
 const desktopIcon = (
@@ -88,6 +94,7 @@ class App extends Component {
       copied: false,
       sidebar: true,
       codeView: false,
+      currentKeyCode: null,
       view: 'desktop',
       theme: 'indigo',
       blockType: 'Blog',
@@ -103,6 +110,7 @@ class App extends Component {
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.toggleView = this.toggleView.bind(this);
     this.copyToClipboard = this.copyToClipboard.bind(this);
+    this.keyboardNavigation = this.keyboardNavigation.bind(this);
     this.markupRef = React.createRef();
     this.textareaRef = React.createRef();
     this.sidebarRef = React.createRef();
@@ -110,21 +118,12 @@ class App extends Component {
   }
 
   componentDidMount() {
-    window.focus();
-    const iframe = document.querySelector('iframe');
+    document.addEventListener('keydown', this.keyboardNavigation);
+  }
+
+  hideSidebar() {
     const sidebar = this.sidebarRef.current;
     const opener = this.openerRef.current;
-    let iframeMouseOver = false;
-
-    window.focus();
-    window.addEventListener('blur', () => {
-      if (iframeMouseOver) {
-        this.setState({ sidebar: false });
-      }
-    });
-
-    iframe.addEventListener('mouseover', () => iframeMouseOver = true);
-    iframe.addEventListener('mouseout', () => iframeMouseOver = false);
 
     document.addEventListener('click', (e) => {
       if (e.target === opener) {
@@ -137,11 +136,77 @@ class App extends Component {
     });
   }
 
+  keyboardNavigation(e) {
+    const { blockType, blockName } = this.state;
+    const blockStringFormat = `${blockName},${blockType}`;
+    const keyCode = e.which || e.keyCode;
+
+    switch (keyCode) {
+      case 40: // Down
+        e.preventDefault();
+        blockListArr.forEach((block, index) => {
+          if (block === blockStringFormat) {
+            const newActiveBlock = index + 1 <= blockListArr.length - 1  ? blockListArr[index + 1].split(',') : blockListArr[0].split(',');
+            const newBlockName = newActiveBlock[0];
+            const newBlockType = newActiveBlock[1];
+            const newBlockNode = document.querySelector(`.block-item[block-name="${newBlockName}"]`);
+            if (newBlockNode) newBlockNode.focus();
+            this.setState({
+              blockType: newBlockType,
+              blockName: newBlockName,
+              codeView: false,
+              currentKeyCode: 40
+            });
+          }
+        });
+        break;
+      case 37: // Left
+        e.preventDefault();
+        this.setState({ sidebar: false, currentKeyCode: 37 });
+        break;
+      case 39: // Right
+        e.preventDefault();
+        this.setState({ sidebar: true, currentKeyCode: 39 });
+        break;  
+      case 38: // Up
+        e.preventDefault();
+        blockListArr.forEach((block, index) => {
+          if (block === blockStringFormat) {
+            const newActiveBlock = index - 1 >= 0 ? blockListArr[index - 1].split(',') : blockListArr[blockListArr.length - 1].split(',');
+            const newBlockName = newActiveBlock[0];
+            const newBlockType = newActiveBlock[1];
+            const newBlockNode = document.querySelector(`.block-item[block-name="${newBlockName}"]`);
+            if (newBlockNode) newBlockNode.focus();
+
+            this.setState({
+              blockType: newBlockType,
+              blockName: newBlockName,
+              codeView: false,
+              currentKeyCode: 38
+            });
+          }
+        });
+        break;
+      default:
+        return;
+    }
+
+    setTimeout(() => {
+      if (keyCode === 37 || keyCode === 38 || keyCode === 39 || keyCode === 40) {
+        this.setState({ currentKeyCode: null })
+      }
+    }, 200);
+   }
+
   changeMode() {
     this.setState({ darkMode: !this.state.darkMode })
   }
 
   handleContentDidMount() {
+    const iframe = document.querySelector('iframe');
+    iframe.contentWindow.document.addEventListener('keydown', this.keyboardNavigation);
+    iframe.contentWindow.document.addEventListener('click', () => this.setState({ sidebar: false }));
+
     setTimeout(() => {
       this.setState({
         ready: true,
@@ -187,7 +252,6 @@ class App extends Component {
       blockType, blockName,
       codeView: false
     });
-
   }
 
   changeTheme(e) {
@@ -209,7 +273,7 @@ class App extends Component {
   themeListRenderer() {
     const { theme } = this.state;
     return themeList.map((t, k) => 
-      <button key={k} data-theme={t} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
+      <button key={k} data-theme={t} onKeyDown={this.keyboardNavigation} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
     )
   }
 
@@ -219,7 +283,7 @@ class App extends Component {
       <div className="blocks" key={type}>
         <div className="block-category">{type}</div>
         <div className="block-list">
-        {Object.entries(icons).map(icon => <button key={icon[0]} onClick={this.changeBlock} className={`block-item${icon[0] === blockName ? ' is-active': ''}`} block-type={type} block-name={icon[0]}>{icon[1]}</button>)}
+        {Object.entries(icons).map(icon => <button key={icon[0]} tabIndex="0" onClick={this.changeBlock} className={`block-item${icon[0] === blockName ? ' is-active': ''}`} block-type={type} block-name={icon[0]}>{icon[1]}</button>)}
         </div>
       </div>
     );
@@ -251,7 +315,7 @@ class App extends Component {
 }
 
   render() {
-    const { darkMode, theme, blockName, blockType, sidebar, view, copied } = this.state;
+    const { darkMode, theme, blockName, blockType, sidebar, view, copied, currentKeyCode } = this.state;
     return (
       <div className={`app${darkMode ? ' dark-mode' : ''}${sidebar ? ' has-sidebar' : ''} ${theme} ${view}`}>
         <textarea className="copy-textarea" ref={this.textareaRef} />
@@ -335,6 +399,30 @@ class App extends Component {
           </svg>
           GitHub
         </a>
+        <div className="keyboard-nav">
+          <div className={`k-up keyboard-button${currentKeyCode === 38 ? ' is-active' : ''}`} data-info="Previous block">
+            <svg stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+          </div>
+          <div className="keyboard-nav-row">
+            <div className={`k-left keyboard-button${currentKeyCode === 37 ? ' is-active' : ''}`} data-info="Hide sidebar">
+              <svg stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+            </div>
+            <div className={`k-down keyboard-button${currentKeyCode === 40 ? ' is-active' : ''}`} data-info="Next block">
+              <svg stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+              </svg>
+            </div>
+            <div className={`k-right keyboard-button${currentKeyCode === 39 ? ' is-active' : ''}`} data-info="Show sidebar">
+              <svg stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -617,12 +617,116 @@ pre, code {
   }
 }
 
+.keyboard-nav {
+  position: fixed;
+  right: 158px;
+  bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyboard-nav-row {
+  display: flex;
+}
+
+.keyboard-button {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 1px;
+  opacity: 0.5;
+  background-color: var(--base-300);
+  color: var(--solid-900);
+  padding: 3px;
+  position: relative;
+}
+
+.keyboard-nav:hover .keyboard-button:not(:hover) {
+  opacity: .2;
+}
+
+.keyboard-button:hover {
+  opacity: 1;
+}
+
+.keyboard-button:before {
+  content: attr(data-info);
+  position: absolute;
+  color: var(--solid-900);
+  pointer-events: none;
+  font-size: 8px;
+  text-transform: uppercase;
+  transition: opacity .3s;
+  text-align: center;
+  white-space: nowrap;
+  padding: 1px 4px;
+  background-color: var(--base-200);
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.keyboard-button.is-active {
+  animation-name: keyboard;
+  animation-duration: .2s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes keyboard {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 0 5px var(--main-500);
+    z-index: 1;
+  }
+}
+
+.keyboard-button:hover:before {
+  opacity: 1;
+  z-index: 1;
+}
+
+.k-up:before {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 24px;
+}
+
+.k-down:before {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -18px;
+}
+
+.k-left:before {
+  right: -70px;
+  top: 4px;
+}
+
+.k-right:before {
+  left: -76px;
+  top: 4px;
+}
+
+.keyboard-button:hover:before {
+  opacity: 1;
+}
+
 @media (max-width: 960px) {
   .copy-to-clipboard {
     display: none;
   }
-}
 
+  .keyboard-nav{
+    display: none;
+  }
+}
 
 @media (max-width: 760px) {
   .copy-the-block {
