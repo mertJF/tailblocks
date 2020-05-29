@@ -67,12 +67,21 @@ function LightFooterE(props) {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
-            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center md:justify-start">
-              <input
-                className={`w-40 sm:w-auto bg-gray-100 rounded xl:mr-4 lg:mr-0 sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-${props.theme}-500 text-base py-2 px-4`}
-                placeholder="Placeholder"
-                type="text"
-              ></input>
+            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-center md:justify-start">
+              <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <label
+                  for="footer-field"
+                  class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+                >
+                  Placeholder
+                </label>
+                <input
+                  type="text"
+                  id="footer-field"
+                  name="footer-field"
+                  class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                />
+              </div>
               <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
               </button>

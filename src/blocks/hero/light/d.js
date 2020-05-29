@@ -14,11 +14,20 @@ function LightHeroD(props) {
             swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
           </p>
           <div className="flex w-full md:justify-start justify-center">
-            <input
-              className={`bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-${props.theme}-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 md:w-full`}
-              placeholder="Placeholder"
-              type="text"
-            />
+            <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+              <label
+                for="hero-field"
+                class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+              >
+                Placeholder
+              </label>
+              <input
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              />
+            </div>
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
               Button
             </button>

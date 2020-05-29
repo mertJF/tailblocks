@@ -17,24 +17,51 @@ function LightContactC(props) {
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
-              <input
-                className={`w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-${props.theme}-500 text-base px-4 py-2`}
-                placeholder="Name"
-                type="text"
-              ></input>
+              <div class="relative">
+                <label
+                  for="name"
+                  class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                />
+              </div>
             </div>
             <div className="p-2 w-1/2">
-              <input
-                className={`w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-${props.theme}-500 text-base px-4 py-2`}
-                placeholder="Email"
-                type="email"
-              ></input>
+              <div class="relative">
+                <label
+                  for="email"
+                  class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                />
+              </div>
             </div>
             <div className="p-2 w-full">
-              <textarea
-                className={`w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-${props.theme}-500 text-base px-4 py-2 resize-none block`}
-                placeholder="Message"
-              ></textarea>
+              <div class="relative">
+                <label
+                  for="message"
+                  class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-700 pt-6 pb-1 px-3 resize-none leading-8 transition-colors duration-200 ease-in-out`}
+                ></textarea>
+              </div>
             </div>
             <div className="p-2 w-full">
               <button className={`flex mx-auto text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
