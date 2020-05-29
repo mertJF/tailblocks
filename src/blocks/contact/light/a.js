@@ -30,7 +30,7 @@ function LightContactA(props) {
               htmlFor="email"
               className="leading-7text-sm text-gray-600"
             >
-              Email Post-ironic portland shabby chic echo park, banjo fashion axe Post-ironic portland shabby chic echo park, banjo fashion axe
+              Email
             </label>
             <input
               type="email"

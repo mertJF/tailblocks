@@ -21,7 +21,7 @@ function LightHeroF(props) {
                 htmlFor="hero-field"
                 className="leading-7 text-sm text-gray-600"
               >
-                Placeholder 1
+                Placeholder
               </label>
               <input
                 type="text"
