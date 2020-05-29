@@ -67,11 +67,11 @@ function DarkFooterE(props) {
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
-            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-center md:justify-start">
-              <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+              <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
-                  for="footer-field"
-                  class="bg-gray-800 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-400"
+                  htmlFor="footer-field"
+                  className="leading-7 text-sm text-gray-400"
                 >
                   Placeholder
                 </label>
@@ -79,7 +79,7 @@ function DarkFooterE(props) {
                   type="text"
                   id="footer-field"
                   name="footer-field"
-                  class={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
               </div>
               <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
@@ -108,7 +108,7 @@ function DarkFooterE(props) {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            <span class="ml-3 text-xl">madde</span>
+            <span className="ml-3 text-xl">madde</span>
           </a>
           <p className="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">
             © 2020 madde —

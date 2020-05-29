@@ -124,11 +124,11 @@ function LightFooterC(props) {
       </div>
       <div className="border-t border-gray-200">
         <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
-          <div className="flex md:flex-no-wrap flex-wrap justify-center items-center md:justify-start">
-            <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+          <div className="flex md:flex-no-wrap flex-wrap justify-center items-end md:justify-start">
+            <div className="relative sm:w-64 w-40 sm:mr-4 mr-2">
               <label
-                for="footer-field"
-                class="bg-gray-100 rounded leading-7 px-3 absolute ml-px mt-px left-0 top-0 text-sm text-gray-600"
+                htmlFor="footer-field"
+                className="leading-7 text-sm text-gray-600"
               >
                 Placeholder
               </label>
@@ -136,7 +136,7 @@ function LightFooterC(props) {
                 type="text"
                 id="footer-field"
                 name="footer-field"
-                class={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 pt-6 pb-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                className={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
               />
             </div>
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
