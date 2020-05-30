@@ -25,15 +25,33 @@ function DarkContactA(props) {
           <p className="leading-relaxed mb-5 text-gray-500">
             Post-ironic portland shabby chic echo park, banjo fashion axe
           </p>
-          <input
-            className={`bg-gray-800 text-white rounded border border-gray-700 focus:outline-none focus:border-${props.theme}-500 text-base px-4 py-2 mb-4`}
-            placeholder="Email"
-            type="email"
-          ></input>
-          <textarea
-            className={`bg-gray-800 text-white rounded border border-gray-700 focus:outline-none h-32 focus:border-${props.theme}-500 text-base px-4 py-2 mb-4 resize-none`}
-            placeholder="Message"
-          ></textarea>
+          <div className="relative mb-4">
+            <label
+              htmlFor="email"
+              className="leading-7 text-sm text-gray-400"
+            >
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+            />
+          </div>
+          <div className="relative mb-4">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-gray-400"
+            >
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+            ></textarea>
+          </div>
           <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>

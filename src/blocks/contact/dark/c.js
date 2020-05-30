@@ -17,24 +17,51 @@ function DarkContactC(props) {
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
-              <input
-                className={`w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-${props.theme}-500 text-base px-4 py-2`}
-                placeholder="Name"
-                type="text"
-              ></input>
+              <div className="relative">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-400"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                />
+              </div>
             </div>
             <div className="p-2 w-1/2">
-              <input
-                className={`w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-${props.theme}-500 text-base px-4 py-2`}
-                placeholder="Email"
-                type="email"
-              ></input>
+              <div className="relative">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-400"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                />
+              </div>
             </div>
             <div className="p-2 w-full">
-              <textarea
-                className={`w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-${props.theme}-500 text-base px-4 py-2 resize-none block`}
-                placeholder="Message"
-              ></textarea>
+              <div className="relative">
+                <label
+                  htmlFor="message"
+                  className="leading-7 text-sm text-gray-400"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+                ></textarea>
+              </div>
             </div>
             <div className="p-2 w-full">
               <button className={`flex mx-auto text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>

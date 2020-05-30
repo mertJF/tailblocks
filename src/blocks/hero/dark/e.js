@@ -16,12 +16,21 @@ function DarkHeroE(props) {
             Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid
             swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
           </p>
-          <div className="flex w-full md:justify-start justify-center">
-            <input
-              className={`bg-gray-800 rounded mr-4 border border-gray-700 text-white focus:outline-none focus:border-${props.theme}-500 text-base px-4 md:w-full lg:w-full xl:w-1/2 w-2/4`}
-              placeholder="Placeholder"
-              type="text"
-            ></input>
+          <div className="flex w-full md:justify-start justify-center items-end">
+            <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+              <label
+                htmlFor="hero-field"
+                className="leading-7 text-sm text-gray-400"
+              >
+                Placeholder
+              </label>
+              <input
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              />
+            </div>
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
               Button
             </button>
