@@ -108,7 +108,7 @@ function DarkFooterE(props) {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            <span className="ml-3 text-xl">madde</span>
+            <span className="ml-3 text-xl">tailblocks</span>
           </a>
           <p className="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">
             © 2020 madde —
