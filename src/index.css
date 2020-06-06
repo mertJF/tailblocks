@@ -221,6 +221,11 @@ svg { width: 100%; }
   transform: translateX(0);
 }
 
+.app.has-sidebar .main {
+  width: calc(100% - 160px);
+  margin-left: 160px;
+}
+
 .switcher {
   display: flex;
   padding: 0 10px;
