@@ -59,6 +59,8 @@ import HeroD from './hero/d';
 import HeroE from './hero/e';
 import HeroF from './hero/f';
 
+import LoginA from './login/a';
+
 import PricingA from './pricing/a';
 import PricingB from './pricing/b';
 import PricingC from './pricing/c';
@@ -149,6 +151,9 @@ export default function getIcons() {
       HeroD: <HeroD />,
       HeroE: <HeroE />,
       HeroF: <HeroF />
+    },
+    Login: {
+      LoginA: <LoginA/>,
     },
     Pricing: {
       PricingA: <PricingA />,

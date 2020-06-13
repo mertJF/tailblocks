@@ -159,6 +159,10 @@ import DarkTestimonialA from './testimonial/dark/a';
 import DarkTestimonialB from './testimonial/dark/b';
 import DarkTestimonialC from './testimonial/dark/c';
 
+import LightLoginA from './login/light/a';
+
+import DarkLoginA from './login/dark/a';
+
 export default function getBlock({theme = 'indigo', darkMode = false}) {
   return {
     Blog: {
@@ -229,6 +233,9 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
       HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+    },
+    Login: {
+      LoginA: darkMode ? <DarkLoginA theme={theme} /> : <LightLoginA theme={theme} />,
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
