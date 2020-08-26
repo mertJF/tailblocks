@@ -99,10 +99,12 @@ class App extends Component {
       theme: 'indigo',
       blockType: 'Blog',
       blockName: 'BlogA',
-      markup: ''
+      markup: '',
+      keyword: null
     }
     
     this.changeMode = this.changeMode.bind(this);
+    this.handleChangeKeyword = this.handleChangeKeyword.bind(this);
     this.changeTheme = this.changeTheme.bind(this);
     this.changeBlock = this.changeBlock.bind(this);
     this.handleContentDidMount = this.handleContentDidMount.bind(this);
@@ -202,6 +204,11 @@ class App extends Component {
     this.setState({ darkMode: !this.state.darkMode })
   }
 
+  handleChangeKeyword(event) {
+    event.persist();
+    this.setState({ keyword: event.target.value.toLowerCase() })
+  }
+
   handleContentDidMount() {
     const iframe = document.querySelector('iframe');
     iframe.contentWindow.document.addEventListener('keydown', this.keyboardNavigation);
@@ -279,14 +286,40 @@ class App extends Component {
 
   listRenderer() {
     const { blockName } = this.state;
-    return Object.entries(iconList).map(([type, icons]) => 
-      <div className="blocks" key={type}>
-        <div className="block-category">{type}</div>
-        <div className="block-list">
-        {Object.entries(icons).map(icon => <button key={icon[0]} tabIndex="0" onClick={this.changeBlock} className={`block-item${icon[0] === blockName ? ' is-active': ''}`} block-type={type} block-name={icon[0]}>{icon[1]}</button>)}
-        </div>
-      </div>
-    );
+    return (
+      <>
+        <label>
+          Search
+          <input type="text" onChange={this.handleChangeKeyword} className="border mb-4 p-2 w-full" />
+        </label>
+        {
+          Object.entries(iconList).map(([type, icons]) => {
+            if (this.state.keyword && !type.toLowerCase().includes(this.state.keyword)) {
+              return null;
+            }
+
+            return (
+              <div className="blocks" key={type}>
+                <div className="block-category">{type}</div>
+                <div className="block-list">
+                  {Object.entries(icons).map(icon => (
+                    <button
+                      key={icon[0]}
+                      tabIndex="0"
+                      onClick={this.changeBlock}
+                      className={`block-item${icon[0] === blockName ? ' is-active' : ''}`}
+                      block-type={type}
+                      block-name={icon[0]}>
+                      {icon[1]}
+                    </button>)
+                  )}
+                </div>
+              </div>
+            )
+          }
+        )}
+      </>
+    )
   }
 
   viewModeRenderer() {

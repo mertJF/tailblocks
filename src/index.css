@@ -151,7 +151,7 @@ iframe {
 
 .sidebar {
   height: 100vh;
-  width: 160px;
+  width: 220px;
   z-index: 1;
   position: fixed;
   overflow: auto;
@@ -205,7 +205,7 @@ iframe {
 svg { width: 100%; }
 
 .app.has-sidebar .toolbar {
-  padding: 0 16px 0 176px;
+  padding: 0 16px 0 217px;
 }
 
 .toolbar {
