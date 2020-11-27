@@ -124,7 +124,7 @@ function DarkFooterC(props) {
       </div>
       <div className="border-t border-gray-800">
         <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
-          <div className="flex md:flex-no-wrap flex-wrap justify-center items-end md:justify-start">
+          <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
             <div className="relative sm:w-64 w-40 sm:mr-4 mr-2">
               <label
                 htmlFor="footer-field"

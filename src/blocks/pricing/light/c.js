@@ -16,7 +16,7 @@ function LightPricingC(props) {
           </p>
         </div>
         <div className="lg:w-2/3 w-full mx-auto overflow-auto">
-          <table className="table-auto w-full text-left whitespace-no-wrap">
+          <table className="table-auto w-full text-left whitespace-nowrap">
             <thead>
               <tr>
                 <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">

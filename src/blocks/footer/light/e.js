@@ -67,7 +67,7 @@ function LightFooterE(props) {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
-            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
                   htmlFor="footer-field"
