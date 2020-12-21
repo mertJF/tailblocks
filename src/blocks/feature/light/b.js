@@ -42,7 +42,7 @@ function LightFeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -83,7 +83,7 @@ function LightFeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -123,7 +123,7 @@ function LightFeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

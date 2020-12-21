@@ -27,7 +27,7 @@ function LightBlogE(props) {
                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.
                 </p>
-                <a href className="inline-flex items-center">
+                <a href className="cursor-pointer inline-flex items-center">
                   <img
                     alt="blog"
                     src="https://dummyimage.com/103x103"
@@ -63,7 +63,7 @@ function LightBlogE(props) {
                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.
                 </p>
-                <a href className="inline-flex items-center">
+                <a href className="cursor-pointer inline-flex items-center">
                   <img
                     alt="blog"
                     src="https://dummyimage.com/102x102"
@@ -99,7 +99,7 @@ function LightBlogE(props) {
                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.
                 </p>
-                <a href className="inline-flex items-center">
+                <a href className="cursor-pointer inline-flex items-center">
                   <img
                     alt="blog"
                     src="https://dummyimage.com/101x101"

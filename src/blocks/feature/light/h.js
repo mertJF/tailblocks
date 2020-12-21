@@ -21,7 +21,7 @@ function LightFeatureH(props) {
               SHOOTING STARS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -37,7 +37,7 @@ function LightFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -53,7 +53,7 @@ function LightFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -69,7 +69,7 @@ function LightFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -85,7 +85,7 @@ function LightFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -108,7 +108,7 @@ function LightFeatureH(props) {
               THE 400 BLOWS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -124,7 +124,7 @@ function LightFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -140,7 +140,7 @@ function LightFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -156,7 +156,7 @@ function LightFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -172,7 +172,7 @@ function LightFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -195,7 +195,7 @@ function LightFeatureH(props) {
               THE CATALYZER
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -211,7 +211,7 @@ function LightFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -227,7 +227,7 @@ function LightFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -243,7 +243,7 @@ function LightFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -259,7 +259,7 @@ function LightFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -282,7 +282,7 @@ function LightFeatureH(props) {
               NEPTUNE
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -298,7 +298,7 @@ function LightFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -314,7 +314,7 @@ function LightFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -330,7 +330,7 @@ function LightFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -346,7 +346,7 @@ function LightFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href className="cursor-pointer mb-2">
                 <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"

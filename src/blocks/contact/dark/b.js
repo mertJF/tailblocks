@@ -32,7 +32,7 @@ function DarkContactB(props) {
               <h2 className="title-font font-medium text-white tracking-widest text-sm">
                 EMAIL
               </h2>
-              <a href className={`text-${props.theme}-500 leading-relaxed`}>
+              <a href className={ ` cursor-pointer text-${props.theme}-500 leading-relaxed`}>
                 example@email.com
               </a>
               <h2 className="title-font font-medium text-white tracking-widest text-sm mt-4">

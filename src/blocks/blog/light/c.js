@@ -21,7 +21,7 @@ function LightBlogC(props) {
               hexagon kickstarter craft beer pork chic.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -66,7 +66,7 @@ function LightBlogC(props) {
                 6
               </span>
             </div>
-            <a href className="inline-flex items-center">
+            <a href className="cursor-pointer inline-flex items-center">
               <img
                 alt="blog"
                 src="https://dummyimage.com/104x104"
@@ -94,7 +94,7 @@ function LightBlogC(props) {
               slow-carb etsy tumeric.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -139,7 +139,7 @@ function LightBlogC(props) {
                 6
               </span>
             </div>
-            <a href className="inline-flex items-center">
+            <a href className="cursor-pointer inline-flex items-center">
               <img
                 alt="blog"
                 src="https://dummyimage.com/103x103"

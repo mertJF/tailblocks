@@ -35,7 +35,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -75,7 +75,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -114,7 +114,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

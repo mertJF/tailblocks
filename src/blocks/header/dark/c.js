@@ -6,12 +6,12 @@ function DarkHeaderC(props) {
     <header className="text-gray-500 bg-gray-900 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a href className="mr-5 hover:text-white">First Link</a>
-          <a href className="mr-5 hover:text-white">Second Link</a>
-          <a href className="mr-5 hover:text-white">Third Link</a>
-          <a href className="hover:text-white">Fourth Link</a>
+          <a href className="cursor-pointer mr-5 hover:text-white">First Link</a>
+          <a href className="cursor-pointer mr-5 hover:text-white">Second Link</a>
+          <a href className="cursor-pointer mr-5 hover:text-white">Third Link</a>
+          <a href className="cursor-pointer hover:text-white">Fourth Link</a>
         </nav>
-        <a href className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+        <a href className="cursor-pointer flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

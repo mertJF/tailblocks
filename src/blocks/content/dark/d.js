@@ -15,7 +15,7 @@ function DarkContentD(props) {
             succulents. Actually taiyaki neutra, distillery gastropub pok pok
             ugh.
           </p>
-          <a href className={`text-${props.theme}-500 inline-flex items-center mt-4`}>
+          <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center mt-4`}>
             Learn More
             <svg
               fill="none"
@@ -36,28 +36,28 @@ function DarkContentD(props) {
           </h2>
           <nav className="flex flex-wrap list-none -mb-1">
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">First Link</a>
+              <a href className="cursor-pointer hover:text-white">First Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Second Link</a>
+              <a href className="cursor-pointer hover:text-white">Second Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Third Link</a>
+              <a href className="cursor-pointer hover:text-white">Third Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Fourth Link</a>
+              <a href className="cursor-pointer hover:text-white">Fourth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Fifth Link</a>
+              <a href className="cursor-pointer hover:text-white">Fifth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Sixth Link</a>
+              <a href className="cursor-pointer hover:text-white">Sixth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Seventh Link</a>
+              <a href className="cursor-pointer hover:text-white">Seventh Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="hover:text-white">Eighth Link</a>
+              <a href className="cursor-pointer hover:text-white">Eighth Link</a>
             </li>
           </nav>
         </div>

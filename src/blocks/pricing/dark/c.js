@@ -93,7 +93,7 @@ function DarkPricingC(props) {
           </table>
         </div>
         <div className="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-          <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+          <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
             Learn More
             <svg
               fill="none"
