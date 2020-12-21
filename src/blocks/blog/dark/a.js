@@ -25,7 +25,7 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap ">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -92,7 +92,7 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"

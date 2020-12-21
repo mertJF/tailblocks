@@ -19,7 +19,7 @@ function DarkGalleryB(props) {
               <p className="leading-relaxed">
                 Skateboard +1 mustache fixie paleo lumbersexual.
               </p>
-              <a href className={`mt-3 text-${props.theme}-300 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-300 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -50,7 +50,7 @@ function DarkGalleryB(props) {
                   <p className="leading-relaxed">
                     Skateboard +1 mustache fixie paleo lumbersexual.
                   </p>
-                  <a href className={`mt-3 text-${props.theme}-300 inline-flex items-center`}>
+                  <a href className={ ` cursor-pointer mt-3 text-${props.theme}-300 inline-flex items-center`}>
                     Learn More
                     <svg
                       fill="none"
@@ -81,7 +81,7 @@ function DarkGalleryB(props) {
                   <p className="leading-relaxed">
                     Skateboard +1 mustache fixie paleo lumbersexual.
                   </p>
-                  <a href className={`mt-3 text-${props.theme}-300 inline-flex items-center`}>
+                  <a href className={ ` cursor-pointer mt-3 text-${props.theme}-300 inline-flex items-center`}>
                     Learn More
                     <svg
                       fill="none"

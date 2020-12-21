@@ -6,7 +6,7 @@ function DarkStepB(props) {
     <section className="text-gray-500 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
         <div className="flex mx-auto flex-wrap mb-20">
-          <a href className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-800 inline-flex items-center leading-none border-${props.theme}-500 text-white tracking-wider rounded-t`}>
+          <a href className={ ` cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-800 inline-flex items-center leading-none border-${props.theme}-500 text-white tracking-wider rounded-t`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -20,7 +20,7 @@ function DarkStepB(props) {
             </svg>
             STEP 1
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
+          <a href className="cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
             <svg
               fill="none"
               stroke="currentColor"
@@ -34,7 +34,7 @@ function DarkStepB(props) {
             </svg>
             STEP 2
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
+          <a href className="cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
             <svg
               fill="none"
               stroke="currentColor"
@@ -49,7 +49,7 @@ function DarkStepB(props) {
             </svg>
             STEP 3
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
+          <a href className="cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-800 hover:text-white tracking-wider">
             <svg
               fill="none"
               stroke="currentColor"

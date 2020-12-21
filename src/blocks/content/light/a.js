@@ -28,7 +28,7 @@ function LightContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -51,7 +51,7 @@ function LightContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -74,7 +74,7 @@ function LightContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -97,7 +97,7 @@ function LightContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"

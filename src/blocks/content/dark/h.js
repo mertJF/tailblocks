@@ -37,7 +37,7 @@ function DarkContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center mt-3`}>
               Learn More
               <svg
                 fill="none"
@@ -68,7 +68,7 @@ function DarkContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center mt-3`}>
               Learn More
               <svg
                 fill="none"
@@ -99,7 +99,7 @@ function DarkContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3`}>
+            <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center mt-3`}>
               Learn More
               <svg
                 fill="none"

@@ -6,7 +6,7 @@ function DarkEcommerceA() {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -24,7 +24,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -42,7 +42,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -60,7 +60,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -78,7 +78,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -96,7 +96,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -114,7 +114,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
@@ -132,7 +132,7 @@ function DarkEcommerceA() {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a href className="block relative h-48 rounded overflow-hidden">
+            <a href className="cursor-pointer block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"

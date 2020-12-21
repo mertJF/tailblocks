@@ -34,7 +34,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -76,7 +76,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -117,7 +117,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer mt-3 text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

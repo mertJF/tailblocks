@@ -14,13 +14,13 @@ function DarkEcommerceC(props) {
               Animated Night Hill Illustrations
             </h1>
             <div className="flex mb-4">
-              <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
+              <a href className={ ` cursor-pointer flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
                 Description
               </a>
-              <a href className="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">
+              <a href className="cursor-pointer flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">
                 Reviews
               </a>
-              <a href className="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">
+              <a href className="cursor-pointer flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">
                 Details
               </a>
             </div>

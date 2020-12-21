@@ -52,7 +52,7 @@ function DarkContentF(props) {
                 disrupt butcher paleo intelligentsia pabst before they sold out
                 four loko. 3 wolf moon brooklyn.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={ ` cursor-pointer text-${props.theme}-500 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
