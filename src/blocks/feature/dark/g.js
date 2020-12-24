@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureG(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
@@ -24,7 +24,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -43,7 +43,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -62,7 +62,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -81,7 +81,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -100,7 +100,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -119,7 +119,7 @@ function DarkFeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4`}
+                className={`text-${props.theme}-400 w-6 h-6 flex-shrink-0 mr-4`}
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />

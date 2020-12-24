@@ -3,18 +3,18 @@ import PropTypes from  "prop-types";
 
 function DarkCTAD(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
         <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
-          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
+          <h2 className={`text-xs text-${props.theme}-400 tracking-widest font-medium title-font mb-1`}>
             ROOF PARTY POLAROID
           </h2>
           <h1 className="md:text-3xl text-2xl font-medium title-font text-white">
             Master Cleanse Reliac Heirloom
           </h1>
         </div>
-        <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0">
-          <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 focus:outline-none">
+        <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+          <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -28,7 +28,7 @@ function DarkCTAD(props) {
               <span className="title-font font-medium">Google Play</span>
             </span>
           </button>
-          <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-700 focus:outline-none">
+          <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

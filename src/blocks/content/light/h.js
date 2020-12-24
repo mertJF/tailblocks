@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightContentH(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">

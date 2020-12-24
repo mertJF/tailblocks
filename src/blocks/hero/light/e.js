@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightHeroE(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
@@ -28,7 +28,7 @@ function LightHeroE(props) {
                 type="text"
                 id="hero-field"
                 name="hero-field"
-                className={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-${props.theme}-200 focus:bg-transparent focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
               />
             </div>
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
@@ -39,7 +39,7 @@ function LightHeroE(props) {
             Neutra shabby chic ramps, viral fixie.
           </p>
           <div className="flex lg:flex-row md:flex-col">
-            <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-300 focus:outline-none">
+            <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -53,7 +53,7 @@ function LightHeroE(props) {
                 <span className="title-font font-medium">Google Play</span>
               </span>
             </button>
-            <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-300 focus:outline-none">
+            <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

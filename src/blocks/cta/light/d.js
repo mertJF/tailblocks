@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightCTAD(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
         <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
           <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
@@ -13,8 +13,8 @@ function LightCTAD(props) {
             Master Cleanse Reliac Heirloom
           </h1>
         </div>
-        <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0">
-          <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-300 focus:outline-none">
+        <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+          <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -28,7 +28,7 @@ function LightCTAD(props) {
               <span className="title-font font-medium">Google Play</span>
             </span>
           </button>
-          <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-300 focus:outline-none">
+          <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

@@ -61,7 +61,6 @@ import HeroF from './hero/f';
 
 import PricingA from './pricing/a';
 import PricingB from './pricing/b';
-import PricingC from './pricing/c';
 
 import StatisticA from './statistic/a';
 import StatisticB from './statistic/b';
@@ -152,8 +151,7 @@ export default function getIcons() {
     },
     Pricing: {
       PricingA: <PricingA />,
-      PricingB: <PricingB />,
-      PricingC: <PricingC />
+      PricingB: <PricingB />
     }, 
     Statistic: {
       StatisticA: <StatisticA />,

@@ -3,14 +3,14 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureA(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
           Raw Denim Heirloom Man Braid<br className="hidden sm:block" />
           Selfies Wayfarers
         </h1>
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
@@ -34,7 +34,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -50,7 +50,7 @@ function DarkFeatureA(props) {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
@@ -76,7 +76,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -92,7 +92,7 @@ function DarkFeatureA(props) {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
@@ -117,7 +117,7 @@ function DarkFeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkContentF(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <div className="rounded-lg h-64 overflow-hidden">
@@ -34,7 +34,7 @@ function DarkContentF(props) {
                   Phoebe Caulfield
                 </h2>
                 <div className={`w-12 h-1 bg-${props.theme}-500 rounded mt-2 mb-4`}></div>
-                <p className="text-base text-gray-600">
+                <p className="text-base text-gray-400">
                   Raclette knausgaard hella meggs normcore williamsburg enamel
                   pin sartorial venmo tbh hot chicken gentrify portland.
                 </p>
@@ -52,7 +52,7 @@ function DarkContentF(props) {
                 disrupt butcher paleo intelligentsia pabst before they sold out
                 four loko. 3 wolf moon brooklyn.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

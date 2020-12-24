@@ -2,7 +2,7 @@ import React from "react";
 
 function DarkTeamC() {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-2xl font-medium title-font mb-4 text-white">
@@ -26,7 +26,7 @@ function DarkTeamC() {
                 <h2 className="title-font font-medium text-lg text-white">
                   Alper Kamu
                 </h2>
-                <h3 className="text-gray-600 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
@@ -83,7 +83,7 @@ function DarkTeamC() {
                 <h2 className="title-font font-medium text-lg text-white">
                   Holden Caulfield
                 </h2>
-                <h3 className="text-gray-600 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
@@ -140,7 +140,7 @@ function DarkTeamC() {
                 <h2 className="title-font font-medium text-lg text-white">
                   Atticus Finch
                 </h2>
-                <h3 className="text-gray-600 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
@@ -197,7 +197,7 @@ function DarkTeamC() {
                 <h2 className="title-font font-medium text-lg text-white">
                   Henry Letham
                 </h2>
-                <h3 className="text-gray-600 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.

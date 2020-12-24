@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightContentF(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <div className="rounded-lg h-64 overflow-hidden">
@@ -34,13 +34,13 @@ function LightContentF(props) {
                   Phoebe Caulfield
                 </h2>
                 <div className={`w-12 h-1 bg-${props.theme}-500 rounded mt-2 mb-4`}></div>
-                <p className="text-base text-gray-600">
+                <p className="text-base">
                   Raclette knausgaard hella meggs normcore williamsburg enamel
                   pin sartorial venmo tbh hot chicken gentrify portland.
                 </p>
               </div>
             </div>
-            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p className="leading-relaxed text-lg mb-4">
                 Meggings portland fingerstache lyft, post-ironic fixie man bun
                 banh mi umami everyday carry hexagon locavore direct trade art

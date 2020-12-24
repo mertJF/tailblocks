@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureC(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
@@ -35,7 +35,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -75,7 +75,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"
@@ -114,7 +114,7 @@ function DarkFeatureC(props) {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-400 inline-flex items-center`}>
                 Learn More
                 <svg
                   fill="none"

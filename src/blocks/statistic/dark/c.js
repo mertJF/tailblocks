@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function DarkStatisticC(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -25,7 +25,7 @@ function DarkStatisticC(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className={`text-${props.theme}-500 w-12 h-12 mb-3 inline-block`}
+                className={`text-${props.theme}-400 w-12 h-12 mb-3 inline-block`}
                 viewBox="0 0 24 24"
               >
                 <path d="M8 17l4 4 4-4m-4-5v9" />
@@ -45,7 +45,7 @@ function DarkStatisticC(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className={`text-${props.theme}-500 w-12 h-12 mb-3 inline-block`}
+                className={`text-${props.theme}-400 w-12 h-12 mb-3 inline-block`}
                 viewBox="0 0 24 24"
               >
                 <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
@@ -66,7 +66,7 @@ function DarkStatisticC(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className={`text-${props.theme}-500 w-12 h-12 mb-3 inline-block`}
+                className={`text-${props.theme}-400 w-12 h-12 mb-3 inline-block`}
                 viewBox="0 0 24 24"
               >
                 <path d="M3 18v-6a9 9 0 0118 0v6" />
@@ -84,7 +84,7 @@ function DarkStatisticC(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className={`text-${props.theme}-500 w-12 h-12 mb-3 inline-block`}
+                className={`text-${props.theme}-400 w-12 h-12 mb-3 inline-block`}
                 viewBox="0 0 24 24"
               >
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />

@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkContentE(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5">
           Kickstarter Actually Pinterest Brunch Bitters Occupy
@@ -19,7 +19,7 @@ function DarkContentE(props) {
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-1 px-4 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
               Button
             </button>
-            <a href className={`text-${props.theme}-500 inline-flex items-center ml-4`}>
+            <a href className={`text-${props.theme}-400 inline-flex items-center ml-4`}>
               Learn More
               <svg
                 fill="none"

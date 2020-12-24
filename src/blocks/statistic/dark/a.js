@@ -2,7 +2,7 @@ import React from "react";
 
 function DarkStatisticA() {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4 text-center">
           <div className="p-4 sm:w-1/4 w-1/2">

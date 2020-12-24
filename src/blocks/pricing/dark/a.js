@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function DarkPricingA(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font overflow-hidden">
+    <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
@@ -24,13 +24,13 @@ function DarkPricingA(props) {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest text-gray-600 title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
                 START
               </h2>
               <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">
                 Free
               </h1>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -46,7 +46,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -62,7 +62,7 @@ function DarkPricingA(props) {
                 </span>
                 Tumeric plaid portland
               </p>
-              <p className="flex items-center text-gray-500 mb-6">
+              <p className="flex items-center text-gray-400 mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -92,7 +92,7 @@ function DarkPricingA(props) {
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </button>
-              <p className="text-xs text-gray-600 mt-3">
+              <p className="text-xs text-gray-400 mt-3">
                 Literally you probably haven&apos;t heard of them jean shorts.
               </p>
             </div>
@@ -102,16 +102,16 @@ function DarkPricingA(props) {
               <span className={`bg-${props.theme}-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>
                 POPULAR
               </span>
-              <h2 className="text-sm tracking-widest text-gray-600 title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
                 PRO
               </h2>
               <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                 <span>$38</span>
-                <span className="text-lg ml-1 font-normal text-gray-600">
+                <span className="text-lg ml-1 font-normal text-gray-400">
                   /mo
                 </span>
               </h1>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -127,7 +127,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -143,7 +143,7 @@ function DarkPricingA(props) {
                 </span>
                 Tumeric plaid portland
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -159,7 +159,7 @@ function DarkPricingA(props) {
                 </span>
                 Hexagon neutra unicorn
               </p>
-              <p className="flex items-center text-gray-500 mb-6">
+              <p className="flex items-center text-gray-400 mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -189,23 +189,23 @@ function DarkPricingA(props) {
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </button>
-              <p className="text-xs text-gray-600 mt-3">
+              <p className="text-xs text-gray-400 mt-3">
                 Literally you probably haven&apos;t heard of them jean shorts.
               </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest text-gray-600 title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
                 BUSINESS
               </h2>
               <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                 <span>$56</span>
-                <span className="text-lg ml-1 font-normal text-gray-600">
+                <span className="text-lg ml-1 font-normal text-gray-400">
                   /mo
                 </span>
               </h1>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -221,7 +221,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -237,7 +237,7 @@ function DarkPricingA(props) {
                 </span>
                 Tumeric plaid portland
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -253,7 +253,7 @@ function DarkPricingA(props) {
                 </span>
                 Hexagon neutra unicorn
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -269,7 +269,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-6">
+              <p className="flex items-center text-gray-400 mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -299,23 +299,23 @@ function DarkPricingA(props) {
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </button>
-              <p className="text-xs text-gray-600 mt-3">
+              <p className="text-xs text-gray-400 mt-3">
                 Literally you probably haven&apos;t heard of them jean shorts.
               </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest text-gray-600 title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
                 SPECIAL
               </h2>
               <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                 <span>$72</span>
-                <span className="text-lg ml-1 font-normal text-gray-600">
+                <span className="text-lg ml-1 font-normal text-gray-400">
                   /mo
                 </span>
               </h1>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -331,7 +331,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -347,7 +347,7 @@ function DarkPricingA(props) {
                 </span>
                 Tumeric plaid portland
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -363,7 +363,7 @@ function DarkPricingA(props) {
                 </span>
                 Hexagon neutra unicorn
               </p>
-              <p className="flex items-center text-gray-500 mb-2">
+              <p className="flex items-center text-gray-400 mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -379,7 +379,7 @@ function DarkPricingA(props) {
                 </span>
                 Vexillologist pitchfork
               </p>
-              <p className="flex items-center text-gray-500 mb-6">
+              <p className="flex items-center text-gray-400 mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -409,7 +409,7 @@ function DarkPricingA(props) {
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </button>
-              <p className="text-xs text-gray-600 mt-3">
+              <p className="text-xs text-gray-400 mt-3">
                 Literally you probably haven&apos;t heard of them jean shorts.
               </p>
             </div>

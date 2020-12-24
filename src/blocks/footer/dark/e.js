@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkFooterE(props) {
   return (
-    <footer className="text-gray-500 bg-gray-900 body-font">
+    <footer className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -12,35 +12,16 @@ function DarkFooterE(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href className="text-gray-600 hover:text-white">First Link</a>
+                <a href className="text-gray-400 hover:text-white">First Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Second Link</a>
+                <a href className="text-gray-400 hover:text-white">Second Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Third Link</a>
+                <a href className="text-gray-400 hover:text-white">Third Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a href className="text-gray-600 hover:text-white">First Link</a>
-              </li>
-              <li>
-                <a href className="text-gray-600 hover:text-white">Second Link</a>
-              </li>
-              <li>
-                <a href className="text-gray-600 hover:text-white">Third Link</a>
-              </li>
-              <li>
-                <a href className="text-gray-600 hover:text-white">Fourth Link</a>
+                <a href className="text-gray-400 hover:text-white">Fourth Link</a>
               </li>
             </nav>
           </div>
@@ -50,16 +31,35 @@ function DarkFooterE(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href className="text-gray-600 hover:text-white">First Link</a>
+                <a href className="text-gray-400 hover:text-white">First Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Second Link</a>
+                <a href className="text-gray-400 hover:text-white">Second Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Third Link</a>
+                <a href className="text-gray-400 hover:text-white">Third Link</a>
               </li>
               <li>
-                <a href className="text-gray-600 hover:text-white">Fourth Link</a>
+                <a href className="text-gray-400 hover:text-white">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+              CATEGORIES
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a href className="text-gray-400 hover:text-white">First Link</a>
+              </li>
+              <li>
+                <a href className="text-gray-400 hover:text-white">Second Link</a>
+              </li>
+              <li>
+                <a href className="text-gray-400 hover:text-white">Third Link</a>
+              </li>
+              <li>
+                <a href className="text-gray-400 hover:text-white">Fourth Link</a>
               </li>
             </nav>
           </div>
@@ -67,7 +67,7 @@ function DarkFooterE(props) {
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
-            <div className="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
                   htmlFor="footer-field"
@@ -79,21 +79,21 @@ function DarkFooterE(props) {
                   type="text"
                   id="footer-field"
                   name="footer-field"
-                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-${props.theme}-900 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
               </div>
               <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
               </button>
             </div>
-            <p className="text-gray-600 text-sm mt-2 md:text-left text-center">
+            <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
               Bitters chicharrones fanny pack
               <br className="lg:block hidden"></br>waistcoat green juice
             </p>
           </div>
         </div>
       </div>
-      <div className="bg-gray-800">
+      <div className="bg-gray-800 bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a href className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg
@@ -110,14 +110,14 @@ function DarkFooterE(props) {
             </svg>
             <span className="ml-3 text-xl">tailblocks</span>
           </a>
-          <p className="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
             © 2020 tailblocks —
             <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">
               @knyttneve
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href className="text-gray-600">
+            <a href className="text-gray-400">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -129,7 +129,7 @@ function DarkFooterE(props) {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-600">
+            <a href className="ml-3 text-gray-400">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -141,7 +141,7 @@ function DarkFooterE(props) {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-600">
+            <a href className="ml-3 text-gray-400">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -155,7 +155,7 @@ function DarkFooterE(props) {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-600">
+            <a href className="ml-3 text-gray-400">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

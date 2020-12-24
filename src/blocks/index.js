@@ -121,11 +121,9 @@ import DarkHeroF from './hero/dark/f';
 
 import LightPricingA from './pricing/light/a';
 import LightPricingB from './pricing/light/b';
-import LightPricingC from './pricing/light/c';
 
 import DarkPricingA from './pricing/dark/a';
 import DarkPricingB from './pricing/dark/b';
-import DarkPricingC from './pricing/dark/c';
 
 import LightStatisticA from './statistic/light/a';
 import LightStatisticB from './statistic/light/b';
@@ -232,8 +230,7 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
-      PricingB: darkMode ? <DarkPricingB theme={theme} /> : <LightPricingB theme={theme} />,
-      PricingC: darkMode ? <DarkPricingC theme={theme} /> : <LightPricingC theme={theme} />
+      PricingB: darkMode ? <DarkPricingB theme={theme} /> : <LightPricingB theme={theme} />
     },
     Statistic: {
       StatisticA: darkMode ? <DarkStatisticA theme={theme} /> : <LightStatisticA theme={theme} />,

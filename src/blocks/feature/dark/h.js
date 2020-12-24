@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureH(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
@@ -20,8 +20,8 @@ function DarkFeatureH(props) {
             <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               SHOOTING STARS
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -37,7 +37,7 @@ function DarkFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -53,7 +53,7 @@ function DarkFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -69,7 +69,7 @@ function DarkFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -85,7 +85,7 @@ function DarkFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -107,8 +107,8 @@ function DarkFeatureH(props) {
             <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               THE 400 BLOWS
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -124,7 +124,7 @@ function DarkFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -140,7 +140,7 @@ function DarkFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -156,7 +156,7 @@ function DarkFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -172,7 +172,7 @@ function DarkFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -194,8 +194,8 @@ function DarkFeatureH(props) {
             <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               THE CATALYZER
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -211,7 +211,7 @@ function DarkFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -227,7 +227,7 @@ function DarkFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -243,7 +243,7 @@ function DarkFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -259,7 +259,7 @@ function DarkFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -281,8 +281,8 @@ function DarkFeatureH(props) {
             <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               NEPTUNE
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-              <a href className="mb-2">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -298,7 +298,7 @@ function DarkFeatureH(props) {
                 </span>
                 First Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -314,7 +314,7 @@ function DarkFeatureH(props) {
                 </span>
                 Second Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -330,7 +330,7 @@ function DarkFeatureH(props) {
                 </span>
                 Third Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
@@ -346,7 +346,7 @@ function DarkFeatureH(props) {
                 </span>
                 Fourth Link
               </a>
-              <a href className="mb-2">
+              <a href>
                 <span className={`bg-gray-800 text-${props.theme}-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"

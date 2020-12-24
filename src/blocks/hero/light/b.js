@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightHeroB(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
         <div className="text-center lg:w-2/3 w-full">
@@ -21,7 +21,7 @@ function LightHeroB(props) {
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
               Button
             </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">
+            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
               Button
             </button>
           </div>

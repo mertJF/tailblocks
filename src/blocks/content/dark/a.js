@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function DarkContentA(props) {
   return (
-    <section className="text-gray-500 body-font bg-gray-900">
+    <section className="text-gray-400 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
+          <h2 className={`text-xs text-${props.theme}-400 tracking-widest font-medium title-font mb-1`}>
             ROOF PARTY POLAROID
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -28,7 +28,7 @@ function DarkContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`text-${props.theme}-400 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -51,7 +51,7 @@ function DarkContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`text-${props.theme}-400 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -74,7 +74,7 @@ function DarkContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`text-${props.theme}-400 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"
@@ -97,7 +97,7 @@ function DarkContentA(props) {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`text-${props.theme}-400 inline-flex items-center`}>
               Learn More
               <svg
                 fill="none"

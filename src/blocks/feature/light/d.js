@@ -3,11 +3,11 @@ import PropTypes from  "prop-types";
 
 function LightFeatureD(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2 md:w-full">
-            <div className="flex border-2 rounded-lg border-gray-200 p-8 sm:flex-row flex-col">
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
               <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
                 <svg
                   fill="none"
@@ -47,7 +47,7 @@ function LightFeatureD(props) {
             </div>
           </div>
           <div className="p-4 lg:w-1/2 md:w-full">
-            <div className="flex border-2 rounded-lg border-gray-200 p-8 sm:flex-row flex-col">
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
               <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
                 <svg
                   fill="none"

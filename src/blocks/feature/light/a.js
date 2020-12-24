@@ -3,14 +3,14 @@ import PropTypes from  "prop-types";
 
 function LightFeatureA(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
           Raw Denim Heirloom Man Braid<br className="hidden sm:block" />
           Selfies Wayfarers
         </h1>
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
@@ -50,7 +50,7 @@ function LightFeatureA(props) {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
@@ -92,7 +92,7 @@ function LightFeatureA(props) {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
+          <div className="p-4 md:w-1/3 flex">
             <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"

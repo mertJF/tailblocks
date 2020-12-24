@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function LightStepB(props) {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
         <div className="flex mx-auto flex-wrap mb-20">
           <a href className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-${props.theme}-500 text-${props.theme}-500 tracking-wider rounded-t`}>

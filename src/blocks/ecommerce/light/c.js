@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightEcommerceC(props) {
   return (
-    <section className="text-gray-700 body-font overflow-hidden">
+    <section className="text-gray-600 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
@@ -31,15 +31,15 @@ function LightEcommerceC(props) {
               seitan poutine tumeric. Gastropub blue bottle austin listicle
               pour-over, neutra jean.
             </p>
-            <div className="flex border-t border-gray-300 py-2">
+            <div className="flex border-t border-gray-200 py-2">
               <span className="text-gray-500">Color</span>
               <span className="ml-auto text-gray-900">Blue</span>
             </div>
-            <div className="flex border-t border-gray-300 py-2">
+            <div className="flex border-t border-gray-200 py-2">
               <span className="text-gray-500">Size</span>
               <span className="ml-auto text-gray-900">Medium</span>
             </div>
-            <div className="flex border-t border-b mb-6 border-gray-300 py-2">
+            <div className="flex border-t border-b mb-6 border-gray-200 py-2">
               <span className="text-gray-500">Quantity</span>
               <span className="ml-auto text-gray-900">4</span>
             </div>

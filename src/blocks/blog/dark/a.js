@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkBlogA(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
@@ -25,7 +25,7 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap ">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href className={`text-${props.theme}-400 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -40,7 +40,7 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -55,7 +55,7 @@ function DarkBlogA(props) {
                     </svg>
                     1.2K
                   </span>
-                  <span className="text-gray-600 inline-flex items-center leading-none text-sm">
+                  <span className="text-gray-500 inline-flex items-center leading-none text-sm">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -92,7 +92,7 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href className={`text-${props.theme}-400 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -107,7 +107,7 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -122,7 +122,7 @@ function DarkBlogA(props) {
                     </svg>
                     1.2K
                   </span>
-                  <span className="text-gray-600 inline-flex items-center leading-none text-sm">
+                  <span className="text-gray-500 inline-flex items-center leading-none text-sm">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -161,7 +161,7 @@ function DarkBlogA(props) {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href
-                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}
+                    className={`text-${props.theme}-400 inline-flex items-center md:mb-2 lg:mb-0`}
                   >
                     Learn More
                     <svg
@@ -177,7 +177,7 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -192,7 +192,7 @@ function DarkBlogA(props) {
                     </svg>
                     1.2K
                   </span>
-                  <span className="text-gray-600 inline-flex items-center leading-none text-sm">
+                  <span className="text-gray-500 inline-flex items-center leading-none text-sm">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"

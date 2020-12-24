@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function DarkStepB(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
         <div className="flex mx-auto flex-wrap mb-20">
           <a href className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-800 inline-flex items-center leading-none border-${props.theme}-500 text-white tracking-wider rounded-t`}>

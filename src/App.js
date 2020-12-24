@@ -12,7 +12,7 @@ Object.entries(iconList).forEach(([type, icons]) => {
  Object.keys(icons).map(name =>  blockListArr.push(`${name},${type}`));
 });
 
-const themeList = ["indigo", "orange", "teal", "red", "purple", "pink", "blue", "green"];
+const themeList = ["indigo", "yellow", "red", "purple", "pink", "blue", "green"];
 
 const desktopIcon = (
   <svg
@@ -376,8 +376,18 @@ class App extends Component {
               contentDidUpdate={this.handleContentDidUpdate}
               head={
                 <>
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" rel="stylesheet" />
-                {darkMode ? <style dangerouslySetInnerHTML={{__html:`img { filter: invert(1); mix-blend-mode: color-dodge }`}} /> : <style dangerouslySetInnerHTML={{__html:`img { filter: sepia(1) hue-rotate(180deg) opacity(.9) grayscale(.7) }`}} />}
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet" />
+                {
+                  <style dangerouslySetInnerHTML={{__html:
+                    `img { filter:
+                      ${darkMode ?
+                        'invert(1) opacity(.5); mix-blend-mode: luminosity; }'
+                        :
+                        'sepia(1) hue-rotate(190deg) opacity(.46) grayscale(.7) }'
+                      }`
+                    }}
+                  />
+                }
                 </>
               }
             >

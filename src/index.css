@@ -27,9 +27,9 @@
   --main-500: #667eea;
   --main-200: #4a5568;
   --main-100: #2d3648;
-  --solid: #1a202c;
+  --solid: #111827;
   --solid-900: #d1dcec;
-  --sidebar-bg: #2d3648;
+  --sidebar-bg: #2e3647;
   --sidebar-color: #fff;
   --shadow: 0 10px 15px -3px rgb(26, 32, 45), 0 4px 6px -2px rgb(48, 58, 84);
   --shadow-active: 0 0 0 2px currentColor, 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -2px rgb(76, 82, 90);
@@ -65,14 +65,9 @@
   --main-100: #c6f6d5;
 }
 
-.teal {
-  --main-500: #38b2ac;
-  --main-400: #4fd1c5;
-}
-
-.teal:not(.dark-mode) {
-  --main-200: #b2f5ea;
-  --main-100: #e6fffa;
+.yellow {
+  --main-500: #F59E0B;
+  --main-400: #FBBF24;
 }
 
 .blue {
@@ -135,7 +130,7 @@ iframe {
 }
 
 .app.dark-mode {
-  background-color: #1a202c;
+  background-color: #111827;
 }
 
 .main {
@@ -143,10 +138,15 @@ iframe {
   overflow: auto;
   transition: .3s;
 }
+
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar {
   display: none;
+}
+
+.app.has-sidebar .main {
+  padding-left: 160px;
 }
 
 .sidebar {
@@ -516,11 +516,6 @@ svg { width: 100%; }
   display: none;
   width: 100%;
   transition: .3s;
-
-}
-
-.app.has-sidebar .codes {
-  width: calc(100% - 160px);
 }
 
 .dark-mode .view.show-code, .dark-mode .codes pre {
@@ -760,11 +755,15 @@ pre, code {
     z-index: 1;
     background-color: #fff;
     border: 1px solid var(--base-200);
-    left: 20px;
+    right: 150px;
   }
 
   .dark-mode .switcher {
     background-color: #1a202c;
+  }
+
+  .app.has-sidebar .main {
+    padding-left: 0;
   }
 }
 
@@ -792,5 +791,9 @@ pre, code {
 
   .dark-mode .github svg {
     color: #1a202c;
+  }
+
+  .switcher {
+    right: 70px;
   }
 }

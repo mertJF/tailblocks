@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkContentB(props) {
   return (
-    <section className="text-gray-500 body-font bg-gray-900">
+    <section className="text-gray-400 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -12,7 +12,7 @@ function DarkContentB(props) {
             </h1>
             <div className={`h-1 w-20 bg-${props.theme}-500 rounded`} />
           </div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-base">
+          <p className="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
             haven&apos;t heard of them man bun deep jianbing selfies heirloom
@@ -21,13 +21,13 @@ function DarkContentB(props) {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/720x400"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-white font-medium title-font mb-4">
@@ -40,13 +40,13 @@ function DarkContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/721x401"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-white font-medium title-font mb-4">
@@ -59,13 +59,13 @@ function DarkContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/722x402"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-white font-medium title-font mb-4">
@@ -78,13 +78,13 @@ function DarkContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/723x403"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-white font-medium title-font mb-4">

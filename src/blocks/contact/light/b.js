@@ -3,8 +3,8 @@ import PropTypes from  "prop-types";
 
 function LightContactB(props) {
   return (
-    <section className="text-gray-700 body-font relative">
-      <div className="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+    <section className="text-gray-600 body-font relative">
+      <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -18,24 +18,24 @@ function LightContactB(props) {
             scrolling="no"
             src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
           />
-          <div className="bg-white relative flex flex-wrap py-6">
+          <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="leading-relaxed">
+              <p className="mt-1">
                 Photo booth tattooed prism, portland taiyaki hoodie neutra
                 typewriter
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
               </h2>
               <a href className={`text-${props.theme}-500 leading-relaxed`}>
                 example@email.com
               </a>
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 PHONE
               </h2>
               <p className="leading-relaxed">123-456-7890</p>
@@ -60,7 +60,7 @@ function LightContactB(props) {
               type="text"
               id="name"
               name="name"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
           </div>
           <div className="relative mb-4">
@@ -74,7 +74,7 @@ function LightContactB(props) {
               type="email"
               id="email"
               name="email"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
           </div>
           <div className="relative mb-4">
@@ -87,7 +87,7 @@ function LightContactB(props) {
             <textarea
               id="message"
               name="message"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
             ></textarea>
           </div>
           <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>

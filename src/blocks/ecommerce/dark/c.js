@@ -3,18 +3,18 @@ import PropTypes from  "prop-types";
 
 function DarkEcommerceC(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font overflow-hidden">
+    <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-            <h2 className="text-sm title-font text-gray-600 tracking-widest">
+            <h2 className="text-sm title-font text-gray-500 tracking-widest">
               BRAND NAME
             </h2>
             <h1 className="text-white text-3xl title-font font-medium mb-4">
               Animated Night Hill Illustrations
             </h1>
             <div className="flex mb-4">
-              <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
+              <a href className={`flex-grow text-${props.theme}-400 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
                 Description
               </a>
               <a href className="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">
@@ -50,7 +50,7 @@ function DarkEcommerceC(props) {
               <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
               </button>
-              <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-600 ml-4">
+              <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"

@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkContactC(props) {
   return (
-    <section className="text-gray-500 bg-gray-900 body-font relative">
+    <section className="text-gray-400 bg-gray-900 body-font relative">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -28,7 +28,7 @@ function DarkContactC(props) {
                   type="text"
                   id="name"
                   name="name"
-                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-${props.theme}-500 focus:bg-gray-900 focus:ring-2 focus:ring-${props.theme}-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
               </div>
             </div>
@@ -44,7 +44,7 @@ function DarkContactC(props) {
                   type="email"
                   id="email"
                   name="email"
-                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-${props.theme}-500 focus:bg-gray-900 focus:ring-2 focus:ring-${props.theme}-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ function DarkContactC(props) {
                 <textarea
                   id="message"
                   name="message"
-                  className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-${props.theme}-500 focus:bg-gray-900 focus:ring-2 focus:ring-${props.theme}-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
                 ></textarea>
               </div>
             </div>
@@ -69,7 +69,7 @@ function DarkContactC(props) {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-              <a href className={`text-${props.theme}-500`}>example@email.com</a>
+              <a href className={`text-${props.theme}-400`}>example@email.com</a>
               <p className="leading-normal my-5">
                 49 Smith St.<br />Saint Cloud, MN 56301
               </p>
