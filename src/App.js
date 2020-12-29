@@ -94,6 +94,7 @@ class App extends Component {
       copied: false,
       sidebar: true,
       codeView: false,
+      showNotification: false,
       currentKeyCode: null,
       view: 'desktop',
       theme: 'indigo',
@@ -119,6 +120,9 @@ class App extends Component {
 
   componentDidMount() {
     document.addEventListener('keydown', this.keyboardNavigation);
+    setTimeout(() => {
+      this.setState({ showNotification: true })
+    }, 1000);
   }
 
   hideSidebar() {
@@ -315,13 +319,20 @@ class App extends Component {
 }
 
   render() {
-    const { darkMode, theme, blockName, blockType, sidebar, view, copied, currentKeyCode } = this.state;
+    const { darkMode, theme, blockName, blockType, sidebar, view, copied, currentKeyCode, showNotification } = this.state;
     return (
       <div className={`app${darkMode ? ' dark-mode' : ''}${sidebar ? ' has-sidebar' : ''} ${theme} ${view}`}>
         <textarea className="copy-textarea" ref={this.textareaRef} />
         <aside className="sidebar" ref={this.sidebarRef}>
           {this.listRenderer()}
         </aside>
+        <div className={`md:flex hidden lg:text-sm text-xs bg-${theme}-600 text-white text-center ${showNotification ? 'h-14' : 'h-0'} overflow-hidden items-center justify-center relative`} style={{ paddingLeft: 160, transition: 'height .45s' }}>
+          <p>Would you like to work with the <span className="font-medium">Tailblocks Team</span> on your new Tailwind project?</p>
+          <a href="mailto:tailblocksteam@gmail.com" className="text-white border-b border-white font-medium ml-2 px-0.5">Email us</a>
+          <button className={`w-8 h-8 inline-flex items-center justify-center bg-${theme}-700 rounded-full absolute right-4 top-3 z-index-20`} onClick={() => this.setState({ showNotification: false })}>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+        </div>
         <div className="toolbar">
           <button className="opener" onClick={this.toggleSidebar} ref={this.openerRef}>TAILBLOCKS</button>
           {this.state.codeView &&
