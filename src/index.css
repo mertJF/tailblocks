@@ -127,6 +127,8 @@ iframe {
 
 .app {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .app.dark-mode {
@@ -134,7 +136,7 @@ iframe {
 }
 
 .main {
-  height: calc(100vh - 64px);
+  flex-grow: 1;
   overflow: auto;
   transition: .3s;
 }
