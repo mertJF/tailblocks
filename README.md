@@ -1,4 +1,4 @@
-# tailblocks
+# Tailblocks
 ### 🎉 Ready-to-use Tailwind CSS blocks
 ##### Features
 
