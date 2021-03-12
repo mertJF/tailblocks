@@ -20,7 +20,7 @@ function HeroE(props) {
             <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
               <label
                 htmlFor="hero-field"
-                className="leading-7 text-sm text-gray-600"
+                className="leading-7 text-sm text-gray-600 dark:text-gray-400"
               >
                 Placeholder
               </label>

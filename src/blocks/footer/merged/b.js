@@ -6,7 +6,7 @@ function FooterB(props) {
     <footer className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-          <a href className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a href className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -21,7 +21,7 @@ function FooterB(props) {
             </svg>
             <span className="ml-3 text-xl">Tailblocks</span>
           </a>
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
             Air plant banjo lyft occupy retro adaptogen indego
           </p>
         </div>
@@ -32,7 +32,7 @@ function FooterB(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href className="text-gray-600 hover:text-gray-800">First Link</a>
+                <a href className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white">First Link</a>
               </li>
               <li>
                 <a href className="text-gray-600 hover:text-gray-800">Second Link</a>
@@ -108,7 +108,7 @@ function FooterB(props) {
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left dark:text-gray-400">
             © 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">
+            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1 dark:text-gray-500" target="_blank">
               @knyttneve
             </a>
           </p>
@@ -125,7 +125,7 @@ function FooterB(props) {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-500">
+            <a href className="ml-3 text-gray-500 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"

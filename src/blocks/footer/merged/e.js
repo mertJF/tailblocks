@@ -12,7 +12,7 @@ function FooterE(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href className="text-gray-600 hover:text-gray-800">First Link</a>
+                <a href className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white">First Link</a>
               </li>
               <li>
                 <a href className="text-gray-600 hover:text-gray-800">Second Link</a>
@@ -71,7 +71,7 @@ function FooterE(props) {
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
                   htmlFor="footer-field"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Placeholder
                 </label>
@@ -86,7 +86,7 @@ function FooterE(props) {
                 Button
               </button>
             </div>
-            <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
+            <p className="text-gray-500 dark:text-gray-400 text-sm mt-2 md:text-left text-center">
               Bitters chicharrones fanny pack
               <br className="lg:block hidden"></br>waistcoat green juice
             </p>
@@ -95,7 +95,7 @@ function FooterE(props) {
       </div>
       <div className="bg-gray-100">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a href className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -112,7 +112,7 @@ function FooterE(props) {
           </a>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 dark:text-gray-400">
             © 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">
+            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1 dark:text-gray-500" target="_blank">
               @knyttneve
             </a>
           </p>
@@ -129,7 +129,7 @@ function FooterE(props) {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-500">
+            <a href className="ml-3 text-gray-500 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"

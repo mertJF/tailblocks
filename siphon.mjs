@@ -48,8 +48,12 @@ for (const blockFile of blockFiles) {
   walk.simple(darkAst, {
     JSXElement(node) {
       const attributes = node.openingElement?.attributes;
-      if (attributes && attributes[0]?.name?.name === "className") {
-        const className = attributes[0].value.value;
+      const classAttribute = attributes?.find(
+        (a) => a.name?.name === "className"
+      );
+
+      if (classAttribute) {
+        const className = classAttribute.value.value;
         classes.push(className);
       }
     },
@@ -62,9 +66,13 @@ for (const blockFile of blockFiles) {
   walk.simple(lightAst, {
     JSXElement(node) {
       const attributes = node.openingElement?.attributes;
-      if (attributes && attributes[0]?.name?.name === "className") {
-        const lightClassName = attributes[0].value.value;
+      const classAttribute = attributes?.find(
+        (a) => a.name?.name === "className"
+      );
+      if (classAttribute) {
+        const lightClassName = classAttribute.value.value;
         const darkClassName = classes[i];
+
         if (lightClassName !== darkClassName) {
           const merged = mergeClassNames(lightClassName, classes[i]);
           newContent = newContent.replace(lightClassName, merged);
@@ -97,15 +105,19 @@ function cap(text) {
 }
 
 function mergeClassNames(lightClassNames, darkClassNames) {
+  if (!darkClassNames) {
+    return lightClassNames;
+  }
+
   const classes = darkClassNames.split(/\s/);
 
   const darkClasses = [];
 
   for (const className of classes) {
     if (
-      className.match(/\-[1-9]\d\d/) ||
-      className.match("white") ||
-      className.match("black")
+      className.match(/-[1-9]\d\d/) ||
+      className.match(/-white/) ||
+      className.match(/-black/)
     ) {
       darkClasses.push(`dark:${className}`);
     }

@@ -26,7 +26,7 @@ function TeamC() {
                 <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white dark:text-white dark:text-white dark:text-white">
                   Alper Kamu
                 </h2>
-                <h3 className="text-gray-500 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
@@ -44,7 +44,7 @@ function TeamC() {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"

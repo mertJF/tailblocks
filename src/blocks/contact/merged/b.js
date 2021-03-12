@@ -52,7 +52,7 @@ function ContactB(props) {
           <div className="relative mb-4">
             <label
               htmlFor="name"
-              className="leading-7 text-sm text-gray-600"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400"
             >
               Name
             </label>

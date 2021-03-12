@@ -17,7 +17,7 @@ function EcommerceC(props) {
               <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
                 Description
               </a>
-              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">
+              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800 dark:border-gray-800">
                 Reviews
               </a>
               <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">

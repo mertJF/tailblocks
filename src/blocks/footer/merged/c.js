@@ -12,7 +12,7 @@ function FooterC(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href className="text-gray-600 hover:text-gray-800">First Link</a>
+                <a href className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white dark:text-gray-400 dark:hover:text-white">First Link</a>
               </li>
               <li>
                 <a href className="text-gray-600 hover:text-gray-800">Second Link</a>
@@ -128,7 +128,7 @@ function FooterC(props) {
             <div className="relative sm:w-64 w-40 sm:mr-4 mr-2">
               <label
                 htmlFor="footer-field"
-                className="leading-7 text-sm text-gray-600"
+                className="leading-7 text-sm text-gray-600 dark:text-gray-400"
               >
                 Placeholder
               </label>
@@ -142,7 +142,7 @@ function FooterC(props) {
             <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
               Button
             </button>
-            <p className="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center dark:text-gray-500">
+            <p className="text-gray-500 dark:text-gray-400 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center dark:text-gray-500">
               Bitters chicharrones fanny pack
               <br className="lg:block hidden"></br>waistcoat green juice
             </p>
@@ -160,7 +160,7 @@ function FooterC(props) {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a href className="ml-3 text-gray-500">
+            <a href className="ml-3 text-gray-500 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -210,7 +210,7 @@ function FooterC(props) {
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left dark:text-gray-400">
             © 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1 dark:text-gray-500" target="_blank" rel="noopener noreferrer">
               @knyttneve
             </a>
           </p>
