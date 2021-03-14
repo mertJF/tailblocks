@@ -78,7 +78,7 @@ import TestimonialA from './testimonial/merged/a';
 import TestimonialB from './testimonial/merged/b';
 import TestimonialC from './testimonial/merged/c';
 
-export default function getBlock({theme = 'indigo', darkMode = false}) {
+export default function getBlock({theme = 'indigo'}) {
   return {
     Blog: {
       BlogA: <BlogA theme={theme} />,

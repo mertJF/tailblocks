@@ -368,7 +368,7 @@ class App extends Component {
           {this.viewModeRenderer()}
           <button className="mode" onClick={this.changeMode}></button>
         </div>
-        <div className="markup" ref={this.markupRef}>{getBlock({ theme, darkMode })[blockType][blockName]}</div>
+        <div className="markup" ref={this.markupRef}>{getBlock({ theme })[blockType][blockName]}</div>
         <main className="main" style={{ opacity: this.state.ready ? '1' : '0' }}>
           <div className={`view${this.state.codeView ? ' show-code' : ''}`}>
             <Frame
@@ -392,7 +392,7 @@ class App extends Component {
               }
             >
               <div className={darkMode ? 'dark' : ''}>
-                {getBlock({ theme, darkMode })[blockType][blockName]}
+                {getBlock({ theme })[blockType][blockName]}
               </div>
             </Frame>
             <div className="codes">
