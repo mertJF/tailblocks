@@ -28,7 +28,7 @@ function ContactC(props) {
                   type="text"
                   id="name"
                   name="name"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 />
               </div>
             </div>
@@ -44,7 +44,7 @@ function ContactC(props) {
                   type="email"
                   id="email"
                   name="email"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ function ContactC(props) {
                 <textarea
                   id="message"
                   name="message"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 ></textarea>
               </div>
             </div>
@@ -69,7 +69,7 @@ function ContactC(props) {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center dark:border-gray-800">
-              <a href className={`text-${props.theme}-500`}>example@email.com</a>
+              <a href className={`text-${props.theme}-500 dark:text-${props.theme}-400`}>example@email.com</a>
               <p className="leading-normal my-5">
                 49 Smith St.<br />Saint Cloud, MN 56301
               </p>

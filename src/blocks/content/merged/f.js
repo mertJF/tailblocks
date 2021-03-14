@@ -52,7 +52,7 @@ function ContentF(props) {
                 disrupt butcher paleo intelligentsia pabst before they sold out
                 four loko. 3 wolf moon brooklyn.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"

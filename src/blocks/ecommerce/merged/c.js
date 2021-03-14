@@ -14,7 +14,7 @@ function EcommerceC(props) {
               Animated Night Hill Illustrations
             </h1>
             <div className="flex mb-4">
-              <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
+              <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1 dark:text-${props.theme}-400 dark:border-${props.theme}-500`}>
                 Description
               </a>
               <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">

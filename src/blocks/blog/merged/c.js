@@ -7,10 +7,10 @@ function BlogC(props) {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
-            <span className={`inline-block py-1 px-2 rounded bg-${props.theme}-50 text-${props.theme}-500 text-xs font-medium tracking-widest`}>
+            <span className={`inline-block py-1 px-2 rounded bg-${props.theme}-50 text-${props.theme}-500 text-xs font-medium tracking-widest dark:bg-gray-800 dark:text-gray-400`}>
               CATEGORY
             </span>
-            <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 dark:text-white dark:text-white mt-4 mb-4 dark:text-white">
+            <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 dark:text-white">
               Roof party normcore before they sold out, cornhole vape
             </h2>
             <p className="leading-relaxed mb-8">
@@ -20,8 +20,8 @@ function BlogC(props) {
               slow-carb etsy tumeric. Cray pug you probably haven't heard of them
               hexagon kickstarter craft beer pork chic.
             </p>
-            <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full dark:border-gray-800 dark:border-gray-800">
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full dark:border-gray-800">
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -36,7 +36,7 @@ function BlogC(props) {
                   <path d="M12 5l7 7-7 7" />
                 </svg>
               </a>
-              <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-800 dark:text-gray-500 dark:border-gray-800">
+              <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-800">
                 <svg
                   className="w-4 h-4 mr-1"
                   stroke="currentColor"
@@ -51,7 +51,7 @@ function BlogC(props) {
                 </svg>
                 1.2K
               </span>
-              <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500 dark:text-gray-500">
+              <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500">
                 <svg
                   className="w-4 h-4 mr-1"
                   stroke="currentColor"
@@ -73,15 +73,15 @@ function BlogC(props) {
                 className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               />
               <span className="flex-grow flex flex-col pl-4">
-                <span className="title-font font-medium text-gray-900">
+                <span className="title-font font-medium text-gray-900 dark:text-white">
                   Holden Caulfield
                 </span>
-                <span className="text-gray-400 text-xs tracking-widest mt-0.5 dark:text-gray-500 dark:text-gray-500">UI DEVELOPER</span>
+                <span className="text-gray-400 text-xs tracking-widest mt-0.5 dark:text-gray-500">UI DEVELOPER</span>
               </span>
             </a>
           </div>
           <div className="p-12 md:w-1/2 flex flex-col items-start">
-            <span className={`inline-block py-1 px-2 rounded bg-${props.theme}-50 text-${props.theme}-500 text-xs font-medium tracking-widest`}>
+            <span className={`inline-block py-1 px-2 rounded bg-${props.theme}-50 text-${props.theme}-500 text-xs font-medium tracking-widest dark:bg-gray-800 dark:text-gray-400`}>
               CATEGORY
             </span>
             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 dark:text-white">
@@ -93,8 +93,8 @@ function BlogC(props) {
               hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's,
               slow-carb etsy tumeric.
             </p>
-            <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+            <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full dark:border-gray-800">
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -109,7 +109,7 @@ function BlogC(props) {
                   <path d="M12 5l7 7-7 7" />
                 </svg>
               </a>
-              <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-800">
                 <svg
                   className="w-4 h-4 mr-1"
                   stroke="currentColor"
@@ -124,7 +124,7 @@ function BlogC(props) {
                 </svg>
                 1.2K
               </span>
-              <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+              <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500">
                 <svg
                   className="w-4 h-4 mr-1"
                   stroke="currentColor"
@@ -146,10 +146,10 @@ function BlogC(props) {
                 className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               />
               <span className="flex-grow flex flex-col pl-4">
-                <span className="title-font font-medium text-gray-900">
+                <span className="title-font font-medium text-gray-900 dark:text-white">
                   Alper Kamu
                 </span>
-                <span className="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
+                <span className="text-gray-400 text-xs tracking-widest mt-0.5 dark:text-gray-500">DESIGNER</span>
               </span>
             </a>
           </div>

@@ -26,7 +26,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -37,7 +37,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -48,7 +48,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -59,7 +59,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -70,7 +70,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -129,9 +129,9 @@ function EcommerceB(props) {
                 <span className="mr-3 dark:text-gray-600">Color</span>
                 <button className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
                 <button className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none`}></button>
+                <button className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none dark:border-gray-700 dark:focus:ring-${props.theme}-900 dark:focus:border-${props.theme}-500 dark:text-white`}></button>
               </div>
-              <div className="flex ml-6 items-center">
+              <div className={`flex ml-6 items-center dark:text-white dark:bg-${props.theme}-500 dark:hover:bg-${props.theme}-600`}>
                 <span className="mr-3 dark:text-gray-600">Size</span>
                 <div className="relative dark:text-white">
                   <select className={`rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-${props.theme}-200 focus:border-${props.theme}-500 text-base pl-3 pr-10`}>

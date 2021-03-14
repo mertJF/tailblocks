@@ -6,7 +6,7 @@ function FeatureE(props) {
     <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
+          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1 dark:text-${props.theme}-400`}>
             ROOF PARTY POLAROID
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-white">
@@ -39,7 +39,7 @@ function FeatureE(props) {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"
@@ -82,7 +82,7 @@ function FeatureE(props) {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"
@@ -126,7 +126,7 @@ function FeatureE(props) {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"

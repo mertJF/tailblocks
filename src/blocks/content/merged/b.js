@@ -27,7 +27,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/720x400"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -46,7 +46,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/721x401"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -65,7 +65,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/722x402"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -84,7 +84,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/723x403"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">

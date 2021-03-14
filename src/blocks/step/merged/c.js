@@ -13,7 +13,7 @@ function StepC(props) {
             1
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center`}>
+            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -45,7 +45,7 @@ function StepC(props) {
             2
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center`}>
+            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -77,7 +77,7 @@ function StepC(props) {
             3
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center`}>
+            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -110,7 +110,7 @@ function StepC(props) {
             4
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center`}>
+            <div className={`flex-shrink-0 w-24 h-24 bg-${props.theme}-100 text-${props.theme}-500 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"

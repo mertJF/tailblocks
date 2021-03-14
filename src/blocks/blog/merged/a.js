@@ -27,7 +27,7 @@ function BlogA(props) {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href
-                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}
+                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-${props.theme}-400`}
                   >
                     Learn More
                     <svg
@@ -97,7 +97,7 @@ function BlogA(props) {
                 <div className="flex items-center flex-wrap">
                   <a
                     href
-                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}
+                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-${props.theme}-400`}
                   >
                     Learn More
                     <svg
@@ -167,7 +167,7 @@ function BlogA(props) {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href
-                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}
+                    className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-${props.theme}-400`}
                   >
                     Learn More
                     <svg

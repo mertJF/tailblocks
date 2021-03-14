@@ -8,7 +8,7 @@ function FeatureD(props) {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col dark:border-gray-800">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -29,7 +29,7 @@ function FeatureD(props) {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"
@@ -48,7 +48,7 @@ function FeatureD(props) {
           </div>
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col dark:border-gray-800">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -70,7 +70,7 @@ function FeatureD(props) {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"

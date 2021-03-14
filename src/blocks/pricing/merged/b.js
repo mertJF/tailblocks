@@ -19,7 +19,7 @@ function PricingB(props) {
           <table className="table-auto w-full text-left whitespace-no-wrap">
             <thead>
               <tr>
-                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800 rounded-tl rounded-bl dark:text-white dark:bg-gray-800">
+                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl dark:text-white dark:bg-gray-800">
                   Plan
                 </th>
                 <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800">
@@ -50,7 +50,7 @@ function PricingB(props) {
                   25 Mb/s
                 </td>
                 <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">25 GB</td>
-                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
+                <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:border-gray-800 dark:text-white">
                   $24
                 </td>
                 <td className="border-t-2 border-gray-200 w-10 text-center dark:border-gray-800">
@@ -65,7 +65,7 @@ function PricingB(props) {
                   36 Mb/s
                 </td>
                 <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">40 GB</td>
-                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
+                <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:border-gray-800 dark:text-white">
                   $50
                 </td>
                 <td className="border-t-2 border-gray-200 w-10 text-center dark:border-gray-800">
@@ -82,7 +82,7 @@ function PricingB(props) {
                 <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   120 GB
                 </td>
-                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
+                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:border-gray-800 dark:text-white">
                   $72
                 </td>
                 <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center dark:border-gray-800">
@@ -93,7 +93,7 @@ function PricingB(props) {
           </table>
         </div>
         <div className="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-          <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+          <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-${props.theme}-400`}>
             Learn More
             <svg
               fill="none"

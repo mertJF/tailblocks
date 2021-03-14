@@ -32,10 +32,10 @@ function ContactB(props) {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white">
                 EMAIL
               </h2>
-              <a href className={`text-${props.theme}-500 leading-relaxed`}>
+              <a href className={`text-${props.theme}-500 leading-relaxed dark:text-${props.theme}-400`}>
                 example@email.com
               </a>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white mt-4">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 dark:text-white">
                 PHONE
               </h2>
               <p className="leading-relaxed">123-456-7890</p>
@@ -60,7 +60,7 @@ function ContactB(props) {
               type="text"
               id="name"
               name="name"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
             />
           </div>
           <div className="relative mb-4">
@@ -74,7 +74,7 @@ function ContactB(props) {
               type="email"
               id="email"
               name="email"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
             />
           </div>
           <div className="relative mb-4">
@@ -87,7 +87,7 @@ function ContactB(props) {
             <textarea
               id="message"
               name="message"
-              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+              className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
             ></textarea>
           </div>
           <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
