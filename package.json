@@ -45,6 +45,11 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "glob": "^7.1.6",
+    "acorn": "^8.1.0",
+    "acorn-jsx-walk": "2.0.0",
+    "acorn-walk": "^8.0.2",
+    "acorn-jsx": "5.3.1"
   }
 }
