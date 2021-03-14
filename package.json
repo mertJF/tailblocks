@@ -7,12 +7,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
     "html2jade": "^0.8.6",
-    "react": "^16.12.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "postcss": "^8.2.8",
     "react-dom": "^16.12.0",
     "react-frame-component": "^4.1.1",
     "react-scripts": "3.4.0",
-    "react-syntax-highlighter": "^12.2.1"
+    "react-syntax-highlighter": "^12.2.1",
+    "react": "^16.12.0",
+    "tailwindcss": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "css": "postcss src/tailblocks.css -o public/tailblocks.css"
   },
   "eslintConfig": {
     "extends": "react-app"

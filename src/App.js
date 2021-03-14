@@ -374,9 +374,10 @@ class App extends Component {
             <Frame
               contentDidMount={this.handleContentDidMount}
               contentDidUpdate={this.handleContentDidUpdate}
+              className={darkMode?'dark':''}
               head={
                 <>
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet" />
+                <link href="/tailblocks/tailblocks.css" rel="stylesheet" />
                 {
                   <style dangerouslySetInnerHTML={{__html:
                     `img { filter:

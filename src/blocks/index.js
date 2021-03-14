@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LightBlogA from './blog/light/a';
+import BlogA from './blog/merged/a';
 import LightBlogB from './blog/light/b';
 import LightBlogC from './blog/light/c';
 import LightBlogD from './blog/light/d';
@@ -160,7 +160,7 @@ import DarkTestimonialC from './testimonial/dark/c';
 export default function getBlock({theme = 'indigo', darkMode = false}) {
   return {
     Blog: {
-      BlogA: darkMode ? <DarkBlogA theme={theme} /> : <LightBlogA theme={theme} />,
+      BlogA: <><BlogA theme={theme} /><DarkBlogA theme={theme} /></>,
       BlogB: darkMode ? <DarkBlogB theme={theme} /> : <LightBlogB theme={theme} />,
       BlogC: darkMode ? <DarkBlogC theme={theme} /> : <LightBlogC theme={theme} />,
       BlogD: darkMode ? <DarkBlogD theme={theme} /> : <LightBlogD theme={theme} />,
