@@ -27,10 +27,10 @@ function HeroF(props) {
                 type="text"
                 id="hero-field"
                 name="hero-field"
-                className={`w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-${props.theme}-200 focus:bg-transparent border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:ring-${props.theme}-900 dark:focus:border-${props.theme}-500 dark:text-gray-100 dark:duration-200`}
+                className="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-theme-200 focus:bg-transparent border border-gray-300 focus:border-theme-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:ring-theme-900 dark:focus:border-theme-500 dark:text-gray-100 dark:duration-200"
               />
             </div>
-            <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+            <button className="inline-flex text-white bg-theme-500 border-0 py-2 px-6 focus:outline-none hover:bg-theme-600 rounded text-lg dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
               Button
             </button>
           </div>

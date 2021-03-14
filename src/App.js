@@ -391,7 +391,7 @@ class App extends Component {
                 </>
               }
             >
-              <div className={darkMode ? 'dark' : ''}>
+              <div className={(darkMode ? 'dark' : '') + ` theme-${theme}`}>
                 {getBlock({ theme })[blockType][blockName]}
               </div>
             </Frame>

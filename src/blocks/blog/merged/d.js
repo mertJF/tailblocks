@@ -23,7 +23,7 @@ function BlogD(props) {
                 bag selfies, poke vaporware kombucha lumbersexual pork belly
                 polaroid hoodie portland craft beer.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center mt-4 dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center mt-4 dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -57,7 +57,7 @@ function BlogD(props) {
                 bag selfies, poke vaporware kombucha lumbersexual pork belly
                 polaroid hoodie portland craft beer.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center mt-4 dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center mt-4 dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -91,7 +91,7 @@ function BlogD(props) {
                 bag selfies, poke vaporware kombucha lumbersexual pork belly
                 polaroid hoodie portland craft beer.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center mt-4 dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center mt-4 dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"

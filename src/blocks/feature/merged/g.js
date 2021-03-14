@@ -24,7 +24,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -43,7 +43,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -62,7 +62,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -81,7 +81,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -100,7 +100,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -117,7 +117,7 @@ function FeatureG(props) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="3"
-                className={`text-${props.theme}-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-${props.theme}-400`}
+                className="text-theme-500 w-6 h-6 flex-shrink-0 mr-4 dark:text-theme-400"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
@@ -129,7 +129,7 @@ function FeatureG(props) {
             </div>
           </div>
         </div>
-        <button className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button className="flex mx-auto mt-16 text-white bg-theme-500 border-0 py-2 px-8 focus:outline-none hover:bg-theme-600 rounded text-lg dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
           Button
         </button>
       </div>

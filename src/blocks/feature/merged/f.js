@@ -6,7 +6,7 @@ function FeatureF(props) {
     <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col dark:border-gray-800">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-theme-100 text-theme-500 flex-shrink-0 dark:text-theme-400 dark:bg-gray-800">
             <svg
               fill="none"
               stroke="currentColor"
@@ -27,7 +27,7 @@ function FeatureF(props) {
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+            <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
@@ -52,7 +52,7 @@ function FeatureF(props) {
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+            <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
@@ -67,7 +67,7 @@ function FeatureF(props) {
               </svg>
             </a>
           </div>
-          <div className={`sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
+          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-theme-100 text-theme-500 flex-shrink-0 dark:text-theme-400 dark:bg-gray-800">
             <svg
               fill="none"
               stroke="currentColor"
@@ -84,7 +84,7 @@ function FeatureF(props) {
           </div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-theme-100 text-theme-500 flex-shrink-0 dark:text-theme-400 dark:bg-gray-800">
             <svg
               fill="none"
               stroke="currentColor"
@@ -106,7 +106,7 @@ function FeatureF(props) {
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+            <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
@@ -122,7 +122,7 @@ function FeatureF(props) {
             </a>
           </div>
         </div>
-        <button className={`flex mx-auto mt-20 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button className="flex mx-auto mt-20 text-white bg-theme-500 border-0 py-2 px-8 focus:outline-none hover:bg-theme-600 rounded text-lg dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
           Button
         </button>
       </div>

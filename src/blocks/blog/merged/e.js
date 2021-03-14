@@ -17,7 +17,7 @@ function BlogE(props) {
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-500 mb-1 dark:text-${props.theme}-400`}>
+                <h2 className="tracking-widest text-xs title-font font-medium text-theme-500 mb-1 dark:text-theme-400">
                   CATEGORY
                 </h2>
                 <h1 className="title-font text-xl font-medium text-gray-900 mb-3 dark:text-white">
@@ -53,7 +53,7 @@ function BlogE(props) {
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-500 mb-1 dark:text-${props.theme}-400`}>
+                <h2 className="tracking-widest text-xs title-font font-medium text-theme-500 mb-1 dark:text-theme-400">
                   CATEGORY
                 </h2>
                 <h1 className="title-font text-xl font-medium text-gray-900 mb-3 dark:text-white">
@@ -89,7 +89,7 @@ function BlogE(props) {
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-500 mb-1 dark:text-${props.theme}-400`}>
+                <h2 className="tracking-widest text-xs title-font font-medium text-theme-500 mb-1 dark:text-theme-400">
                   CATEGORY
                 </h2>
                 <h1 className="title-font text-xl font-medium text-gray-900 mb-3 dark:text-white">

@@ -22,7 +22,7 @@ function FeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -38,7 +38,7 @@ function FeatureH(props) {
                 First Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -54,7 +54,7 @@ function FeatureH(props) {
                 Second Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -70,7 +70,7 @@ function FeatureH(props) {
                 Third Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -86,7 +86,7 @@ function FeatureH(props) {
                 Fourth Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -109,7 +109,7 @@ function FeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -125,7 +125,7 @@ function FeatureH(props) {
                 First Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -141,7 +141,7 @@ function FeatureH(props) {
                 Second Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -157,7 +157,7 @@ function FeatureH(props) {
                 Third Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -173,7 +173,7 @@ function FeatureH(props) {
                 Fourth Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -196,7 +196,7 @@ function FeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -212,7 +212,7 @@ function FeatureH(props) {
                 First Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -228,7 +228,7 @@ function FeatureH(props) {
                 Second Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -244,7 +244,7 @@ function FeatureH(props) {
                 Third Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -260,7 +260,7 @@ function FeatureH(props) {
                 Fourth Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -283,7 +283,7 @@ function FeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -299,7 +299,7 @@ function FeatureH(props) {
                 First Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -315,7 +315,7 @@ function FeatureH(props) {
                 Second Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -331,7 +331,7 @@ function FeatureH(props) {
                 Third Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -347,7 +347,7 @@ function FeatureH(props) {
                 Fourth Link
               </a>
               <a href>
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-${props.theme}-400`}>
+                <span className="bg-theme-100 text-theme-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center dark:bg-gray-800 dark:text-theme-400">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -365,7 +365,7 @@ function FeatureH(props) {
             </nav>
           </div>
         </div>
-        <button className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button className="flex mx-auto mt-16 text-white bg-theme-500 border-0 py-2 px-8 focus:outline-none hover:bg-theme-600 rounded text-lg dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
           Button
         </button>
       </div>

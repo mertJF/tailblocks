@@ -19,7 +19,7 @@ function GalleryB(props) {
               <p className="leading-relaxed">
                 Skateboard +1 mustache fixie paleo lumbersexual.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-300`}>
+              <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-300">
                 Learn More
                 <svg
                   fill="none"
@@ -50,7 +50,7 @@ function GalleryB(props) {
                   <p className="leading-relaxed">
                     Skateboard +1 mustache fixie paleo lumbersexual.
                   </p>
-                  <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-300`}>
+                  <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-300">
                     Learn More
                     <svg
                       fill="none"
@@ -81,7 +81,7 @@ function GalleryB(props) {
                   <p className="leading-relaxed">
                     Skateboard +1 mustache fixie paleo lumbersexual.
                   </p>
-                  <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-300`}>
+                  <a href className="mt-3 text-theme-500 inline-flex items-center dark:text-theme-300">
                     Learn More
                     <svg
                       fill="none"

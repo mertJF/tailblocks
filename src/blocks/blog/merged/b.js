@@ -18,7 +18,7 @@ function BlogB(props) {
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -78,7 +78,7 @@ function BlogB(props) {
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -138,7 +138,7 @@ function BlogB(props) {
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center dark:text-theme-400">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"

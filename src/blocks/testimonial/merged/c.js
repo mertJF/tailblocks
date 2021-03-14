@@ -19,7 +19,7 @@ function TestimonialC(props) {
                 coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
                 cronut adaptogen squid fanny pack vaporware.
               </p>
-              <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
+              <span className="inline-block h-1 w-10 rounded bg-theme-500 mt-6 mb-4 dark:bg-theme-500"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 HOLDEN CAULFIELD
               </h2>
@@ -39,7 +39,7 @@ function TestimonialC(props) {
                 coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
                 cronut adaptogen squid fanny pack vaporware.
               </p>
-              <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
+              <span className="inline-block h-1 w-10 rounded bg-theme-500 mt-6 mb-4 dark:bg-theme-500"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 ALPER KAMU
               </h2>
@@ -59,7 +59,7 @@ function TestimonialC(props) {
                 coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
                 cronut adaptogen squid fanny pack vaporware.
               </p>
-              <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
+              <span className="inline-block h-1 w-10 rounded bg-theme-500 mt-6 mb-4 dark:bg-theme-500"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 HENRY LETHAM
               </h2>

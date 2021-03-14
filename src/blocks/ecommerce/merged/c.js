@@ -14,7 +14,7 @@ function EcommerceC(props) {
               Animated Night Hill Illustrations
             </h1>
             <div className="flex mb-4">
-              <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1 dark:text-${props.theme}-400 dark:border-${props.theme}-500`}>
+              <a href className="flex-grow text-theme-500 border-b-2 border-theme-500 py-2 text-lg px-1 dark:text-theme-400 dark:border-theme-500">
                 Description
               </a>
               <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">
@@ -47,7 +47,7 @@ function EcommerceC(props) {
               <span className="title-font font-medium text-2xl text-gray-900 dark:text-white">
                 $58.00
               </span>
-              <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button className="flex ml-auto text-white bg-theme-500 border-0 py-2 px-6 focus:outline-none hover:bg-theme-600 rounded dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
                 Button
               </button>
               <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4 dark:bg-gray-800 dark:text-gray-500">

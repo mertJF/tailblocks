@@ -7,7 +7,7 @@ function ContentH(props) {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden dark:bg-gray-800">
-            <div className={`w-24 h-full bg-${props.theme}-500`}></div>
+            <div className="w-24 h-full bg-theme-500 dark:bg-theme-500"></div>
           </div>
           <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0 dark:text-white">
@@ -37,7 +37,7 @@ function ContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3 dark:text-${props.theme}-400`}>
+            <a href className="text-theme-500 inline-flex items-center mt-3 dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
@@ -68,7 +68,7 @@ function ContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3 dark:text-${props.theme}-400`}>
+            <a href className="text-theme-500 inline-flex items-center mt-3 dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
@@ -99,7 +99,7 @@ function ContentH(props) {
               cold-pressed. Gastropub street art beard dreamcatcher neutra,
               ethical XOXO lumbersexual.
             </p>
-            <a href className={`text-${props.theme}-500 inline-flex items-center mt-3 dark:text-${props.theme}-400`}>
+            <a href className="text-theme-500 inline-flex items-center mt-3 dark:text-theme-400">
               Learn More
               <svg
                 fill="none"

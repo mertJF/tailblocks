@@ -33,7 +33,7 @@ function ContentF(props) {
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg dark:text-white">
                   Phoebe Caulfield
                 </h2>
-                <div className={`w-12 h-1 bg-${props.theme}-500 rounded mt-2 mb-4`}></div>
+                <div className="w-12 h-1 bg-theme-500 rounded mt-2 mb-4 dark:bg-theme-500"></div>
                 <p className="text-base dark:text-gray-400">
                   Raclette knausgaard hella meggs normcore williamsburg enamel
                   pin sartorial venmo tbh hot chicken gentrify portland.
@@ -52,7 +52,7 @@ function ContentF(props) {
                 disrupt butcher paleo intelligentsia pabst before they sold out
                 four loko. 3 wolf moon brooklyn.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
+              <a href className="text-theme-500 inline-flex items-center dark:text-theme-400">
                 Learn More
                 <svg
                   fill="none"

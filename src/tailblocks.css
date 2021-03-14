@@ -1,3 +1,103 @@
 @import "tailwindcss/base";
+
+
+:root {
+  --theme-100: theme("colors.indigo.100");
+  --theme-200: theme("colors.indigo.200");
+  --theme-300: theme("colors.indigo.300");
+  --theme-400: theme("colors.indigo.400");
+  --theme-500: theme("colors.indigo.500");
+  --theme-600: theme("colors.indigo.600");
+  --theme-700: theme("colors.indigo.700");
+  --theme-800: theme("colors.indigo.800");
+  --theme-900: theme("colors.indigo.900");
+}
+
+.theme-indigo {
+  --theme-100: theme("colors.indigo.100");
+  --theme-200: theme("colors.indigo.200");
+  --theme-300: theme("colors.indigo.300");
+  --theme-400: theme("colors.indigo.400");
+  --theme-500: theme("colors.indigo.500");
+  --theme-600: theme("colors.indigo.600");
+  --theme-700: theme("colors.indigo.700");
+  --theme-800: theme("colors.indigo.800");
+  --theme-900: theme("colors.indigo.900");
+}
+
+.theme-blue {
+  --theme-100: theme("colors.blue.100");
+  --theme-200: theme("colors.blue.200");
+  --theme-300: theme("colors.blue.300");
+  --theme-400: theme("colors.blue.400");
+  --theme-500: theme("colors.blue.500");
+  --theme-600: theme("colors.blue.600");
+  --theme-700: theme("colors.blue.700");
+  --theme-800: theme("colors.blue.800");
+  --theme-900: theme("colors.blue.900");
+}
+
+.theme-red {
+  --theme-100: theme("colors.red.100");
+  --theme-200: theme("colors.red.200");
+  --theme-300: theme("colors.red.300");
+  --theme-400: theme("colors.red.400");
+  --theme-500: theme("colors.red.500");
+  --theme-600: theme("colors.red.600");
+  --theme-700: theme("colors.red.700");
+  --theme-800: theme("colors.red.800");
+  --theme-900: theme("colors.red.900");
+}
+
+.theme-yellow {
+  --theme-100: theme("colors.yellow.100");
+  --theme-200: theme("colors.yellow.200");
+  --theme-300: theme("colors.yellow.300");
+  --theme-400: theme("colors.yellow.400");
+  --theme-500: theme("colors.yellow.500");
+  --theme-600: theme("colors.yellow.600");
+  --theme-700: theme("colors.yellow.700");
+  --theme-800: theme("colors.yellow.800");
+  --theme-900: theme("colors.yellow.900");
+}
+
+.theme-pink {
+  --theme-100: theme("colors.pink.100");
+  --theme-200: theme("colors.pink.200");
+  --theme-300: theme("colors.pink.300");
+  --theme-400: theme("colors.pink.400");
+  --theme-500: theme("colors.pink.500");
+  --theme-600: theme("colors.pink.600");
+  --theme-700: theme("colors.pink.700");
+  --theme-800: theme("colors.pink.800");
+  --theme-900: theme("colors.pink.900");
+}
+
+
+.theme-purple {
+  --theme-100: theme("colors.purple.100");
+  --theme-200: theme("colors.purple.200");
+  --theme-300: theme("colors.purple.300");
+  --theme-400: theme("colors.purple.400");
+  --theme-500: theme("colors.purple.500");
+  --theme-600: theme("colors.purple.600");
+  --theme-700: theme("colors.purple.700");
+  --theme-800: theme("colors.purple.800");
+  --theme-900: theme("colors.purple.900");
+}
+
+
+.theme-green {
+  --theme-100: theme("colors.green.100");
+  --theme-200: theme("colors.green.200");
+  --theme-300: theme("colors.green.300");
+  --theme-400: theme("colors.green.400");
+  --theme-500: theme("colors.green.500");
+  --theme-600: theme("colors.green.600");
+  --theme-700: theme("colors.green.700");
+  --theme-800: theme("colors.green.800");
+  --theme-900: theme("colors.green.900");
+}
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

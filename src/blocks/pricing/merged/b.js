@@ -93,7 +93,7 @@ function PricingB(props) {
           </table>
         </div>
         <div className="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-          <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-${props.theme}-400`}>
+          <a href className="text-theme-500 inline-flex items-center md:mb-2 lg:mb-0 dark:text-theme-400">
             Learn More
             <svg
               fill="none"
@@ -107,7 +107,7 @@ function PricingB(props) {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
-          <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+          <button className="flex ml-auto text-white bg-theme-500 border-0 py-2 px-6 focus:outline-none hover:bg-theme-600 rounded dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
             Button
           </button>
         </div>

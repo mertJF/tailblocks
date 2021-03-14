@@ -12,8 +12,8 @@ function PricingA(props) {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
           </p>
-          <div className={`flex mx-auto border-2 border-${props.theme}-500 rounded overflow-hidden mt-6`}>
-            <button className={`py-1 px-4 bg-${props.theme}-500 text-white focus:outline-none`}>
+          <div className="flex mx-auto border-2 border-theme-500 rounded overflow-hidden mt-6 dark:border-theme-500">
+            <button className="py-1 px-4 bg-theme-500 text-white focus:outline-none dark:bg-theme-500 dark:text-white">
               Monthly
             </button>
             <button className="py-1 px-4 focus:outline-none dark:text-gray-300">Annually</button>
@@ -96,8 +96,8 @@ function PricingA(props) {
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className={`h-full p-6 rounded-lg border-2 border-${props.theme}-500 flex flex-col relative overflow-hidden`}>
-              <span className={`bg-${props.theme}-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>
+            <div className="h-full p-6 rounded-lg border-2 border-theme-500 flex flex-col relative overflow-hidden dark:border-theme-500">
+              <span className="bg-theme-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl dark:bg-theme-500 dark:text-white">
                 POPULAR
               </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium dark:text-gray-400">
@@ -173,7 +173,7 @@ function PricingA(props) {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button className="flex items-center mt-auto text-white bg-theme-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-theme-600 rounded dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
                 Button
                 <svg
                   fill="none"

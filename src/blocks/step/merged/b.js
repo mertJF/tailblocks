@@ -6,7 +6,7 @@ function StepB(props) {
     <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
         <div className="flex mx-auto flex-wrap mb-20">
-          <a href className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-${props.theme}-500 text-${props.theme}-500 tracking-wider rounded-t dark:bg-gray-800 dark:border-${props.theme}-500 dark:text-white`}>
+          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-theme-500 text-theme-500 tracking-wider rounded-t dark:bg-gray-800 dark:border-theme-500 dark:text-white">
             <svg
               fill="none"
               stroke="currentColor"

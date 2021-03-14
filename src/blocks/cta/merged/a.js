@@ -10,7 +10,7 @@ function LightCTAA(props) {
             Slow-carb next level shoindxgoitch ethical authentic, scenester
             sriracha forage.
           </h1>
-          <button className={`flex-shrink-0 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg mt-10 sm:mt-0`}>
+          <button className="flex-shrink-0 text-white bg-theme-500 border-0 py-2 px-8 focus:outline-none hover:bg-theme-600 rounded text-lg mt-10 sm:mt-0 dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
             Button
           </button>
         </div>

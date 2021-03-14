@@ -15,7 +15,7 @@ function ContentD(props) {
             succulents. Actually taiyaki neutra, distillery gastropub pok pok
             ugh.
           </p>
-          <a href className={`text-${props.theme}-500 inline-flex items-center mt-4 dark:text-${props.theme}-400`}>
+          <a href className="text-theme-500 inline-flex items-center mt-4 dark:text-theme-400">
             Learn More
             <svg
               fill="none"

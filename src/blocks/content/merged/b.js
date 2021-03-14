@@ -10,7 +10,7 @@ function ContentB(props) {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 dark:text-white">
               Pitchfork Kickstarter Taxidermy
             </h1>
-            <div className={`h-1 w-20 bg-${props.theme}-500 rounded`}></div>
+            <div className="h-1 w-20 bg-theme-500 rounded dark:bg-theme-500"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 dark:text-gray-400">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
@@ -27,7 +27,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/720x400"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
+              <h3 className="tracking-widest text-theme-500 text-xs font-medium title-font dark:text-theme-400">
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -46,7 +46,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/721x401"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
+              <h3 className="tracking-widest text-theme-500 text-xs font-medium title-font dark:text-theme-400">
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -65,7 +65,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/722x402"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
+              <h3 className="tracking-widest text-theme-500 text-xs font-medium title-font dark:text-theme-400">
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
@@ -84,7 +84,7 @@ function ContentB(props) {
                 src="https://dummyimage.com/723x403"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font dark:text-${props.theme}-400`}>
+              <h3 className="tracking-widest text-theme-500 text-xs font-medium title-font dark:text-theme-400">
                 SUBTITLE
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">

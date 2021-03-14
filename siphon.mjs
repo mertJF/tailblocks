@@ -1,3 +1,4 @@
+/* eslint-disable no-template-curly-in-string */
 import path from "path";
 import fs from "fs";
 import * as acorn from "acorn";
@@ -84,7 +85,7 @@ for (const blockFile of blockFiles) {
         const lightClassName = lightBlockContent.slice(classAttribute.value.start, classAttribute.value.end);
         const darkClassName = darkClasses[i];
 
-        if (lightClassName !== darkClassName) {
+        if (lightClassName !== darkClassName || lightClassName.includes('${props.theme}') || darkClassName.includes('${props.theme}')) {
           const merged = mergeClassNames(lightClassName, darkClasses[i]);
           replacements.set(lightClassName, merged);
         }
@@ -123,13 +124,16 @@ function cap(text) {
   return text[0].toUpperCase() + text.slice(1);
 }
 
-function mergeClassNames(lightClassNames, darkClassNames) {
+function mergeClassNames(lightClassNames, darkClassNames) { 
   if (!darkClassNames) {
-    return lightClassNames;
+    if (lightClassNames) {
+      return lightClassNames.replace(/\$\{props\.theme\}/g, 'theme')
+    }
+    return lightClassNames; 
   }
 
-  const light = lightClassNames.replace(/^[{"`']+|[}"`']+$/g, '');
-  const dark = darkClassNames.replace(/^[{"`']+|[}"`']+$/g, '');
+  const light = lightClassNames.replace(/^[{"`']+|[}"`']+$/g, '').replace(/\$\{props\.theme\}/g, 'theme');
+  const dark = darkClassNames.replace(/^[{"`']+|[}"`']+$/g, '').replace(/\$\{props\.theme\}/g, 'theme');
 
   const classes = dark.split(/\s/);
 

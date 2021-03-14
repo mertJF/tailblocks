@@ -25,7 +25,7 @@ function LightTestimonialC(props) {
             Slow-carb next level shoindigoitch ethical authentic, yr scenester
             sriracha forage franzen organic drinking vinegar.
           </p>
-          <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-8 mb-6`}></span>
+          <span className="inline-block h-1 w-10 rounded bg-theme-500 mt-8 mb-6 dark:bg-theme-500"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
             HOLDEN CAULFIELD
           </h2>

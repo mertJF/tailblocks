@@ -13,7 +13,7 @@ function FooterD(props) {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            className={`w-10 h-10 text-white p-2 bg-${props.theme}-500 rounded-full`}
+            className="w-10 h-10 text-white p-2 bg-theme-500 rounded-full dark:text-white dark:bg-theme-500"
             viewBox="0 0 24 24"
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />

@@ -16,10 +16,10 @@ function ContentE(props) {
             vinegar tacos.
           </p>
           <div className="flex md:mt-4 mt-6">
-            <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-1 px-4 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+            <button className="inline-flex text-white bg-theme-500 border-0 py-1 px-4 focus:outline-none hover:bg-theme-600 rounded dark:text-white dark:bg-theme-500 dark:hover:bg-theme-600">
               Button
             </button>
-            <a href className={`text-${props.theme}-500 inline-flex items-center ml-4 dark:text-${props.theme}-400`}>
+            <a href className="text-theme-500 inline-flex items-center ml-4 dark:text-theme-400">
               Learn More
               <svg
                 fill="none"
