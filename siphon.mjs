@@ -133,6 +133,6 @@ function mergeClassNames(lightClassNames, darkClassNames) {
       darkClasses.add(`dark:${className}`);
     }
   }
-console.log(lightClassNames, '-.-.-', [...darkClasses].join(' '))
+
   return [lightClassNames, ...darkClasses].join(" ");
 }
