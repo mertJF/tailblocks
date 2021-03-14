@@ -20,8 +20,8 @@ function ContentA(props) {
           </p>
         </div>
         <div className="flex flex-wrap">
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 dark:text-white dark:text-white dark:text-white dark:text-white">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 dark:border-gray-800">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 dark:text-white">
               Shooting Stars
             </h2>
             <p className="leading-relaxed text-base mb-4">
@@ -43,8 +43,8 @@ function ContentA(props) {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 dark:border-gray-800">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 dark:text-white">
               The Catalyzer
             </h2>
             <p className="leading-relaxed text-base mb-4">
@@ -66,8 +66,8 @@ function ContentA(props) {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 dark:border-gray-800">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 dark:text-white">
               Neptune
             </h2>
             <p className="leading-relaxed text-base mb-4">
@@ -89,8 +89,8 @@ function ContentA(props) {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 dark:border-gray-800">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 dark:text-white">
               Melanchole
             </h2>
             <p className="leading-relaxed text-base mb-4">

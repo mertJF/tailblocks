@@ -17,10 +17,10 @@ function EcommerceC(props) {
               <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
                 Description
               </a>
-              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800 dark:border-gray-800">
+              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">
                 Reviews
               </a>
-              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">
+              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">
                 Details
               </a>
             </div>
@@ -31,17 +31,17 @@ function EcommerceC(props) {
               seitan poutine tumeric. Gastropub blue bottle austin listicle
               pour-over, neutra jean.
             </p>
-            <div className="flex border-t border-gray-200 py-2 dark:border-gray-800 dark:border-gray-800">
+            <div className="flex border-t border-gray-200 py-2 dark:border-gray-800">
               <span className="text-gray-500">Color</span>
-              <span className="ml-auto text-gray-900 dark:text-white dark:text-white dark:text-white">Blue</span>
+              <span className="ml-auto text-gray-900 dark:text-white">Blue</span>
             </div>
-            <div className="flex border-t border-gray-200 py-2">
+            <div className="flex border-t border-gray-200 py-2 dark:border-gray-800">
               <span className="text-gray-500">Size</span>
-              <span className="ml-auto text-gray-900">Medium</span>
+              <span className="ml-auto text-gray-900 dark:text-white">Medium</span>
             </div>
             <div className="flex border-t border-b mb-6 border-gray-200 py-2 dark:border-gray-800">
               <span className="text-gray-500">Quantity</span>
-              <span className="ml-auto text-gray-900">4</span>
+              <span className="ml-auto text-gray-900 dark:text-white">4</span>
             </div>
             <div className="flex">
               <span className="title-font font-medium text-2xl text-gray-900 dark:text-white">

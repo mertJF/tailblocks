@@ -20,7 +20,7 @@ function StepB(props) {
             </svg>
             STEP 1
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider dark:border-gray-800 dark:hover:text-white dark:border-gray-800 dark:hover:text-white dark:border-gray-800 dark:hover:text-white">
+          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider dark:border-gray-800 dark:hover:text-white">
             <svg
               fill="none"
               stroke="currentColor"
@@ -34,7 +34,7 @@ function StepB(props) {
             </svg>
             STEP 2
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider dark:border-gray-800 dark:hover:text-white">
             <svg
               fill="none"
               stroke="currentColor"
@@ -49,7 +49,7 @@ function StepB(props) {
             </svg>
             STEP 3
           </a>
-          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+          <a href className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider dark:border-gray-800 dark:hover:text-white">
             <svg
               fill="none"
               stroke="currentColor"

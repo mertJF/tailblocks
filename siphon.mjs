@@ -41,6 +41,7 @@ for (const blockFile of blockFiles) {
 
   const classes = [];
 
+  // Step 1: walk the dark mode jsx, picking up the classNames
   const darkAst = parser.parse(darkBlockContent, {
     sourceType: "module",
     ecmaVersion: "2020",
@@ -62,7 +63,9 @@ for (const blockFile of blockFiles) {
   let i = 0;
   const lightAst = parser.parse(lightBlockContent, { sourceType: "module" });
 
-  let newContent = lightBlockContent;
+  let replacements = new Map();
+
+  // Step 2: walk the light mode jsx, picking up the classNames, calculates what replacements will be done
   walk.simple(lightAst, {
     JSXElement(node) {
       const attributes = node.openingElement?.attributes;
@@ -75,13 +78,20 @@ for (const blockFile of blockFiles) {
 
         if (lightClassName !== darkClassName) {
           const merged = mergeClassNames(lightClassName, classes[i]);
-          newContent = newContent.replace(lightClassName, merged);
+          replacements.set(lightClassName, merged);
         }
         i++;
       }
     },
   });
 
+  // step 3. do replacements
+  let newContent = lightBlockContent;
+  for (const [original, merged] of replacements.entries()) {
+    newContent = newContent.replaceAll(original, merged);
+  }
+
+  // step 4. replace class name
   const componentNameParts = lightBlockFile
     .split(/[\\/]/)
     .slice(-3)
@@ -95,6 +105,7 @@ for (const blockFile of blockFiles) {
   )}${componentNameParts[2].toUpperCase()}`;
   newContent = newContent.replaceAll(lightComponentName, componentName);
 
+  // step 5. output merged ile
   const outputFile = lightBlockFile.replace("light", "merged");
   fs.mkdirSync(path.dirname(outputFile), { recursive: true });
   fs.writeFileSync(outputFile, newContent);
@@ -111,7 +122,7 @@ function mergeClassNames(lightClassNames, darkClassNames) {
 
   const classes = darkClassNames.split(/\s/);
 
-  const darkClasses = [];
+  const darkClasses = new Set();
 
   for (const className of classes) {
     if (
@@ -119,9 +130,9 @@ function mergeClassNames(lightClassNames, darkClassNames) {
       className.match(/-white/) ||
       className.match(/-black/)
     ) {
-      darkClasses.push(`dark:${className}`);
+      darkClasses.add(`dark:${className}`);
     }
   }
-
+console.log(lightClassNames, '-.-.-', [...darkClasses].join(' '))
   return [lightClassNames, ...darkClasses].join(" ");
 }

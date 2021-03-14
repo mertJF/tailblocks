@@ -19,7 +19,7 @@ function LightCTAC(props) {
           <div className="relative flex-grow w-full">
             <label
               htmlFor="full-name"
-              className="leading-7 text-sm text-gray-600 dark:text-gray-400 dark:text-gray-400"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
             >
               Full Name
             </label>
@@ -33,7 +33,7 @@ function LightCTAC(props) {
           <div className="relative flex-grow w-full">
             <label
               htmlFor="email"
-              className="leading-7 text-sm text-gray-600"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
             >
               Email
             </label>

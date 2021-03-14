@@ -10,7 +10,7 @@ function TestimonialC(props) {
             <div className="h-full text-center">
               <img
                 alt="testimonial"
-                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-800 dark:border-gray-800 dark:bg-gray-800 dark:border-gray-800 dark:bg-gray-800"
+                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-800"
                 src="https://dummyimage.com/302x302"
               />
               <p className="leading-relaxed">
@@ -20,7 +20,7 @@ function TestimonialC(props) {
                 cronut adaptogen squid fanny pack vaporware.
               </p>
               <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
-              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white dark:text-white dark:text-white">
+              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 HOLDEN CAULFIELD
               </h2>
               <p className="text-gray-500">Senior Product Designer</p>
@@ -30,7 +30,7 @@ function TestimonialC(props) {
             <div className="h-full text-center">
               <img
                 alt="testimonial"
-                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-800"
                 src="https://dummyimage.com/300x300"
               />
               <p className="leading-relaxed">
@@ -40,7 +40,7 @@ function TestimonialC(props) {
                 cronut adaptogen squid fanny pack vaporware.
               </p>
               <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
-              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 ALPER KAMU
               </h2>
               <p className="text-gray-500">UI Develeoper</p>
@@ -50,7 +50,7 @@ function TestimonialC(props) {
             <div className="h-full text-center">
               <img
                 alt="testimonial"
-                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-800"
                 src="https://dummyimage.com/305x305"
               />
               <p className="leading-relaxed">
@@ -60,7 +60,7 @@ function TestimonialC(props) {
                 cronut adaptogen squid fanny pack vaporware.
               </p>
               <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-6 mb-4`}></span>
-              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm dark:text-white">
                 HENRY LETHAM
               </h2>
               <p className="text-gray-500">CTO</p>
