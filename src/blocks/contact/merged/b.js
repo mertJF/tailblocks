@@ -20,7 +20,7 @@ function ContactB(props) {
           />
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md dark:bg-gray-900">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white dark:text-white">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white">
                 ADDRESS
               </h2>
               <p className="mt-1">
@@ -29,13 +29,13 @@ function ContactB(props) {
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white">
                 EMAIL
               </h2>
               <a href className={`text-${props.theme}-500 leading-relaxed`}>
                 example@email.com
               </a>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 dark:text-white">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs dark:text-white mt-4">
                 PHONE
               </h2>
               <p className="leading-relaxed">123-456-7890</p>
@@ -52,7 +52,7 @@ function ContactB(props) {
           <div className="relative mb-4">
             <label
               htmlFor="name"
-              className="leading-7 text-sm text-gray-600 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
             >
               Name
             </label>
@@ -66,7 +66,7 @@ function ContactB(props) {
           <div className="relative mb-4">
             <label
               htmlFor="email"
-              className="leading-7 text-sm text-gray-600"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
             >
               Email
             </label>
@@ -80,7 +80,7 @@ function ContactB(props) {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-600"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
             >
               Message
             </label>

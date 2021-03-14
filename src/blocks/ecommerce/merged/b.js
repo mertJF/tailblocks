@@ -12,7 +12,7 @@ function EcommerceB(props) {
             src="https://dummyimage.com/400x400"
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 dark:text-gray-400 dark:bg-gray-900">
-            <h2 className="text-sm title-font text-gray-500 dark:border-gray-800 dark:text-gray-500 tracking-widest">
+            <h2 className="text-sm title-font text-gray-500 tracking-widest">
               BRAND NAME
             </h2>
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1 dark:text-white">
@@ -132,7 +132,7 @@ function EcommerceB(props) {
                 <button className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none`}></button>
               </div>
               <div className="flex ml-6 items-center">
-                <span className="mr-3">Size</span>
+                <span className="mr-3 dark:text-gray-600">Size</span>
                 <div className="relative dark:text-white">
                   <select className={`rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-${props.theme}-200 focus:border-${props.theme}-500 text-base pl-3 pr-10`}>
                     <option>SM</option>

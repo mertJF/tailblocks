@@ -374,7 +374,6 @@ class App extends Component {
             <Frame
               contentDidMount={this.handleContentDidMount}
               contentDidUpdate={this.handleContentDidUpdate}
-              className={darkMode?'dark':''}
               head={
                 <>
                 <link href="/tailblocks/tailblocks.css" rel="stylesheet" />
@@ -392,7 +391,9 @@ class App extends Component {
                 </>
               }
             >
-              {getBlock({ theme, darkMode })[blockType][blockName]}
+              <div className={darkMode ? 'dark' : ''}>
+                {getBlock({ theme, darkMode })[blockType][blockName]}
+              </div>
             </Frame>
             <div className="codes">
               <SyntaxHighlighter language="html" style={darkMode ? vs2015 : docco} showLineNumbers>

@@ -17,7 +17,7 @@ function FeatureH(props) {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left dark:text-white dark:text-white dark:text-white dark:text-white">
+            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left dark:text-white">
               SHOOTING STARS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
@@ -104,7 +104,7 @@ function FeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left dark:text-white">
               THE 400 BLOWS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
@@ -191,7 +191,7 @@ function FeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left dark:text-white">
               THE CATALYZER
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
@@ -278,7 +278,7 @@ function FeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left dark:text-white">
               NEPTUNE
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">

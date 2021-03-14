@@ -23,7 +23,7 @@ function TeamB() {
                 src="https://dummyimage.com/200x200"
               />
               <div className="flex-grow sm:pl-8">
-                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white dark:text-white dark:text-white dark:text-white">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Holden Caulfield
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
@@ -83,7 +83,7 @@ function TeamB() {
                 src="https://dummyimage.com/201x201"
               />
               <div className="flex-grow sm:pl-8">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Alper Kamu
                 </h2>
                 <h3 className="text-gray-500 mb-3">Designer</h3>
@@ -143,7 +143,7 @@ function TeamB() {
                 src="https://dummyimage.com/204x204"
               />
               <div className="flex-grow sm:pl-8">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Atticus Finch
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
@@ -203,7 +203,7 @@ function TeamB() {
                 src="https://dummyimage.com/206x206"
               />
               <div className="flex-grow sm:pl-8">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Henry Letham
                 </h2>
                 <h3 className="text-gray-500 mb-3">Designer</h3>

@@ -29,7 +29,7 @@ function ContentH(props) {
                 src="https://dummyimage.com/1203x503"
               />
             </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5 dark:text-white dark:text-white dark:text-white">
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5 dark:text-white">
               Shooting Stars
             </h2>
             <p className="text-base leading-relaxed mt-2">
@@ -60,7 +60,7 @@ function ContentH(props) {
                 src="https://dummyimage.com/1204x504"
               />
             </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5 dark:text-white">
               The Catalyzer
             </h2>
             <p className="text-base leading-relaxed mt-2">
@@ -91,7 +91,7 @@ function ContentH(props) {
                 src="https://dummyimage.com/1205x505"
               />
             </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5 dark:text-white">
               The 400 Blows
             </h2>
             <p className="text-base leading-relaxed mt-2">

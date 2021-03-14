@@ -14,7 +14,7 @@ function ContentG(props) {
                 src="https://dummyimage.com/1201x501"
               />
             </div>
-            <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 dark:text-white dark:text-white">
+            <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 dark:text-white">
               Buy YouTube Videos
             </h2>
             <p className="leading-relaxed text-base">
@@ -33,7 +33,7 @@ function ContentG(props) {
                 src="https://dummyimage.com/1202x502"
               />
             </div>
-            <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+            <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 dark:text-white">
               The Catalyzer
             </h2>
             <p className="leading-relaxed text-base">

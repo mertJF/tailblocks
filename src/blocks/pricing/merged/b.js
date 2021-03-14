@@ -19,16 +19,16 @@ function PricingB(props) {
           <table className="table-auto w-full text-left whitespace-no-wrap">
             <thead>
               <tr>
-                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800 dark:text-white dark:bg-gray-800 dark:text-white dark:bg-gray-800 rounded-tl rounded-bl dark:text-white dark:bg-gray-800">
+                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800 rounded-tl rounded-bl dark:text-white dark:bg-gray-800">
                   Plan
                 </th>
-                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800">
                   Speed
                 </th>
-                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800">
                   Storage
                 </th>
-                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 dark:text-white dark:bg-gray-800">
                   Price
                 </th>
                 <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br dark:text-white dark:bg-gray-800"></th>
@@ -45,44 +45,44 @@ function PricingB(props) {
                 </td>
               </tr>
               <tr>
-                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800">Pro</td>
-                <td className="border-t-2 border-gray-200 px-4 py-3">
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">Pro</td>
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   25 Mb/s
                 </td>
-                <td className="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
-                <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:border-gray-800 dark:text-white dark:border-gray-800 dark:text-white">
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">25 GB</td>
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
                   $24
                 </td>
-                <td className="border-t-2 border-gray-200 w-10 text-center dark:border-gray-800 dark:border-gray-800">
+                <td className="border-t-2 border-gray-200 w-10 text-center dark:border-gray-800">
                   <input name="plan" type="radio"></input>
                 </td>
               </tr>
               <tr>
-                <td className="border-t-2 border-gray-200 px-4 py-3">
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   Business
                 </td>
-                <td className="border-t-2 border-gray-200 px-4 py-3">
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   36 Mb/s
                 </td>
-                <td className="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
-                <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800">40 GB</td>
+                <td className="border-t-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
                   $50
                 </td>
-                <td className="border-t-2 border-gray-200 w-10 text-center">
+                <td className="border-t-2 border-gray-200 w-10 text-center dark:border-gray-800">
                   <input name="plan" type="radio"></input>
                 </td>
               </tr>
               <tr>
-                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800 dark:border-gray-800 dark:border-gray-800">
+                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   Exclusive
                 </td>
-                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   48 Mb/s
                 </td>
-                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800">
                   120 GB
                 </td>
-                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:border-gray-800 dark:text-white">
+                <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:border-gray-800 text-lg text-gray-900 dark:text-white">
                   $72
                 </td>
                 <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center dark:border-gray-800">

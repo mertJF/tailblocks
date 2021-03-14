@@ -23,16 +23,16 @@ function TeamC() {
                 src="https://dummyimage.com/200x200"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white dark:text-white dark:text-white dark:text-white">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Alper Kamu
                 </h2>
-                <h3 className="text-gray-500 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 dark:text-gray-700 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
                 <span className="inline-flex">
-                  <a href className="text-gray-500">
+                  <a href className="text-gray-500 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -44,7 +44,7 @@ function TeamC() {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700 dark:text-gray-700">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -56,7 +56,7 @@ function TeamC() {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -80,16 +80,16 @@ function TeamC() {
                 src="https://dummyimage.com/201x201"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Holden Caulfield
                 </h2>
-                <h3 className="text-gray-500 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 dark:text-gray-700 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
                 <span className="inline-flex">
-                  <a href className="text-gray-500">
+                  <a href className="text-gray-500 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -101,7 +101,7 @@ function TeamC() {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -113,7 +113,7 @@ function TeamC() {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -137,16 +137,16 @@ function TeamC() {
                 src="https://dummyimage.com/202x202"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Atticus Finch
                 </h2>
-                <h3 className="text-gray-500 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 dark:text-gray-700 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
                 <span className="inline-flex">
-                  <a href className="text-gray-500">
+                  <a href className="text-gray-500 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -158,7 +158,7 @@ function TeamC() {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -170,7 +170,7 @@ function TeamC() {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -194,16 +194,16 @@ function TeamC() {
                 src="https://dummyimage.com/203x203"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-medium text-lg text-gray-900 dark:text-white">
                   Henry Letham
                 </h2>
-                <h3 className="text-gray-500 mb-3">UI Developer</h3>
+                <h3 className="text-gray-500 dark:text-gray-700 mb-3">UI Developer</h3>
                 <p className="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
                 <span className="inline-flex">
-                  <a href className="text-gray-500">
+                  <a href className="text-gray-500 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -215,7 +215,7 @@ function TeamC() {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"
@@ -227,7 +227,7 @@ function TeamC() {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                     </svg>
                   </a>
-                  <a href className="ml-2 text-gray-500">
+                  <a href className="ml-2 text-gray-500 dark:text-gray-700 dark:text-gray-700">
                     <svg
                       fill="none"
                       strokeLinecap="round"

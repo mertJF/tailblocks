@@ -25,7 +25,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white dark:text-white dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -67,7 +67,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -108,7 +108,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">

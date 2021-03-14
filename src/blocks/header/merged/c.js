@@ -6,10 +6,10 @@ function HeaderC(props) {
     <header className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white dark:hover:text-white dark:hover:text-white">First Link</a>
-          <a href className="mr-5 hover:text-gray-900">Second Link</a>
-          <a href className="mr-5 hover:text-gray-900">Third Link</a>
-          <a href className="hover:text-gray-900">Fourth Link</a>
+          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">First Link</a>
+          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">Second Link</a>
+          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">Third Link</a>
+          <a href className="hover:text-gray-900 dark:hover:text-white">Fourth Link</a>
         </nav>
         <a href className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 dark:text-white">
           <svg

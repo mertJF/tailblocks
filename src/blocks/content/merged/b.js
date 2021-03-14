@@ -21,7 +21,7 @@ function ContentB(props) {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg dark:bg-gray-800 dark:bg-gray-800 dark:bg-gray-800 dark:bg-gray-800">
+            <div className="bg-gray-100 p-6 rounded-lg dark:bg-gray-800">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/720x400"
@@ -30,7 +30,7 @@ function ContentB(props) {
               <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white dark:text-white dark:text-white dark:text-white">
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
                 Chichen Itza
               </h2>
               <p className="leading-relaxed text-base">
@@ -40,7 +40,7 @@ function ContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg dark:bg-gray-800">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/721x401"
@@ -49,7 +49,7 @@ function ContentB(props) {
               <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
                 Colosseum Roma
               </h2>
               <p className="leading-relaxed text-base">
@@ -59,7 +59,7 @@ function ContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg dark:bg-gray-800">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/722x402"
@@ -68,7 +68,7 @@ function ContentB(props) {
               <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
                 Great Pyramid of Giza
               </h2>
               <p className="leading-relaxed text-base">
@@ -78,7 +78,7 @@ function ContentB(props) {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg dark:bg-gray-800">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="https://dummyimage.com/723x403"
@@ -87,7 +87,7 @@ function ContentB(props) {
               <h3 className={`tracking-widest text-${props.theme}-500 text-xs font-medium title-font`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4 dark:text-white">
                 San Francisco
               </h2>
               <p className="leading-relaxed text-base">

@@ -20,7 +20,7 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="name"
-                  className="leading-7 text-sm text-gray-600 dark:text-gray-400 dark:text-gray-400 dark:text-gray-400"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Name
                 </label>
@@ -36,7 +36,7 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="email"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Email
                 </label>
@@ -52,7 +52,7 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Message
                 </label>
