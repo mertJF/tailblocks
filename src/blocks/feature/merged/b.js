@@ -3,13 +3,13 @@ import PropTypes from  "prop-types";
 
 function FeatureB(props) {
   return (
-    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 dark:text-white">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s dark:text-gray-400">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
             Blue bottle crucifix vinyl post-ironic four dollar toast vegan
             taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
             pug.
@@ -34,7 +34,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -75,7 +75,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -115,7 +115,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">

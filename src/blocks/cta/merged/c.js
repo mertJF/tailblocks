@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function LightCTAC(props) {
   return (
-    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Master Cleanse Reliac Heirloom
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -19,7 +19,7 @@ function LightCTAC(props) {
           <div className="relative flex-grow w-full">
             <label
               htmlFor="full-name"
-              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
+              className="leading-7 text-sm text-gray-600"
             >
               Full Name
             </label>
@@ -33,7 +33,7 @@ function LightCTAC(props) {
           <div className="relative flex-grow w-full">
             <label
               htmlFor="email"
-              className="leading-7 text-sm text-gray-600 dark:text-gray-400"
+              className="leading-7 text-sm text-gray-600"
             >
               Email
             </label>

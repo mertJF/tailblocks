@@ -3,15 +3,15 @@ import PropTypes from  "prop-types";
 
 function HeaderC(props) {
   return (
-    <header className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">First Link</a>
-          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">Second Link</a>
-          <a href className="mr-5 hover:text-gray-900 dark:hover:text-white dark:hover:text-white">Third Link</a>
-          <a href className="hover:text-gray-900 dark:hover:text-white">Fourth Link</a>
+          <a href className="mr-5 hover:text-gray-900">First Link</a>
+          <a href className="mr-5 hover:text-gray-900">Second Link</a>
+          <a href className="mr-5 hover:text-gray-900">Third Link</a>
+          <a href className="hover:text-gray-900">Fourth Link</a>
         </nav>
-        <a href className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 dark:text-white">
+        <a href className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -27,7 +27,7 @@ function HeaderC(props) {
           <span className="ml-3 text-xl">Tailblocks</span>
         </a>
         <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
             Button
             <svg
               fill="none"

@@ -25,7 +25,15 @@ if (!String.prototype.replaceAll) {
     }
 
     // If a string
-    return this.replace(new RegExp(str, "g"), newStr);
+    //return this.replace(new RegExp(str, "g"), newStr);
+    let prev = undefined;
+    let result = this;
+    while (result !== prev) {
+      prev = result;
+      result = result.replace(str, newStr);
+    }
+
+    return result;
   };
 }
 
@@ -39,7 +47,7 @@ for (const blockFile of blockFiles) {
   const lightBlockContent = fs.readFileSync(lightBlockFile, "utf-8");
   const darkBlockContent = fs.readFileSync(darkBlockFile, "utf-8");
 
-  const classes = [];
+  const darkClasses = [];
 
   // Step 1: walk the dark mode jsx, picking up the classNames
   const darkAst = parser.parse(darkBlockContent, {
@@ -54,8 +62,8 @@ for (const blockFile of blockFiles) {
       );
 
       if (classAttribute) {
-        const className = classAttribute.value.value;
-        classes.push(className);
+        const className = darkBlockContent.slice(classAttribute.value.start, classAttribute.value.end);
+        darkClasses.push(className);
       }
     },
   });
@@ -73,11 +81,11 @@ for (const blockFile of blockFiles) {
         (a) => a.name?.name === "className"
       );
       if (classAttribute) {
-        const lightClassName = classAttribute.value.value;
-        const darkClassName = classes[i];
+        const lightClassName = lightBlockContent.slice(classAttribute.value.start, classAttribute.value.end);
+        const darkClassName = darkClasses[i];
 
         if (lightClassName !== darkClassName) {
-          const merged = mergeClassNames(lightClassName, classes[i]);
+          const merged = mergeClassNames(lightClassName, darkClasses[i]);
           replacements.set(lightClassName, merged);
         }
         i++;
@@ -88,7 +96,11 @@ for (const blockFile of blockFiles) {
   // step 3. do replacements
   let newContent = lightBlockContent;
   for (const [original, merged] of replacements.entries()) {
-    newContent = newContent.replaceAll(original, merged);
+    //newContent = newContent.replaceAll(original, merged);
+
+    if (blockFile.includes('c.js') && blockFile.includes('blog') && merged.includes("{")) {
+      newContent = newContent.replaceAll(original, merged);
+    }
   }
 
   // step 4. replace class name
@@ -120,7 +132,10 @@ function mergeClassNames(lightClassNames, darkClassNames) {
     return lightClassNames;
   }
 
-  const classes = darkClassNames.split(/\s/);
+  const light = lightClassNames.replace(/^[{"`']+|[}"`']+$/g, '');
+  const dark = darkClassNames.replace(/^[{"`']+|[}"`']+$/g, '');
+
+  const classes = dark.split(/\s/);
 
   const darkClasses = new Set();
 
@@ -134,5 +149,11 @@ function mergeClassNames(lightClassNames, darkClassNames) {
     }
   }
 
-  return [lightClassNames, ...darkClasses].join(" ");
+  const merged = [light, ...darkClasses].join(" ");
+
+  if (merged.includes('${')) {
+    return "{`" + merged + "`}";
+  }
+
+  return `"${merged}"`;
 }

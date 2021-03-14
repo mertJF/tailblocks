@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function FeatureC(props) {
   return (
-    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
@@ -28,7 +28,7 @@ function FeatureC(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -68,7 +68,7 @@ function FeatureC(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -107,7 +107,7 @@ function FeatureC(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">

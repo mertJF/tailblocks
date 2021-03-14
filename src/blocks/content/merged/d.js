@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function ContentD(props) {
   return (
-    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font">
       <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-        <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200 dark:border-gray-800">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 dark:text-white">
+        <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
             Pitchfork Kickstarter Taxidermy
           </h1>
           <p className="leading-relaxed text-base">
@@ -31,33 +31,33 @@ function ContentD(props) {
           </a>
         </div>
         <div className="flex flex-col md:w-1/2 md:pl-12">
-          <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3 dark:text-white">
+          <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
             CATEGORIES
           </h2>
           <nav className="flex flex-wrap list-none -mb-1">
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">First Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">First Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Second Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Second Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Third Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Third Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Fourth Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Fourth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Fifth Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Fifth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Sixth Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Sixth Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Seventh Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Seventh Link</a>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <a href className="text-gray-600 hover:text-gray-800 dark:hover:text-white">Eighth Link</a>
+              <a href className="text-gray-600 hover:text-gray-800">Eighth Link</a>
             </li>
           </nav>
         </div>

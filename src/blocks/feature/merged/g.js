@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function FeatureG(props) {
   return (
-    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 dark:text-white">
+          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -17,7 +17,7 @@ function FeatureG(props) {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -30,13 +30,13 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">
+              <span className="title-font font-medium">
                 Authentic Cliche Forage
               </span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -49,13 +49,13 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">
+              <span className="title-font font-medium">
                 Kinfolk Chips Snackwave
               </span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -68,13 +68,13 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">
+              <span className="title-font font-medium">
                 Coloring Book Ethical
               </span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -87,13 +87,13 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">
+              <span className="title-font font-medium">
                 Typewriter Polaroid Cray
               </span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -106,11 +106,11 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">Pack Truffaut Blue</span>
+              <span className="title-font font-medium">Pack Truffaut Blue</span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-4 h-full items-center dark:bg-gray-800">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -123,7 +123,7 @@ function FeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium dark:text-white">
+              <span className="title-font font-medium">
                 The Catcher In The Rye
               </span>
             </div>

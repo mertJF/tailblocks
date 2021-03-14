@@ -3,24 +3,24 @@ import PropTypes from  "prop-types";
 
 function EcommerceC(props) {
   return (
-    <section className="text-gray-600 body-font overflow-hidden dark:text-gray-400 dark:bg-gray-900">
+    <section className="text-gray-600 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
               BRAND NAME
             </h2>
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-4 dark:text-white">
+            <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">
               Animated Night Hill Illustrations
             </h1>
             <div className="flex mb-4">
               <a href className={`flex-grow text-${props.theme}-500 border-b-2 border-${props.theme}-500 py-2 text-lg px-1`}>
                 Description
               </a>
-              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">
+              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">
                 Reviews
               </a>
-              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1 dark:border-gray-800">
+              <a href className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">
                 Details
               </a>
             </div>
@@ -31,26 +31,26 @@ function EcommerceC(props) {
               seitan poutine tumeric. Gastropub blue bottle austin listicle
               pour-over, neutra jean.
             </p>
-            <div className="flex border-t border-gray-200 py-2 dark:border-gray-800">
+            <div className="flex border-t border-gray-200 py-2">
               <span className="text-gray-500">Color</span>
-              <span className="ml-auto text-gray-900 dark:text-white">Blue</span>
+              <span className="ml-auto text-gray-900">Blue</span>
             </div>
-            <div className="flex border-t border-gray-200 py-2 dark:border-gray-800">
+            <div className="flex border-t border-gray-200 py-2">
               <span className="text-gray-500">Size</span>
-              <span className="ml-auto text-gray-900 dark:text-white">Medium</span>
+              <span className="ml-auto text-gray-900">Medium</span>
             </div>
-            <div className="flex border-t border-b mb-6 border-gray-200 py-2 dark:border-gray-800">
+            <div className="flex border-t border-b mb-6 border-gray-200 py-2">
               <span className="text-gray-500">Quantity</span>
-              <span className="ml-auto text-gray-900 dark:text-white">4</span>
+              <span className="ml-auto text-gray-900">4</span>
             </div>
             <div className="flex">
-              <span className="title-font font-medium text-2xl text-gray-900 dark:text-white">
+              <span className="title-font font-medium text-2xl text-gray-900">
                 $58.00
               </span>
               <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
               </button>
-              <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4 dark:bg-gray-800 dark:text-gray-500">
+              <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"
