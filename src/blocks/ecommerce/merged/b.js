@@ -11,14 +11,14 @@ function EcommerceB(props) {
             className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
             src="https://dummyimage.com/400x400"
           />
-          <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 dark:text-gray-400 dark:bg-gray-900">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
               BRAND NAME
             </h2>
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1 dark:text-white">
               The Catcher in the Rye
             </h1>
-            <div className="flex mb-4">
+            <div className="flex mb-4 dark:border-gray-800">
               <span className="flex items-center">
                 <svg
                   fill="currentColor"
@@ -26,7 +26,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -37,7 +37,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -48,7 +48,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -59,7 +59,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -70,7 +70,7 @@ function EcommerceB(props) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={`w-4 h-4 text-${props.theme}-500`}
+                  className={`w-4 h-4 text-${props.theme}-500 dark:text-${props.theme}-400`}
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -116,7 +116,7 @@ function EcommerceB(props) {
                 </a>
               </span>
             </div>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed dark:border-gray-800 dark:bg-gray-700">
               Fam locavore kickstarter distillery. Mixtape chillwave tumeric
               sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
               juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
@@ -126,21 +126,21 @@ function EcommerceB(props) {
             </p>
             <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
               <div className="flex">
-                <span className="mr-3">Color</span>
+                <span className="mr-3 dark:text-gray-600">Color</span>
                 <button className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
                 <button className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none`}></button>
+                <button className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none dark:border-gray-700 dark:focus:ring-${props.theme}-900 dark:focus:border-${props.theme}-500 dark:text-white`}></button>
               </div>
-              <div className="flex ml-6 items-center">
-                <span className="mr-3">Size</span>
-                <div className="relative">
+              <div className={`flex ml-6 items-center dark:text-white dark:bg-${props.theme}-500 dark:hover:bg-${props.theme}-600`}>
+                <span className="mr-3 dark:text-gray-600">Size</span>
+                <div className="relative dark:text-white">
                   <select className={`rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-${props.theme}-200 focus:border-${props.theme}-500 text-base pl-3 pr-10`}>
                     <option>SM</option>
                     <option>M</option>
                     <option>L</option>
                     <option>XL</option>
                   </select>
-                  <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center dark:border-gray-800">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -157,7 +157,7 @@ function EcommerceB(props) {
               </div>
             </div>
             <div className="flex">
-              <span className="title-font font-medium text-2xl text-gray-900">
+              <span className="title-font font-medium text-2xl text-gray-900 dark:bg-gray-800 dark:text-gray-500">
                 $58.00
               </span>
               <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>

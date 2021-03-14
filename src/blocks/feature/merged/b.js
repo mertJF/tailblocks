@@ -3,13 +3,13 @@ import PropTypes from  "prop-types";
 
 function FeatureB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 dark:text-white">
             Raw Denim Heirloom Man Braid
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s dark:text-gray-400">
             Blue bottle crucifix vinyl post-ironic four dollar toast vegan
             taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
             pug.
@@ -20,7 +20,7 @@ function FeatureB(props) {
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0`}>
+            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -34,7 +34,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -42,7 +42,7 @@ function FeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"
@@ -59,7 +59,7 @@ function FeatureB(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0`}>
+            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -75,7 +75,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -83,7 +83,7 @@ function FeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"
@@ -100,7 +100,7 @@ function FeatureB(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0`}>
+            <div className={`w-20 h-20 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-5 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -115,7 +115,7 @@ function FeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">
@@ -123,7 +123,7 @@ function FeatureB(props) {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"

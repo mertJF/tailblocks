@@ -3,22 +3,22 @@ import PropTypes from  "prop-types";
 
 function BlogB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative dark:bg-gray-800">
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 dark:text-gray-500">
                 CATEGORY
               </h2>
-              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 dark:text-white">
                 Raclette Blueberry Nextious Level
               </h1>
               <p className="leading-relaxed mb-3">
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -34,7 +34,7 @@ function BlogB(props) {
                 </svg>
               </a>
               <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-700">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"
@@ -49,7 +49,7 @@ function BlogB(props) {
                   </svg>
                   1.2K
                 </span>
-                <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+                <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"
@@ -67,18 +67,18 @@ function BlogB(props) {
             </div>
           </div>
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative dark:bg-gray-800">
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 dark:text-gray-500">
                 CATEGORY
               </h2>
-              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 dark:text-white">
                 Ennui Snackwave Thundercats
               </h1>
               <p className="leading-relaxed mb-3">
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -94,7 +94,7 @@ function BlogB(props) {
                 </svg>
               </a>
               <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-700">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"
@@ -109,7 +109,7 @@ function BlogB(props) {
                   </svg>
                   1.2K
                 </span>
-                <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+                <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"
@@ -127,18 +127,18 @@ function BlogB(props) {
             </div>
           </div>
           <div className="p-4 lg:w-1/3">
-            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative dark:bg-gray-800">
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 dark:text-gray-500">
                 CATEGORY
               </h2>
-              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+              <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 dark:text-white">
                 Selvage Poke Waistcoat Godard
               </h1>
               <p className="leading-relaxed mb-3">
                 Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                 microdosing tousled waistcoat.
               </p>
-              <a href className={`text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -154,7 +154,7 @@ function BlogB(props) {
                 </svg>
               </a>
               <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200 dark:text-gray-500 dark:border-gray-700">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"
@@ -169,7 +169,7 @@ function BlogB(props) {
                   </svg>
                   1.2K
                 </span>
-                <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+                <span className="text-gray-400 inline-flex items-center leading-none text-sm dark:text-gray-500">
                   <svg
                     className="w-4 h-4 mr-1"
                     stroke="currentColor"

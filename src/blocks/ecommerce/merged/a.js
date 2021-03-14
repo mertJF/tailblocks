@@ -2,7 +2,7 @@ import React from "react";
 
 function EcommerceA() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -17,7 +17,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 The Catalyzer
               </h2>
               <p className="mt-1">$16.00</p>
@@ -35,7 +35,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 Shooting Stars
               </h2>
               <p className="mt-1">$21.15</p>
@@ -53,7 +53,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 Neptune
               </h2>
               <p className="mt-1">$12.00</p>
@@ -71,7 +71,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 The 400 Blows
               </h2>
               <p className="mt-1">$18.40</p>
@@ -89,7 +89,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 The Catalyzer
               </h2>
               <p className="mt-1">$16.00</p>
@@ -107,7 +107,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 Shooting Stars
               </h2>
               <p className="mt-1">$21.15</p>
@@ -125,7 +125,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 Neptune
               </h2>
               <p className="mt-1">$12.00</p>
@@ -143,7 +143,7 @@ function EcommerceA() {
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
+              <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white">
                 The 400 Blows
               </h2>
               <p className="mt-1">$18.40</p>

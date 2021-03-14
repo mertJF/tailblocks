@@ -3,12 +3,12 @@ import PropTypes from  "prop-types";
 
 function FeatureD(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2 md:w-full">
-            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col dark:border-gray-800">
+              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -22,14 +22,14 @@ function FeatureD(props) {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
                   Shooting Stars
                 </h2>
                 <p className="leading-relaxed text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"
@@ -47,8 +47,8 @@ function FeatureD(props) {
             </div>
           </div>
           <div className="p-4 lg:w-1/2 md:w-full">
-            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col dark:border-gray-800">
+              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -63,14 +63,14 @@ function FeatureD(props) {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">
                   The Catalyzer
                 </h2>
                 <p className="leading-relaxed text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+                <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                   Learn More
                   <svg
                     fill="none"

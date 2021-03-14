@@ -96,11 +96,7 @@ for (const blockFile of blockFiles) {
   // step 3. do replacements
   let newContent = lightBlockContent;
   for (const [original, merged] of replacements.entries()) {
-    //newContent = newContent.replaceAll(original, merged);
-
-    if (blockFile.includes('c.js') && blockFile.includes('blog') && merged.includes("{")) {
-      newContent = newContent.replaceAll(original, merged);
-    }
+    newContent = newContent.replaceAll(original, merged);
   }
 
   // step 4. replace class name

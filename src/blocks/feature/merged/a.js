@@ -3,15 +3,15 @@ import PropTypes from  "prop-types";
 
 function FeatureA(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20 dark:text-white">
           Raw Denim Heirloom Man Braid<br className="hidden sm:block" />
           Selfies Wayfarers
         </h1>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div className="p-4 md:w-1/3 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
+            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -25,7 +25,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -34,7 +34,7 @@ function FeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"
@@ -51,7 +51,7 @@ function FeatureA(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
+            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -67,7 +67,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -76,7 +76,7 @@ function FeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"
@@ -93,7 +93,7 @@ function FeatureA(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0`}>
+            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-4 flex-shrink-0 dark:bg-gray-800 dark:text-${props.theme}-400`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -108,7 +108,7 @@ function FeatureA(props) {
               </svg>
             </div>
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">
@@ -117,7 +117,7 @@ function FeatureA(props) {
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
                 live-edge tilde.
               </p>
-              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+              <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
                 Learn More
                 <svg
                   fill="none"

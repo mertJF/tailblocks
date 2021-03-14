@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function FeatureF(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col dark:border-gray-800">
+          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -20,14 +20,14 @@ function FeatureF(props) {
             </svg>
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
               Shooting Stars
             </h2>
             <p className="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
               Learn More
               <svg
                 fill="none"
@@ -43,16 +43,16 @@ function FeatureF(props) {
             </a>
           </div>
         </div>
-        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col dark:border-gray-800">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
               The Catalyzer
             </h2>
             <p className="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
               Learn More
               <svg
                 fill="none"
@@ -67,7 +67,7 @@ function FeatureF(props) {
               </svg>
             </a>
           </div>
-          <div className={`sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+          <div className={`sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -84,7 +84,7 @@ function FeatureF(props) {
           </div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0 dark:text-${props.theme}-400 dark:bg-gray-800`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -99,14 +99,14 @@ function FeatureF(props) {
             </svg>
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white">
               The 400 Blows
             </h2>
             <p className="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine.
             </p>
-            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center`}>
+            <a href className={`mt-3 text-${props.theme}-500 inline-flex items-center dark:text-${props.theme}-400`}>
               Learn More
               <svg
                 fill="none"

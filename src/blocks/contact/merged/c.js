@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function ContactC(props) {
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative dark:text-gray-400 dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white">
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -20,7 +20,7 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="name"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Name
                 </label>
@@ -28,7 +28,7 @@ function ContactC(props) {
                   type="text"
                   id="name"
                   name="name"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 />
               </div>
             </div>
@@ -36,7 +36,7 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="email"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Email
                 </label>
@@ -44,7 +44,7 @@ function ContactC(props) {
                   type="email"
                   id="email"
                   name="email"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 />
               </div>
             </div>
@@ -52,14 +52,14 @@ function ContactC(props) {
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 dark:text-gray-400"
                 >
                   Message
                 </label>
                 <textarea
                   id="message"
                   name="message"
-                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
+                  className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-${props.theme}-500 focus:bg-white focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out dark:bg-gray-800 dark:border-gray-700 dark:focus:border-${props.theme}-500 dark:focus:bg-gray-900 dark:focus:ring-${props.theme}-900 dark:text-gray-100 dark:duration-200`}
                 ></textarea>
               </div>
             </div>
@@ -68,8 +68,8 @@ function ContactC(props) {
                 Button
               </button>
             </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a href className={`text-${props.theme}-500`}>example@email.com</a>
+            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center dark:border-gray-800">
+              <a href className={`text-${props.theme}-500 dark:text-${props.theme}-400`}>example@email.com</a>
               <p className="leading-normal my-5">
                 49 Smith St.<br />Saint Cloud, MN 56301
               </p>
