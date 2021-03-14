@@ -1,6 +1,6 @@
 {
-  "name": "tailblocks",
-  "homepage": "http://mertjf.github.io/tailblocks",
+  "name": "@kenotron/tailblocks",
+  "homepage": "http://kenotron.github.io/tailblocks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
