@@ -3,7 +3,7 @@ module.exports = {
     enabled: true,
     content: ["./src/blocks/*/*/*.js"],
     options: {
-      safelist: ["dark", /-theme-/],
+      safelist: ["dark"],
     },
   },
   darkMode: "class",
