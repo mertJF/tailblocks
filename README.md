@@ -24,7 +24,7 @@ To use the project:
 1. Select whether you would like to use light or dark mode with the dark/light toggle button.
 1. Click the "View Code" button.
 1. Copy/paste into your project.
-1. 🎉
+1. Enjoy🎉
 
 
 ## License
