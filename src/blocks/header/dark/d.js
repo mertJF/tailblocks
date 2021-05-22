@@ -3,9 +3,9 @@ import PropTypes from  "prop-types";
 
 function DarkHeaderD(props) {
   return (
-    <header className="text-gray-400 bg-gray-900 body-font">
+    <header className="text-gray-400 bg-gray-900">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <a href className="flex font-medium items-center text-white mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

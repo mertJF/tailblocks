@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkBlogE(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -mx-4 -my-8">
           <div className="py-8 px-4 lg:w-1/3">
@@ -12,15 +12,15 @@ function DarkBlogE(props) {
                 <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">
                   Jul
                 </span>
-                <span className="font-medium text-lg leading-none text-gray-300 title-font">
+                <span className="font-medium text-lg leading-none text-gray-300">
                   18
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-400 mb-1`}>
+                <h2 className={`tracking-widest text-xs font-medium text-${props.theme}-400 mb-1`}>
                   CATEGORY
                 </h2>
-                <h1 className="title-font text-xl font-medium text-white mb-3">
+                <h1 className="text-xl font-medium text-white mb-3">
                   The 400 Blows
                 </h1>
                 <p className="leading-relaxed mb-5">
@@ -34,7 +34,7 @@ function DarkBlogE(props) {
                     className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-3">
-                    <span className="title-font font-medium text-white">
+                    <span className="font-medium text-white">
                       Alper Kamu
                     </span>
                   </span>
@@ -48,15 +48,15 @@ function DarkBlogE(props) {
                 <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">
                   Jul
                 </span>
-                <span className="font-medium text-lg leading-none text-gray-300 title-font">
+                <span className="font-medium text-lg leading-none text-gray-300">
                   18
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-400 mb-1`}>
+                <h2 className={`tracking-widest text-xs font-medium text-${props.theme}-400 mb-1`}>
                   CATEGORY
                 </h2>
-                <h1 className="title-font text-xl font-medium text-white mb-3">
+                <h1 className="text-xl font-medium text-white mb-3">
                   Shooting Stars
                 </h1>
                 <p className="leading-relaxed mb-5">
@@ -70,7 +70,7 @@ function DarkBlogE(props) {
                     className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-3">
-                    <span className="title-font font-medium text-white">
+                    <span className="font-medium text-white">
                       Holden Caulfield
                     </span>
                   </span>
@@ -84,15 +84,15 @@ function DarkBlogE(props) {
                 <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">
                   Jul
                 </span>
-                <span className="font-medium text-lg leading-none text-gray-300 title-font">
+                <span className="font-medium text-lg leading-none text-gray-300">
                   18
                 </span>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className={`tracking-widest text-xs title-font font-medium text-${props.theme}-400 mb-1`}>
+                <h2 className={`tracking-widest text-xs font-medium text-${props.theme}-400 mb-1`}>
                   CATEGORY
                 </h2>
-                <h1 className="title-font text-xl font-medium text-white mb-3">
+                <h1 className="text-xl font-medium text-white mb-3">
                   Neptune
                 </h1>
                 <p className="leading-relaxed mb-5">
@@ -106,7 +106,7 @@ function DarkBlogE(props) {
                     className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-3">
-                    <span className="title-font font-medium text-white">
+                    <span className="font-medium text-white">
                       Henry Letham
                     </span>
                   </span>

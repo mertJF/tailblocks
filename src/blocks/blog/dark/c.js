@@ -3,14 +3,14 @@ import PropTypes from  "prop-types";
 
 function DarkBlogC(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <section className="text-gray-400 bg-gray-900 overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span className="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">
               CATEGORY
             </span>
-            <h2 className="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">
+            <h2 className="sm:text-3xl text-2xl font-medium text-white mt-4 mb-4">
               Roof party normcore before they sold out, cornhole vape
             </h2>
             <p className="leading-relaxed mb-8">
@@ -73,7 +73,7 @@ function DarkBlogC(props) {
                 className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               />
               <span className="flex-grow flex flex-col pl-4">
-                <span className="title-font font-medium text-white">
+                <span className="font-medium text-white">
                   Holden Caulfield
                 </span>
                 <span className="text-gray-500 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -84,7 +84,7 @@ function DarkBlogC(props) {
             <span className="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">
               CATEGORY
             </span>
-            <h2 className="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">
+            <h2 className="sm:text-3xl text-2xl font-medium text-white mt-4 mb-4">
               Pinterest DIY dreamcatcher gentrify single-origin coffee
             </h2>
             <p className="leading-relaxed mb-8">
@@ -146,7 +146,7 @@ function DarkBlogC(props) {
                 className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               />
               <span className="flex-grow flex flex-col pl-4">
-                <span className="title-font font-medium text-white">
+                <span className="font-medium text-white">
                   Alper Kamu
                 </span>
                 <span className="text-gray-500 text-xs tracking-widest mt-0.5">DESIGNER</span>

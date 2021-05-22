@@ -3,11 +3,11 @@ import PropTypes from  "prop-types";
 
 function DarkFooterE(props) {
   return (
-    <footer className="text-gray-400 bg-gray-900 body-font">
+    <footer className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="font-medium text-white tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav className="list-none mb-10">
@@ -26,7 +26,7 @@ function DarkFooterE(props) {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="font-medium text-white tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav className="list-none mb-10">
@@ -45,7 +45,7 @@ function DarkFooterE(props) {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="font-medium text-white tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav className="list-none mb-10">
@@ -64,7 +64,7 @@ function DarkFooterE(props) {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="font-medium text-white tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
@@ -95,7 +95,7 @@ function DarkFooterE(props) {
       </div>
       <div className="bg-gray-800 bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <a href className="flex font-medium items-center md:justify-start justify-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

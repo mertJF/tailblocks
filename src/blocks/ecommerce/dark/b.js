@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkEcommerceB(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <section className="text-gray-400 bg-gray-900 overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
@@ -12,10 +12,10 @@ function DarkEcommerceB(props) {
             src="https://dummyimage.com/400x400"
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-            <h2 className="text-sm title-font text-gray-500 tracking-widest">
+            <h2 className="text-sm text-gray-500 tracking-widest">
               BRAND NAME
             </h2>
-            <h1 className="text-white text-3xl title-font font-medium mb-1">
+            <h1 className="text-white text-3xl font-medium mb-1">
               The Catcher in the Rye
             </h1>
             <div className="flex mb-4">
@@ -157,7 +157,7 @@ function DarkEcommerceB(props) {
               </div>
             </div>
             <div className="flex">
-              <span className="title-font font-medium text-2xl text-white">
+              <span className="font-medium text-2xl text-white">
                 $58.00
               </span>
               <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>

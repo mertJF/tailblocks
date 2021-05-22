@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 function LightPricingA(props) {
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className="text-gray-600 overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
+          <h1 className="sm:text-4xl text-3xl font-medium mb-2 text-gray-900">
             Pricing
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
@@ -22,7 +22,7 @@ function LightPricingA(props) {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest mb-1 font-medium">
                 START
               </h2>
               <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
@@ -100,7 +100,7 @@ function LightPricingA(props) {
               <span className={`bg-${props.theme}-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>
                 POPULAR
               </span>
-              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest mb-1 font-medium">
                 PRO
               </h2>
               <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -194,7 +194,7 @@ function LightPricingA(props) {
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest mb-1 font-medium">
                 BUSINESS
               </h2>
               <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -304,7 +304,7 @@ function LightPricingA(props) {
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 className="text-sm tracking-widest mb-1 font-medium">
                 SPECIAL
               </h2>
               <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">

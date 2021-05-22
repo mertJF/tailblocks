@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function LightFeatureG(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium text-center text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -30,7 +30,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">
+              <span className="font-medium">
                 Authentic Cliche Forage
               </span>
             </div>
@@ -49,7 +49,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">
+              <span className="font-medium">
                 Kinfolk Chips Snackwave
               </span>
             </div>
@@ -68,7 +68,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">
+              <span className="font-medium">
                 Coloring Book Ethical
               </span>
             </div>
@@ -87,7 +87,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">
+              <span className="font-medium">
                 Typewriter Polaroid Cray
               </span>
             </div>
@@ -106,7 +106,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">Pack Truffaut Blue</span>
+              <span className="font-medium">Pack Truffaut Blue</span>
             </div>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
@@ -123,7 +123,7 @@ function LightFeatureG(props) {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                 <path d="M22 4L12 14.01l-3-3" />
               </svg>
-              <span className="title-font font-medium">
+              <span className="font-medium">
                 The Catcher In The Rye
               </span>
             </div>

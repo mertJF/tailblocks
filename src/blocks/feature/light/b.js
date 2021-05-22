@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function LightFeatureB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
@@ -34,7 +34,7 @@ function LightFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg font-medium mb-3">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -75,7 +75,7 @@ function LightFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg font-medium mb-3">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -115,7 +115,7 @@ function LightFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-lg font-medium mb-3">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">

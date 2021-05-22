@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function DarkStepA(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap w-full">
           <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
@@ -25,7 +25,7 @@ function DarkStepA(props) {
                 </svg>
               </div>
               <div className="flex-grow pl-4">
-                <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium text-sm text-white mb-1 tracking-wider">
                   STEP 1
                 </h2>
                 <p className="leading-relaxed">
@@ -52,7 +52,7 @@ function DarkStepA(props) {
                 </svg>
               </div>
               <div className="flex-grow pl-4">
-                <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium text-sm text-white mb-1 tracking-wider">
                   STEP 2
                 </h2>
                 <p className="leading-relaxed">
@@ -80,7 +80,7 @@ function DarkStepA(props) {
                 </svg>
               </div>
               <div className="flex-grow pl-4">
-                <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium text-sm text-white mb-1 tracking-wider">
                   STEP 3
                 </h2>
                 <p className="leading-relaxed">
@@ -108,7 +108,7 @@ function DarkStepA(props) {
                 </svg>
               </div>
               <div className="flex-grow pl-4">
-                <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium text-sm text-white mb-1 tracking-wider">
                   STEP 4
                 </h2>
                 <p className="leading-relaxed">
@@ -133,7 +133,7 @@ function DarkStepA(props) {
                 </svg>
               </div>
               <div className="flex-grow pl-4">
-                <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium text-sm text-white mb-1 tracking-wider">
                   FINISH
                 </h2>
                 <p className="leading-relaxed">

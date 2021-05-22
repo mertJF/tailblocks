@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightGalleryB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-2/3 mx-auto">
           <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
@@ -13,7 +13,7 @@ function LightGalleryB(props) {
               src="https://dummyimage.com/820x340"
             />
             <div className="text-center relative z-10 w-full">
-              <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">
+              <h2 className="text-2xl text-gray-900 font-medium mb-2">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed">
@@ -44,7 +44,7 @@ function LightGalleryB(props) {
                   src="https://dummyimage.com/542x460"
                 />
                 <div className="text-center relative z-10 w-full">
-                  <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                  <h2 className="text-xl text-gray-900 font-medium mb-2">
                     Shooting Stars
                   </h2>
                   <p className="leading-relaxed">
@@ -75,7 +75,7 @@ function LightGalleryB(props) {
                   src="https://dummyimage.com/542x420"
                 />
                 <div className="text-center relative z-10 w-full">
-                  <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                  <h2 className="text-xl text-gray-900 font-medium mb-2">
                     Shooting Stars
                   </h2>
                   <p className="leading-relaxed">

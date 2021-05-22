@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureD(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2 md:w-full">
@@ -22,7 +22,7 @@ function DarkFeatureD(props) {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-white text-lg title-font font-medium mb-3">
+                <h2 className="text-white text-lg font-medium mb-3">
                   Shooting Stars
                 </h2>
                 <p className="leading-relaxed text-base">
@@ -63,7 +63,7 @@ function DarkFeatureD(props) {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-white text-lg title-font font-medium mb-3">
+                <h2 className="text-white text-lg font-medium mb-3">
                   The Catalyzer
                 </h2>
                 <p className="leading-relaxed text-base">

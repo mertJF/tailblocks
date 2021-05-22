@@ -2,9 +2,9 @@ import React from "react";
 
 function DarkTestimonialA() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-3xl font-medium title-font text-white mb-12 text-center">
+        <h1 className="text-3xl font-medium text-white mb-12 text-center">
           Testimonials
         </h1>
         <div className="flex flex-wrap -m-4">
@@ -27,7 +27,7 @@ function DarkTestimonialA() {
               <a href className="inline-flex items-center">
                 <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                 <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-white">
+                  <span className="font-medium text-white">
                     Holden Caulfield
                   </span>
                   <span className="text-gray-500 text-sm">UI DEVELOPER</span>
@@ -54,7 +54,7 @@ function DarkTestimonialA() {
               <a href className="inline-flex items-center">
                 <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                 <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-white">
+                  <span className="font-medium text-white">
                     Alper Kamu
                   </span>
                   <span className="text-gray-500 text-sm">DESIGNER</span>

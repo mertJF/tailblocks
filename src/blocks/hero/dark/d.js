@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function DarkHeroD(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
             Knausgaard typewriter readymade marfa
           </h1>
           <p className="mb-8 leading-relaxed">
@@ -47,7 +47,7 @@ function DarkHeroD(props) {
               </svg>
               <span className="ml-4 flex items-start flex-col leading-none">
                 <span className="text-xs text-gray-400 mb-1">GET IT ON</span>
-                <span className="title-font font-medium">Google Play</span>
+                <span className="font-medium">Google Play</span>
               </span>
             </button>
             <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0">
@@ -64,7 +64,7 @@ function DarkHeroD(props) {
                 <span className="text-xs text-gray-400 mb-1">
                   Download on the
                 </span>
-                <span className="title-font font-medium">App Store</span>
+                <span className="font-medium">App Store</span>
               </span>
             </button>
           </div>

@@ -2,10 +2,10 @@ import React from "react";
 
 function DarkTeamC() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-2xl font-medium title-font mb-4 text-white">
+          <h1 className="text-2xl font-medium mb-4 text-white">
             OUR TEAM
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -23,7 +23,7 @@ function DarkTeamC() {
                 src="https://dummyimage.com/200x200"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
+                <h2 className="font-medium text-lg text-white">
                   Alper Kamu
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
@@ -80,7 +80,7 @@ function DarkTeamC() {
                 src="https://dummyimage.com/201x201"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
+                <h2 className="font-medium text-lg text-white">
                   Holden Caulfield
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
@@ -137,7 +137,7 @@ function DarkTeamC() {
                 src="https://dummyimage.com/202x202"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
+                <h2 className="font-medium text-lg text-white">
                   Atticus Finch
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
@@ -194,7 +194,7 @@ function DarkTeamC() {
                 src="https://dummyimage.com/203x203"
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
+                <h2 className="font-medium text-lg text-white">
                   Henry Letham
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>

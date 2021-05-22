@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function DarkTestimonialB(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg
@@ -26,7 +26,7 @@ function DarkTestimonialB(props) {
             sriracha forage franzen organic drinking vinegar.
           </p>
           <span className={`inline-block h-1 w-10 rounded bg-${props.theme}-500 mt-8 mb-6`}></span>
-          <h2 className="text-white font-medium title-font tracking-wider text-sm">
+          <h2 className="text-white font-medium tracking-wider text-sm">
             HOLDEN CAULFIELD
           </h2>
           <p className="text-gray-500">Senior Product Designer</p>

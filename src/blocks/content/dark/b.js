@@ -3,11 +3,11 @@ import PropTypes from  "prop-types";
 
 function DarkContentB(props) {
   return (
-    <section className="text-gray-400 body-font bg-gray-900">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+            <h1 className="sm:text-3xl text-2xl font-medium mb-2 text-white">
               Pitchfork Kickstarter Taxidermy
             </h1>
             <div className={`h-1 w-20 bg-${props.theme}-500 rounded`} />
@@ -27,10 +27,10 @@ function DarkContentB(props) {
                 src="https://dummyimage.com/720x400"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-white font-medium title-font mb-4">
+              <h2 className="text-lg text-white font-medium mb-4">
                 Chichen Itza
               </h2>
               <p className="leading-relaxed text-base">
@@ -46,10 +46,10 @@ function DarkContentB(props) {
                 src="https://dummyimage.com/721x401"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-white font-medium title-font mb-4">
+              <h2 className="text-lg text-white font-medium mb-4">
                 Colosseum Roma
               </h2>
               <p className="leading-relaxed text-base">
@@ -65,10 +65,10 @@ function DarkContentB(props) {
                 src="https://dummyimage.com/722x402"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-white font-medium title-font mb-4">
+              <h2 className="text-lg text-white font-medium mb-4">
                 Great Pyramid of Giza
               </h2>
               <p className="leading-relaxed text-base">
@@ -84,10 +84,10 @@ function DarkContentB(props) {
                 src="https://dummyimage.com/723x403"
                 alt="content"
               />
-              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium title-font`}>
+              <h3 className={`tracking-widest text-${props.theme}-400 text-xs font-medium`}>
                 SUBTITLE
               </h3>
-              <h2 className="text-lg text-white font-medium title-font mb-4">
+              <h2 className="text-lg text-white font-medium mb-4">
                 San Francisco
               </h2>
               <p className="leading-relaxed text-base">

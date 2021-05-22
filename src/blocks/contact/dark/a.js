@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function DarkContactA(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font relative">
+    <section className="text-gray-400 bg-gray-900 relative">
       <div className="absolute inset-0 bg-gray-900">
         <iframe
           title="map"
@@ -19,7 +19,7 @@ function DarkContactA(props) {
       </div>
       <div className="container px-5 py-24 mx-auto flex">
         <div className="lg:w-1/3 md:w-1/2 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
-          <h2 className="text-white text-lg mb-1 font-medium title-font">
+          <h2 className="text-white text-lg mb-1 font-medium">
             Feedback
           </h2>
           <p className="leading-relaxed mb-5">

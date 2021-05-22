@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function LightCTAB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-          <h1 className="title-font font-medium text-3xl text-gray-900">
+          <h1 className="font-medium text-3xl text-gray-900">
             Slow-carb next level shoindcgoitch ethical authentic, poko scenester
           </h1>
           <p className="leading-relaxed mt-4">
@@ -15,7 +15,7 @@ function LightCTAB(props) {
           </p>
         </div>
         <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-          <h2 className="text-gray-900 text-lg font-medium title-font mb-5">
+          <h2 className="text-gray-900 text-lg font-medium mb-5">
             Sign Up
           </h2>
           <div className="relative mb-4">

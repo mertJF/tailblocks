@@ -3,9 +3,9 @@ import PropTypes from  "prop-types";
 
 function LightContentE(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
-        <h2 className="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+        <h2 className="sm:text-3xl text-2xl text-gray-900 font-medium mb-2 md:w-2/5">
           Kickstarter Actually Pinterest Brunch Bitters Occupy
         </h2>
         <div className="md:w-3/5 md:pl-6">

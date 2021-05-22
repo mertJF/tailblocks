@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureB(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium text-white mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
@@ -34,7 +34,7 @@ function DarkFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-white text-lg title-font font-medium mb-3">
+              <h2 className="text-white text-lg font-medium mb-3">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
@@ -75,7 +75,7 @@ function DarkFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-white text-lg title-font font-medium mb-3">
+              <h2 className="text-white text-lg font-medium mb-3">
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
@@ -115,7 +115,7 @@ function DarkFeatureB(props) {
               </svg>
             </div>
             <div className="flex-grow">
-              <h2 className="text-white text-lg title-font font-medium mb-3">
+              <h2 className="text-white text-lg font-medium mb-3">
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">

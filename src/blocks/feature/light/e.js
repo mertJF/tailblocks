@@ -3,13 +3,13 @@ import PropTypes from  "prop-types";
 
 function LightFeatureE(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
+          <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium mb-1`}>
             ROOF PARTY POLAROID
           </h2>
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-medium text-gray-900">
             Master Cleanse Reliac Heirloom
           </h1>
         </div>
@@ -30,7 +30,7 @@ function LightFeatureE(props) {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                   </svg>
                 </div>
-                <h2 className="text-gray-900 text-lg title-font font-medium">
+                <h2 className="text-gray-900 text-lg font-medium">
                   Shooting Stars
                 </h2>
               </div>
@@ -73,7 +73,7 @@ function LightFeatureE(props) {
                     <circle cx="12" cy="7" r="4" />
                   </svg>
                 </div>
-                <h2 className="text-gray-900 text-lg title-font font-medium">
+                <h2 className="text-gray-900 text-lg font-medium">
                   The Catalyzer
                 </h2>
               </div>
@@ -117,7 +117,7 @@ function LightFeatureE(props) {
                     <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" />
                   </svg>
                 </div>
-                <h2 className="text-gray-900 text-lg title-font font-medium">
+                <h2 className="text-gray-900 text-lg font-medium">
                   Neptune
                 </h2>
               </div>

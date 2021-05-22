@@ -3,10 +3,10 @@ import PropTypes from  "prop-types";
 
 function DarkFeatureH(props) {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium text-center text-white mb-4">
             Raw Denim Heirloom Man Braid
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -17,7 +17,7 @@ function DarkFeatureH(props) {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               SHOOTING STARS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
@@ -104,7 +104,7 @@ function DarkFeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               THE 400 BLOWS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
@@ -191,7 +191,7 @@ function DarkFeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               THE CATALYZER
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
@@ -278,7 +278,7 @@ function DarkFeatureH(props) {
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">
+            <h2 className="font-medium tracking-widest text-white mb-4 text-sm text-center sm:text-left">
               NEPTUNE
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
