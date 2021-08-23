@@ -1,82 +1,83 @@
-import React from 'react';
+import React from "react";
 
-import BlogA from './blog/a';
-import BlogB from './blog/b';
-import BlogC from './blog/c';
-import BlogD from './blog/d';
-import BlogE from './blog/e';
+import BlogA from "./blog/a";
+import BlogB from "./blog/b";
+import BlogC from "./blog/c";
+import BlogD from "./blog/d";
+import BlogE from "./blog/e";
 
-import ContactA from './contact/a';
-import ContactB from './contact/b';
-import ContactC from './contact/c';
+import ContactA from "./contact/a";
+import ContactB from "./contact/b";
+import ContactC from "./contact/c";
 
-import ContentA from './content/a';
-import ContentB from './content/b';
-import ContentC from './content/c';
-import ContentD from './content/d';
-import ContentE from './content/e';
-import ContentF from './content/f';
-import ContentG from './content/g';
-import ContentH from './content/h';
+import ContentA from "./content/a";
+import ContentB from "./content/b";
+import ContentC from "./content/c";
+import ContentD from "./content/d";
+import ContentE from "./content/e";
+import ContentF from "./content/f";
+import ContentG from "./content/g";
+import ContentH from "./content/h";
 
-import CTAA from './cta/a';
-import CTAB from './cta/b';
-import CTAC from './cta/c';
-import CTAD from './cta/d';
+import CTAA from "./cta/a";
+import CTAB from "./cta/b";
+import CTAC from "./cta/c";
+import CTAD from "./cta/d";
 
-import EcommerceA from './ecommerce/a';
-import EcommerceB from './ecommerce/b';
-import EcommerceC from './ecommerce/c';
+import EcommerceA from "./ecommerce/a";
+import EcommerceB from "./ecommerce/b";
+import EcommerceC from "./ecommerce/c";
 
-import FeatureA from './feature/a';
-import FeatureB from './feature/b';
-import FeatureC from './feature/c';
-import FeatureD from './feature/d';
-import FeatureE from './feature/e';
-import FeatureF from './feature/f';
-import FeatureG from './feature/g';
-import FeatureH from './feature/h';
+import FeatureA from "./feature/a";
+import FeatureB from "./feature/b";
+import FeatureC from "./feature/c";
+import FeatureD from "./feature/d";
+import FeatureE from "./feature/e";
+import FeatureF from "./feature/f";
+import FeatureG from "./feature/g";
+import FeatureH from "./feature/h";
 
-import FooterA from './footer/a';
-import FooterB from './footer/b';
-import FooterC from './footer/c';
-import FooterD from './footer/d';
-import FooterE from './footer/e';
+import FooterA from "./footer/a";
+import FooterB from "./footer/b";
+import FooterC from "./footer/c";
+import FooterD from "./footer/d";
+import FooterE from "./footer/e";
 
-import GalleryA from './gallery/a';
-import GalleryB from './gallery/b';
-import GalleryC from './gallery/c';
+import GalleryA from "./gallery/a";
+import GalleryB from "./gallery/b";
+import GalleryC from "./gallery/c";
 
-import HeaderA from './header/a';
-import HeaderB from './header/b';
-import HeaderC from './header/c';
-import HeaderD from './header/d';
+import HeaderA from "./header/a";
+import HeaderB from "./header/b";
+import HeaderC from "./header/c";
+import HeaderD from "./header/d";
 
-import HeroA from './hero/a';
-import HeroB from './hero/b';
-import HeroC from './hero/c';
-import HeroD from './hero/d';
-import HeroE from './hero/e';
-import HeroF from './hero/f';
+import HeroA from "./hero/a";
+import HeroB from "./hero/b";
+import HeroC from "./hero/c";
+import HeroD from "./hero/d";
+import HeroE from "./hero/e";
+import HeroF from "./hero/f";
+import NotfoundA from "./Notfound/a";
 
-import PricingA from './pricing/a';
-import PricingB from './pricing/b';
+import PricingA from "./pricing/a";
+import PricingB from "./pricing/b";
 
-import StatisticA from './statistic/a';
-import StatisticB from './statistic/b';
-import StatisticC from './statistic/c';
+import StatisticA from "./statistic/a";
+import StatisticB from "./statistic/b";
+import StatisticC from "./statistic/c";
 
-import StepA from './step/a';
-import StepB from './step/b';
-import StepC from './step/c';
+import StepA from "./step/a";
+import StepB from "./step/b";
+import StepC from "./step/c";
 
-import TeamA from './team/a';
-import TeamB from './team/b';
-import TeamC from './team/c';
+import TeamA from "./team/a";
+import TeamB from "./team/b";
+import TeamC from "./team/c";
 
-import TestimonialA from './testimonial/a';
-import TestimonialB from './testimonial/b';
-import TestimonialC from './testimonial/c';
+import TestimonialA from "./testimonial/a";
+import TestimonialB from "./testimonial/b";
+import TestimonialC from "./testimonial/c";
 
 export default function getIcons() {
   return {
@@ -85,12 +86,12 @@ export default function getIcons() {
       BlogB: <BlogB />,
       BlogC: <BlogC />,
       BlogD: <BlogD />,
-      BlogE: <BlogE />
+      BlogE: <BlogE />,
     },
     Contact: {
       ContactA: <ContactA />,
       ContactB: <ContactB />,
-      ContactC: <ContactC />
+      ContactC: <ContactC />,
     },
     Content: {
       ContentA: <ContentA />,
@@ -100,18 +101,18 @@ export default function getIcons() {
       ContentE: <ContentE />,
       ContentF: <ContentF />,
       ContentG: <ContentG />,
-      ContentH: <ContentH />
+      ContentH: <ContentH />,
     },
     CTA: {
       CTAA: <CTAA />,
       CTAB: <CTAB />,
       CTAC: <CTAC />,
-      CTAD: <CTAD />
+      CTAD: <CTAD />,
     },
     Ecommerce: {
       EcommerceA: <EcommerceA />,
       EcommerceB: <EcommerceB />,
-      EcommerceC: <EcommerceC />
+      EcommerceC: <EcommerceC />,
     },
     Feature: {
       FeatureA: <FeatureA />,
@@ -121,57 +122,60 @@ export default function getIcons() {
       FeatureE: <FeatureE />,
       FeatureF: <FeatureF />,
       FeatureG: <FeatureG />,
-      FeatureH: <FeatureH />
+      FeatureH: <FeatureH />,
     },
-    Footer: {
+    Footer: {
       FooterA: <FooterA />,
       FooterB: <FooterB />,
       FooterC: <FooterC />,
       FooterD: <FooterD />,
-      FooterE: <FooterE />
+      FooterE: <FooterE />,
     },
     Gallery: {
       GalleryA: <GalleryA />,
       GalleryB: <GalleryB />,
-      GalleryC: <GalleryC />
-    }, 
+      GalleryC: <GalleryC />,
+    },
     Header: {
       HeaderA: <HeaderA />,
       HeaderB: <HeaderB />,
       HeaderC: <HeaderC />,
-      HeaderD: <HeaderD />
-    }, 
+      HeaderD: <HeaderD />,
+    },
     Hero: {
       HeroA: <HeroA />,
       HeroB: <HeroB />,
       HeroC: <HeroC />,
       HeroD: <HeroD />,
       HeroE: <HeroE />,
-      HeroF: <HeroF />
+      HeroF: <HeroF />,
     },
     Pricing: {
       PricingA: <PricingA />,
-      PricingB: <PricingB />
-    }, 
+      PricingB: <PricingB />,
+    },
     Statistic: {
       StatisticA: <StatisticA />,
       StatisticB: <StatisticB />,
-      StatisticC: <StatisticC />
-    }, 
+      StatisticC: <StatisticC />,
+    },
     Step: {
       StepA: <StepA />,
       StepB: <StepB />,
-      StepC: <StepC />
+      StepC: <StepC />,
     },
     Team: {
       TeamA: <TeamA />,
       TeamB: <TeamB />,
-      TeamC: <TeamC />
+      TeamC: <TeamC />,
     },
     Testimonial: {
       TestimonialA: <TestimonialA />,
       TestimonialB: <TestimonialB />,
-      TestimonialC: <TestimonialC />
-    }
-  }
+      TestimonialC: <TestimonialC />,
+    },
+    Notfound: {
+      NotfoundA: <NotfoundA />,
+    },
+  };
 }
