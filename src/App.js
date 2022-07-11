@@ -362,7 +362,7 @@ class App extends Component {
             }
             <span>{!this.state.codeView ? 'VIEW CODE': 'PREVIEW'}</span>
           </button>
-          <div className="switcher">
+          <div className="switcher" style={{backgroundColor: darkMode ? 'var(--sidebar-bg)':'white'}}>
             {this.themeListRenderer()}
           </div>
           {this.viewModeRenderer()}
