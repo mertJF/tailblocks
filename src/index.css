@@ -245,6 +245,19 @@ svg { width: 100%; }
   background-position: center;
 }
 
+#theme_color_btn{
+  display:block;
+}
+
+#theme_color_btn:hover  #tooltip{
+  display:block; 
+  z-index:5;
+}
+
+#tooltip {
+  display:none ;
+}
+
 .theme-button + .theme-button {
   margin-left: 5px;
 }

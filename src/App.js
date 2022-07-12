@@ -272,9 +272,23 @@ class App extends Component {
 
   themeListRenderer() {
     const { theme } = this.state;
-    return themeList.map((t, k) => 
-      <button key={k} data-theme={t} onKeyDown={this.keyboardNavigation} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
-    )
+    return themeList.map((t, k) => (
+      <button
+        key={k}
+        id="theme_color_btn"
+        data-theme={t}
+        onKeyDown={this.keyboardNavigation}
+        className={`theme-button bg-${t}-500${theme === t ? " is-active" : ""}`}
+        onClick={this.changeTheme}
+      >
+        <div
+          id="tooltip"
+          className={`bg-${t}-50 absolute text-${t}-900 text-sm px-1 py-0.5 rounded-md ring-1 ring-${t}-900 z-10 mt-4 transition-transform capitalize `}
+        >
+          {t}
+        </div>
+      </button>
+    ));
   }
 
   listRenderer() {
