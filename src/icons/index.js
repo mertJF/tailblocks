@@ -73,6 +73,7 @@ import StepC from './step/c';
 import TeamA from './team/a';
 import TeamB from './team/b';
 import TeamC from './team/c';
+import TeamD from './team/d';
 
 import TestimonialA from './testimonial/a';
 import TestimonialB from './testimonial/b';
@@ -166,7 +167,8 @@ export default function getIcons() {
     Team: {
       TeamA: <TeamA />,
       TeamB: <TeamB />,
-      TeamC: <TeamC />
+      TeamC: <TeamC />,
+      TeamD: <TeamD />
     },
     Testimonial: {
       TestimonialA: <TestimonialA />,
