@@ -144,10 +144,12 @@ import DarkStepC from './step/dark/c';
 import LightTeamA from './team/light/a';
 import LightTeamB from './team/light/b';
 import LightTeamC from './team/light/c';
+import LightTeamD from './team/light/d';
 
 import DarkTeamA from './team/dark/a';
 import DarkTeamB from './team/dark/b';
 import DarkTeamC from './team/dark/c';
+import DarkTeamD from './team/dark/d';
 
 import LightTestimonialA from './testimonial/light/a';
 import LightTestimonialB from './testimonial/light/b';
@@ -245,7 +247,8 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
     Team: {
       TeamA: darkMode ? <DarkTeamA theme={theme} /> : <LightTeamA theme={theme} />,
       TeamB: darkMode ? <DarkTeamB theme={theme} /> : <LightTeamB theme={theme} />,
-      TeamC: darkMode ? <DarkTeamC theme={theme} /> : <LightTeamC theme={theme} />
+      TeamC: darkMode ? <DarkTeamC theme={theme} /> : <LightTeamC theme={theme} />,
+      TeamD: darkMode ? <DarkTeamD theme={theme} /> : <LightTeamD theme={theme} />
     },
     Testimonial: {
       TestimonialA: darkMode ? <DarkTestimonialA theme={theme} /> : <LightTestimonialA theme={theme} />,
