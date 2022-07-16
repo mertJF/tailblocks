@@ -20,7 +20,23 @@ function TestimonialC() {
         d="M44 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H45.5a1.5 1.5 0 01-1.5-1.5z"
         fill="var(--main-500)"
       />
-      <circle cx={53} cy={53} r={8} fill="var(--base-300)" />
+      <rect
+        x={49}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={54}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <circle cx={53} cy={45} r={8} fill="var(--base-300)" />
       <path
         d="M102 77a2 2 0 012-2h59a2 2 0 110 4h-59a2 2 0 01-2-2zM107 85a2 2 0 012-2h48.92a2 2 0 110 4H109a2 2 0 01-2-2z"
         fill="var(--base-500)"
@@ -37,7 +53,23 @@ function TestimonialC() {
         d="M125 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H126.5a1.5 1.5 0 01-1.5-1.5z"
         fill="var(--main-500)"
       />
-      <circle cx={134} cy={53} r={8} fill="var(--base-300)" />
+      <rect
+        x={130}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={135}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <circle cx={134} cy={45} r={8} fill="var(--base-300)" />
       <path
         d="M183 77a2 2 0 012-2h59a2 2 0 110 4h-59a2 2 0 01-2-2zM188 85a2 2 0 012-2h48.92a2 2 0 110 4H190a2 2 0 01-2-2z"
         fill="var(--base-500)"
@@ -54,7 +86,23 @@ function TestimonialC() {
         d="M206 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H207.5a1.5 1.5 0 01-1.5-1.5z"
         fill="var(--main-500)"
       />
-      <circle cx={215} cy={53} r={8} fill="var(--base-300)" />
+      <rect
+        x={211}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={216}
+        y={57}
+        width={2.5}
+        height={5}
+        rx={2.5}
+        fill="var(--base-500)"
+      />
+      <circle cx={215} cy={45} r={8} fill="var(--base-300)" />
     </svg>
   )
 }
