@@ -1,0 +1,132 @@
+import React from "react";
+
+function FAQA() {
+  return (
+    <svg viewBox="0 0 266 150" fill="none">
+      <path fill="var(--solid)" d="M0 0h266v150H0z" />
+      <rect
+        x={81}
+        y={28}
+        width={90.732}
+        height={4}
+        rx={2}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={96}
+        y={20}
+        width={64}
+        height={5}
+        rx={2.5}
+        fill="var(--solid-900)"
+      />
+      <rect
+        x={54}
+        y={49}
+        width={70}
+        height={4}
+        rx={2.5}
+        fill="var(--solid-900)"
+      />
+      <rect
+        x={54}
+        y={57}
+        width={165}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={24}
+        y={50}
+        width={12}
+        height={10}
+        rx={1}
+        fill="var(--base-200)"
+      />
+      <rect
+        x={54}
+        y={64}
+        width={129}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+      <path
+        d="M245.5 78a.5.5 0 010 1h-225a.5.5 0 010-1h225z"
+        fill="var(--base-300)"
+      />
+      <path
+        d="M245.5 113a.5.5 0 010 1h-225a.5.5 0 010-1h225z"
+        fill="var(--base-300)"
+      />
+      <rect
+        x={54}
+        y={87}
+        width={70}
+        height={4}
+        rx={2.5}
+        fill="var(--solid-900)"
+      />
+      <rect
+        x={54}
+        y={95}
+        width={165}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={24}
+        y={92}
+        width={12}
+        height={10}
+        rx={1}
+        fill="var(--base-200)"
+      />
+      <rect
+        x={54}
+        y={101}
+        width={129}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+
+      <rect
+        x={54}
+        y={120}
+        width={70}
+        height={4}
+        rx={2.5}
+        fill="var(--solid-900)"
+      />
+      <rect
+        x={54}
+        y={128}
+        width={165}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+      <rect
+        x={24}
+        y={125}
+        width={12}
+        height={10}
+        rx={1}
+        fill="var(--base-200)"
+      />
+      <rect
+        x={54}
+        y={134}
+        width={129}
+        height={3}
+        rx={1.5}
+        fill="var(--base-500)"
+      />
+    </svg>
+  );
+}
+
+export default FAQA;
