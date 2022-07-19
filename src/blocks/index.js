@@ -57,8 +57,10 @@ import DarkEcommerceB from './ecommerce/dark/b';
 import DarkEcommerceC from './ecommerce/dark/c';
 
 import LightFAQA from './faq/light/a';
+import LightFAQB from './faq/light/b';
 
 import DarkFAQA from './faq/dark/a';
+import DarkFAQB from './faq/dark/b';
 
 import LightFeatureA from './feature/light/a';
 import LightFeatureB from './feature/light/b';
@@ -197,6 +199,7 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
     },
     FAQ: {
       FAQA: darkMode ? <DarkFAQA theme={theme} /> : <LightFAQA theme={theme} />,
+      FAQB: darkMode ? <DarkFAQB theme={theme} /> : <LightFAQB theme={theme} />
     },
     Feature: {
       FeatureA: darkMode ? <DarkFeatureA theme={theme} /> : <LightFeatureA theme={theme} />,
