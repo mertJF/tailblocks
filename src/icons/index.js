@@ -62,6 +62,9 @@ import HeroF from './hero/f';
 import PricingA from './pricing/a';
 import PricingB from './pricing/b';
 
+import PaginationA from './pagination/a';
+import PaginationB from './pagination/b';
+
 import StatisticA from './statistic/a';
 import StatisticB from './statistic/b';
 import StatisticC from './statistic/c';
@@ -148,6 +151,10 @@ export default function getIcons() {
       HeroD: <HeroD />,
       HeroE: <HeroE />,
       HeroF: <HeroF />
+    },
+    Pagination: {
+      PaginationA: <PaginationA />,
+      PaginationB: <PaginationB />
     },
     Pricing: {
       PricingA: <PricingA />,

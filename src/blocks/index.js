@@ -119,6 +119,12 @@ import DarkHeroD from './hero/dark/d';
 import DarkHeroE from './hero/dark/e';
 import DarkHeroF from './hero/dark/f';
 
+import DarkPaginationA from './pagination/dark/a';
+import DarkPaginationB from './pagination/dark/b';
+
+import LightPaginationA from './pagination/light/a';
+import LightPaginationB from './pagination/light/b';
+
 import LightPricingA from './pricing/light/a';
 import LightPricingB from './pricing/light/b';
 
@@ -227,6 +233,10 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
       HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+    },
+    Pagination: {
+      PaginationA: darkMode ? <DarkPaginationA theme={theme} /> : <LightPaginationA theme={theme} />,
+      PaginationB: darkMode ? <DarkPaginationB theme={theme} /> : <LightPaginationB theme={theme} />
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
