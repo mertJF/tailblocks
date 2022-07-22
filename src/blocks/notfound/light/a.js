@@ -6,7 +6,7 @@ function LightNotfoundA(props) {
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
-          className="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded text-red-800 bg-red-800"
+          className="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded"
           alt="404error"
           src="https://cdn-icons.flaticon.com/png/512/3551/premium/3551629.png?token=exp=1658490083~hmac=bfcc1874209083ee667fff1e9f7f6d19"
         />
