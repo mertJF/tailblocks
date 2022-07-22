@@ -59,6 +59,10 @@ import HeroD from './hero/d';
 import HeroE from './hero/e';
 import HeroF from './hero/f';
 
+import NotfoundA from './notfound/a';
+import NotfoundB from './notfound/b';
+import NotfoundC from './notfound/c';
+
 import PricingA from './pricing/a';
 import PricingB from './pricing/b';
 
@@ -148,6 +152,11 @@ export default function getIcons() {
       HeroD: <HeroD />,
       HeroE: <HeroE />,
       HeroF: <HeroF />
+    },
+    Notfound: {
+      NotfoundA: <NotfoundA />,
+      NotfoundB: <NotfoundB />,
+      NotfoundC: <NotfoundC />
     },
     Pricing: {
       PricingA: <PricingA />,

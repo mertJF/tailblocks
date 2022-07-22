@@ -119,6 +119,14 @@ import DarkHeroD from './hero/dark/d';
 import DarkHeroE from './hero/dark/e';
 import DarkHeroF from './hero/dark/f';
 
+import LightNotfoundA from './notfound/light/a';
+import LightNotfoundB from './notfound/light/b';
+import LightNotfoundC from './notfound/light/c';
+
+import DarkNotfoundA from './notfound/dark/a';
+import DarkNotfoundB from './notfound/dark/b';
+import DarkNotfoundC from './notfound/dark/c';
+
 import LightPricingA from './pricing/light/a';
 import LightPricingB from './pricing/light/b';
 
@@ -227,6 +235,11 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
       HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+    },
+    Notfound: {
+      NotfoundA: darkMode ? <DarkNotfoundA theme={theme} /> : <LightNotfoundA theme={theme} />,
+      NotfoundB: darkMode ? <DarkNotfoundB theme={theme} /> : <LightNotfoundB theme={theme} />,
+      NotfoundC: darkMode ? <DarkNotfoundC theme={theme} /> : <LightNotfoundC theme={theme} />
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
