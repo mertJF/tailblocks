@@ -12,6 +12,10 @@ import DarkBlogC from './blog/dark/c';
 import DarkBlogD from './blog/dark/d';
 import DarkBlogE from './blog/dark/e';
 
+import LightBlogPageA from './blogpage/light/a';
+
+import DarkBlogPageA from './blogpage/dark/a';
+
 import LightContactA from './contact/light/a';
 import LightContactB from './contact/light/b';
 import LightContactC from './contact/light/c';
@@ -165,6 +169,9 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       BlogC: darkMode ? <DarkBlogC theme={theme} /> : <LightBlogC theme={theme} />,
       BlogD: darkMode ? <DarkBlogD theme={theme} /> : <LightBlogD theme={theme} />,
       BlogE: darkMode ? <DarkBlogE theme={theme} /> : <LightBlogE theme={theme} />
+    },
+    BlogPage: {
+      BlogPageA: darkMode ? <DarkBlogPageA theme={theme} /> : <LightBlogPageA theme={theme} />,
     },
     Contact: {
       ContactA: darkMode ? <DarkContactA theme={theme} /> : <LightContactA theme={theme} />,
