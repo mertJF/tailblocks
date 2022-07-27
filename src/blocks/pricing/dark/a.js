@@ -13,10 +13,10 @@ function DarkPricingA(props) {
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
           </p>
           <div className={`flex mx-auto border-2 border-${props.theme}-500 rounded overflow-hidden mt-6`}>
-            <button className={`py-1 px-4 bg-${props.theme}-500 text-white focus:outline-none`}>
+            <button name="btn" className={`py-1 px-4 bg-${props.theme}-500 text-white focus:outline-none`}>
               Monthly
             </button>
-            <button className="py-1 px-4 text-gray-300 focus:outline-none">
+            <button name="btn" className="py-1 px-4 text-gray-300 focus:outline-none">
               Annually
             </button>
           </div>
@@ -78,7 +78,7 @@ function DarkPricingA(props) {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+              <button name="btn" className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
                 Button
                 <svg
                   fill="none"
@@ -175,7 +175,7 @@ function DarkPricingA(props) {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button name="btn" className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
                 <svg
                   fill="none"
@@ -285,7 +285,7 @@ function DarkPricingA(props) {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+              <button name="btn" className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
                 Button
                 <svg
                   fill="none"
@@ -395,7 +395,7 @@ function DarkPricingA(props) {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+              <button name="btn" className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
                 Button
                 <svg
                   fill="none"

@@ -107,7 +107,7 @@ function LightPricingB(props) {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
-          <button className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+          <button name="btn" className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
             Button
           </button>
         </div>
