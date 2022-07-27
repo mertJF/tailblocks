@@ -70,7 +70,6 @@ function DarkBlogPageA(props) {
                 snackwave ramps cornhole.
               </p>
             </div>
-            {/* subheading */}
             <div className="rounded flex pt-4 pb-2 h-full items-center">
               <svg
                 fill="none"
@@ -114,7 +113,6 @@ function DarkBlogPageA(props) {
         </div>
 
         <h2 className="text-gray-500 italic text-sm my-4">Thank You !</h2>
-        {/* like & comment */}
         <div className="flex lg:flex-row md:flex-col my-4 space-x-3">
           <button className=" inline-flex h-10 w-10 items-center justify-center rounded-full border-0 bg-gray-800 p-0 text-gray-500 hover:bg-gray-700">
             <svg
@@ -137,13 +135,11 @@ function DarkBlogPageA(props) {
               className="w-6 h-6"
               viewBox="0 0 24 24"
             >
-              {" "}
               <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
             </svg>
           </button>
         </div>
 
-        {/* contat wala */}
         <div className="p-2 w-full pt-8 mt-4 border-t border-gray-700 text-center ">
           <span className="inline-flex space-x-3">
             <a href className={`text-${props.theme}-500`}>
