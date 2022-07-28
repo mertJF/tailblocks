@@ -318,7 +318,7 @@ class App extends Component {
     const { darkMode, theme, blockName, blockType, sidebar, view, copied, currentKeyCode } = this.state;
     return (
       <div className={`app${darkMode ? ' dark-mode' : ''}${sidebar ? ' has-sidebar' : ''} ${theme} ${view}`}>
-        <label htmlFor="copy-textarea"><textarea id="copy-textarea" name="copy-textarea" className="copy-textarea" ref={this.textareaRef} /></label>
+        <label htmlFor="copy-textarea" className='hidden'>Copy<textarea id="copy-textarea" name="copy-textarea" className="copy-textarea" ref={this.textareaRef} /></label>
         <aside className="sidebar" ref={this.sidebarRef}>
           {this.listRenderer()}
         </aside>
