@@ -127,9 +127,9 @@ function LightEcommerceB(props) {
             <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
               <div className="flex">
                 <span className="mr-3">Color</span>
-                <button name="btn" className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button name="btn" className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button name="btn" className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none`}></button>
+                <button aria-label="btn" name="btn" className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
+                <button aria-label="btn" name="btn" className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+                <button aria-label="btn" name="btn" className={`border-2 border-gray-300 ml-1 bg-${props.theme}-500 rounded-full w-6 h-6 focus:outline-none`}></button>
               </div>
               <div className="flex ml-6 items-center">
                 <span className="mr-3">Size</span>
@@ -160,10 +160,10 @@ function LightEcommerceB(props) {
               <span className="title-font font-medium text-2xl text-gray-900">
                 $58.00
               </span>
-              <button name="btn" className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button aria-label="btn" name="btn" className={`flex ml-auto text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
               </button>
-              <button name="btn" className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+              <button aria-label="btn" name="btn" className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"

@@ -14,7 +14,7 @@ function LightCTAD(props) {
           </h1>
         </div>
         <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
-          <button name="btn" className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <button aria-label="btn" name="btn" className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -28,7 +28,7 @@ function LightCTAD(props) {
               <span className="title-font font-medium">Google Play</span>
             </span>
           </button>
-          <button name="btn" className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <button aria-label="btn" name="btn" className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

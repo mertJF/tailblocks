@@ -25,6 +25,7 @@ function DarkContactA(props) {
           <p className="leading-relaxed mb-5">
             Post-ironic portland shabby chic echo park, banjo fashion axe
           </p>
+          <form>
           <div className="relative mb-4">
             <label
               htmlFor="email"
@@ -52,7 +53,8 @@ function DarkContactA(props) {
             ></textarea>
             </label>
           </div>
-          <button name="btn" className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+          </form>
+          <button aria-label="btn" name="btn" className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>
           <p className="text-xs text-gray-400 text-opacity-90 mt-3">

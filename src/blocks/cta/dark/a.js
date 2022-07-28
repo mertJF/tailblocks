@@ -10,7 +10,7 @@ function DarkCTAA(props) {
             Slow-carb next level shoinddgoitch ethical authentic, scenester
             sriracha forage.
           </h1>
-          <button name="btn" className={`flex-shrink-0 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg mt-10 sm:mt-0`}>
+          <button aria-label="btn" name="btn" className={`flex-shrink-0 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg mt-10 sm:mt-0`}>
             Button
           </button>
         </div>

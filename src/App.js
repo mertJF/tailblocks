@@ -273,7 +273,7 @@ class App extends Component {
   themeListRenderer() {
     const { theme } = this.state;
     return themeList.map((t, k) => 
-      <button name="theme" key={k} data-theme={t} onKeyDown={this.keyboardNavigation} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
+      <button aria-label="btn" name="theme" key={k} data-theme={t} onKeyDown={this.keyboardNavigation} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
     )
   }
 
@@ -283,7 +283,7 @@ class App extends Component {
       <div className="blocks" key={type}>
         <div className="block-category">{type}</div>
         <div className="block-list">
-        {Object.entries(icons).map(icon => <button name="icon" key={icon[0]} tabIndex="0" onClick={this.changeBlock} className={`block-item${icon[0] === blockName ? ' is-active': ''}`} block-type={type} block-name={icon[0]}>{icon[1]}</button>)}
+        {Object.entries(icons).map(icon => <button aria-label="btn" name="icon" key={icon[0]} tabIndex="0" onClick={this.changeBlock} className={`block-item${icon[0] === blockName ? ' is-active': ''}`} block-type={type} block-name={icon[0]}>{icon[1]}</button>)}
         </div>
       </div>
     );
@@ -291,7 +291,7 @@ class App extends Component {
 
   viewModeRenderer() {
     const { view } = this.state;
-    return viewList.map((v, k) => <button name="viewlist" key={k} className={`device${view === v.name ? ' is-active' : ''}`} data-view={v.name} onClick={this.changeView}>{v.icon}</button>);
+    return viewList.map((v, k) => <button aria-label="btn" name="viewlist" key={k} className={`device${view === v.name ? ' is-active' : ''}`} data-view={v.name} onClick={this.changeView}>{v.icon}</button>);
   }
 
   toggleSidebar() {
@@ -323,17 +323,17 @@ class App extends Component {
           {this.listRenderer()}
         </aside>
         <div className="toolbar">
-          <button name="opener" className="opener" onClick={this.toggleSidebar} ref={this.openerRef}>TAILBLOCKS</button>
+          <button aria-label="btn" name="opener" className="opener" onClick={this.toggleSidebar} ref={this.openerRef}>TAILBLOCKS</button>
           {this.state.codeView &&
             <div className="clipboard-wrapper">
-              <button name="clipboardicon" className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>
+              <button aria-label="btn" name="clipboardicon" className="copy-the-block copy-to-clipboard" onClick={this.copyToClipboard}>
                 {clipboardIcon}
                 <span>COPY TO CLIPBOARD</span>
               </button>
               <span className={`clipboard-tooltip${copied ? ' is-copied ' : ''}`} >Copied!</span>
             </div>
           }
-          <button name="codeview" className="copy-the-block" onClick={this.toggleView}>
+          <button aria-label="btn" name="codeview" className="copy-the-block" onClick={this.toggleView}>
             {!this.state.codeView ?
               <svg
                 fill="none"
@@ -366,7 +366,7 @@ class App extends Component {
             {this.themeListRenderer()}
           </div>
           {this.viewModeRenderer()}
-          <button name="mode" className="mode" onClick={this.changeMode}></button>
+          <button aria-label="btn" name="mode" className="mode" onClick={this.changeMode}></button>
         </div>
         <div className="markup" ref={this.markupRef}>{getBlock({ theme, darkMode })[blockType][blockName]}</div>
         <main className="main" style={{ opacity: this.state.ready ? '1' : '0' }}>
