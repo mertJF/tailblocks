@@ -49,7 +49,7 @@ function LightContactB(props) {
           <p className="leading-relaxed mb-5 text-gray-600">
             Post-ironic portland shabby chic echo park, banjo fashion axe
           </p>
-          <form>
+          
           <div className="relative mb-4">
             <label
               htmlFor="name"
@@ -79,6 +79,7 @@ function LightContactB(props) {
             </label>
           </div>
           <div className="relative mb-4">
+            <form>
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-600"
@@ -90,8 +91,9 @@ function LightContactB(props) {
               className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 focus:ring-2 focus:ring-${props.theme}-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
             ></textarea>
             </label>
+            </form>
           </div>
-          </form>
+          
           <button aria-label="btn" name="btn" className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>

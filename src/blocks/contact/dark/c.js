@@ -16,7 +16,7 @@ function DarkContactC(props) {
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
-            <form>
+            
             <div className="p-2 w-1/2">
               <div className="relative">
                 <label
@@ -51,6 +51,7 @@ function DarkContactC(props) {
             </div>
             <div className="p-2 w-full">
               <div className="relative">
+                <form>
                 <label
                   htmlFor="message"
                   className="leading-7 text-sm text-gray-400"
@@ -62,9 +63,10 @@ function DarkContactC(props) {
                   className={`w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-${props.theme}-500 focus:bg-gray-900 focus:ring-2 focus:ring-${props.theme}-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
                 ></textarea>
                 </label>
+                </form>
               </div>
             </div>
-            </form>
+            
             <div className="p-2 w-full">
               <button aria-label="btn" name="btn" className={`flex mx-auto text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
                 Button
