@@ -17,20 +17,22 @@ function DarkHeroF(props) {
           </p>
           <div className="flex w-full justify-center items-end">
             <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+              <form>
               <label
                 htmlFor="hero-field"
                 className="leading-7 text-sm text-gray-400"
               >
                 Placeholder
-              </label>
               <input
                 type="text"
                 id="hero-field"
                 name="hero-field"
                 className={`w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:ring-2 focus:ring-${props.theme}-900 focus:bg-transparent focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
               />
+              </label>
+              </form>
             </div>
-            <button className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+            <button aria-label="btn" name="btn" className={`inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
               Button
             </button>
           </div>
@@ -38,7 +40,7 @@ function DarkHeroF(props) {
             Neutra shabby chic ramps, viral fixie.
           </p>
           <div className="flex text-gray-300">
-            <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none">
+            <button aria-label="btn" name="btn" className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -52,7 +54,7 @@ function DarkHeroF(props) {
                 <span className="title-font font-medium">Google Play</span>
               </span>
             </button>
-            <button className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-700 hover:text-white focus:outline-none">
+            <button aria-label="btn" name="btn" className="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-700 hover:text-white focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
