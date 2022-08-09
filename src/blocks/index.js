@@ -157,6 +157,12 @@ import DarkTestimonialA from './testimonial/dark/a';
 import DarkTestimonialB from './testimonial/dark/b';
 import DarkTestimonialC from './testimonial/dark/c';
 
+import LightUploadA from './upload/light/a';
+import LightUploadB from './upload/light/b';
+
+import DarkUploadA from './upload/dark/a';
+import DarkUploadB from './upload/dark/b';
+
 export default function getBlock({theme = 'indigo', darkMode = false}) {
   return {
     Blog: {
@@ -251,6 +257,10 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       TestimonialA: darkMode ? <DarkTestimonialA theme={theme} /> : <LightTestimonialA theme={theme} />,
       TestimonialB: darkMode ? <DarkTestimonialB theme={theme} /> : <LightTestimonialB theme={theme} />,
       TestimonialC: darkMode ? <DarkTestimonialC theme={theme} /> : <LightTestimonialC theme={theme} />
+    },
+    Upload: {
+      UploadA: darkMode ? <DarkUploadA theme={theme} /> : <LightUploadA theme={theme} />,
+      UploadB: darkMode ? <DarkUploadB theme={theme} /> : <LightUploadB theme={theme} />
     }
   }
 }

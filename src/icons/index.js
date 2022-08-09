@@ -78,6 +78,9 @@ import TestimonialA from './testimonial/a';
 import TestimonialB from './testimonial/b';
 import TestimonialC from './testimonial/c';
 
+import UploadA from './upload/a';
+import UploadB from './upload/b';
+
 export default function getIcons() {
   return {
     Blog: {
@@ -172,6 +175,10 @@ export default function getIcons() {
       TestimonialA: <TestimonialA />,
       TestimonialB: <TestimonialB />,
       TestimonialC: <TestimonialC />
+    },
+    Upload: {
+      UploadA: <UploadA />,
+      UploadB: <UploadB />
     }
   }
 }
