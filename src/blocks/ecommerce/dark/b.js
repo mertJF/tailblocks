@@ -135,10 +135,10 @@ function DarkEcommerceB(props) {
                 <span className="mr-3">Size</span>
                 <div className="relative">
                   <select className={`rounded border border-gray-700 focus:ring-2 focus:ring-${props.theme}-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-${props.theme}-500 text-white pl-3 pr-10`}>
-                    <option>SM</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
+                    <option class="dark:text-black">SM</option>
+                    <option class="dark:text-black">M</option>
+                    <option class="dark:text-black">L</option>
+                    <option class="dark:text-black">XL</option>
                   </select>
                   <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
                     <svg
