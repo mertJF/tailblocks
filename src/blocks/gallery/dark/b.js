@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function DarkGalleryB(props) {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+      <div className="container px-5 xl:py-24 py-12 mx-auto flex flex-wrap">
         <div className="lg:w-2/3 mx-auto">
           <div className="flex flex-wrap w-full bg-gray-800 py-32 px-10 relative mb-4">
             <img

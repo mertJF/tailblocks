@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function LightFooterC(props) {
   return (
     <footer className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
           <div className="lg:w-1/6 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">

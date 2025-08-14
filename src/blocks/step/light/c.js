@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function LightStepC(props) {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+      <div className="container px-5 xl:py-24 py-12 mx-auto flex flex-wrap">
         <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>

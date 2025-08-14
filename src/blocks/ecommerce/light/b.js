@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function LightEcommerceB(props) {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
             alt="ecommerce"

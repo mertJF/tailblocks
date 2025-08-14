@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function DarkTestimonialB(props) {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

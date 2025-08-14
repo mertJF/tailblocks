@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function LightFeatureE(props) {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className={`text-xs text-${props.theme}-500 tracking-widest font-medium title-font mb-1`}>
             ROOF PARTY POLAROID

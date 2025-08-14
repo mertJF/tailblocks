@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function DarkBlogE(props) {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="flex flex-wrap -mx-4 -my-8">
           <div className="py-8 px-4 lg:w-1/3">
             <div className="h-full flex items-start">

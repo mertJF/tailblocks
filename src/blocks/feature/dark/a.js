@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function DarkFeatureA(props) {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
           Raw Denim Heirloom Man Braid<br className="hidden sm:block" />
           Selfies Wayfarers

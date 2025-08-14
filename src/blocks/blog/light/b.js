@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function LightBlogB(props) {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/3">
             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">

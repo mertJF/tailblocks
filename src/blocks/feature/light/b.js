@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function LightFeatureB(props) {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid

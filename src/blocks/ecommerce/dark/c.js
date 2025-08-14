@@ -4,7 +4,7 @@ import PropTypes from  "prop-types";
 function DarkEcommerceC(props) {
   return (
     <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 xl:py-24 py-12 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
